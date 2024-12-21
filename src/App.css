@@ -1,0 +1,339 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  line-height: 1.5;
+  color: #333;
+  background-color: white;
+  font-family: "Jost", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+  /* height: auto; */
+}
+
+button {
+  font-family: inherit;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 8px 32px;
+  background-color: #c12b27;
+  height: 60px;
+  width: 100%;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+}
+.menu {
+  margin-right: auto;
+}
+.menu-list {
+  display: flex;
+  width: 300px;
+  font-size: 0.8em;
+  font-weight: 400;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+.menu-item {
+  cursor: pointer;
+  padding: 5px;
+}
+
+.menu-item::after {
+  content: "";
+  display: block;
+  background-color: #333;
+  width: 0%;
+  height: 1.5px;
+  transition: all 0.4s;
+}
+.menu-item:hover::after {
+  width: 100%;
+}
+
+.header-tools {
+  display: flex;
+  justify-content: space-between;
+  width: 140px;
+}
+
+.header-tools > * {
+  cursor: pointer;
+}
+.logo {
+  margin-right: 55px;
+}
+
+main {
+  width: 92%;
+  margin: 0 auto;
+  background-color: pink;
+}
+
+.discount-box {
+  background-image: url(../public/images/deal_timer_bg.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 85vh;
+  margin: 32px 0;
+  padding: 22px;
+  padding-top: 145px;
+  text-transform: uppercase;
+  position: relative;
+}
+
+.discount-text-group {
+  color: #c12b27;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+}
+
+.line {
+  margin-right: 16px;
+  height: 2px;
+  width: 25px;
+  background-color: #c12b27;
+}
+
+.discount-title {
+  font-size: 4.5em;
+}
+
+.discount-title strong {
+  font-weight: 900;
+}
+
+.shop-now-btn {
+  margin: 20px 0;
+  border-bottom: solid 2px #333;
+  color: #333;
+  padding: 5px 1px;
+  background: transparent;
+  transition: all 0.3s;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/* .btn {
+
+} */
+
+.shop-now-btn:hover {
+  background-color: #333;
+  color: #fff;
+  transform: translateY(-3px);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+}
+
+.flip-clock {
+  --fcc-flip-duration: 0.5s; /* transition duration when flip card */
+  --fcc-spacing: 8px; /* space between unit times and separators */
+  --fcc-digit-block-width: 40px; /* width of digit card */
+  --fcc-digit-block-height: 60px; /* height of digit card, highly recommend in even number */
+  --fcc-digit-block-radius: 5px; /* border radius of digit card */
+  --fcc-digit-block-spacing: 5px; /* space between blocks in each unit of time */
+  --fcc-digit-font-size: 30px; /* font size of digit */
+  --fcc-digit-color: white; /* color of digit */
+  --fcc-label-font-size: 14px; /* font size of label */
+  --fcc-label-color: #333; /* color of label */
+  --fcc-background: #333; /* background of digit card */
+  --fcc-divider-color: white; /* color of divider */
+  --fcc-divider-height: 1px; /* height of divider */
+  --fcc-separator-size: 4px; /* size of colon */
+  --fcc-separator-color: #c12b27; /* color of colon */
+}
+
+.timer-box {
+  position: absolute;
+  left: 22px;
+  bottom: 28px;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+  font-family: "Jost", sans-serif !important;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.limited-edition {
+  margin: 32px 0;
+  height: 85vh;
+  margin: 32px 0;
+  padding: 22px 0;
+}
+
+/* .slide-item {
+  height: fit-content;
+} */
+.swiper-wrapper {
+  height: auto !important;
+}
+
+.swiper-slide {
+  min-height: 200px !important;
+  cursor: pointer !important;
+}
+
+.sl-img-box {
+  position: relative;
+}
+
+.sl-info-box {
+  padding: 10px 0 5px;
+  text-align: left;
+  text-transform: capitalize;
+  color: #222;
+  line-height: 1.63;
+  font-size: 15px;
+}
+
+.sl-category {
+  font-size: 14px;
+  color: #767676;
+  font-family: inherit;
+  font-weight: 400;
+}
+
+.sl-name {
+  font-weight: 400;
+  font-size: inherit;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    bottom: -20px;
+  }
+  to {
+    opacity: 1;
+    bottom: 30px;
+  }
+}
+
+/* @keyframes fade-out {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(25px);
+  }
+} */
+
+/* .fade-in {
+  animation: fade-in 0.5s ease;
+}
+
+.fade-out {
+  animation: fade-out 0.5s ease;
+} */
+
+.pc-btn {
+  position: absolute;
+  /* bottom: -20px; */
+  right: 50%;
+  transform: translate(50%, 50%);
+  width: 95%;
+  background: white;
+  font-family: inherit;
+  text-transform: uppercase;
+  padding: 5px;
+  height: 45px;
+  font-size: 16px;
+  opacity: 0;
+  /* transition: all 0.3s; */
+}
+
+.pc-btn-visible {
+  /* opacity: 1; */
+  /* bottom: 25px; */
+  animation: fade-in 0.3s ease;
+}
+
+/* .pc-btn:hover {
+  opacity: 0.8;
+} */
+
+.swiper-pagination-bullet {
+  /* background-color: #ddc2bd !important; */
+  cursor: pointer !important;
+  position: relative !important;
+  width: 1.875rem !important;
+  height: 1.875rem !important;
+  margin: 0 4px !important;
+  border: 2px solid !important;
+  background-color: transparent !important;
+  color: transparent !important;
+  opacity: 1 !important;
+  outline: none !important;
+}
+
+.swiper-pagination-bullet:after {
+  display: block !important;
+  position: absolute !important;
+  top: 50% !important;
+  left: 50% !important;
+  width: 0.375rem !important;
+  height: 0.375rem !important;
+  margin-top: -0.1875rem !important;
+  margin-left: -0.1875rem !important;
+  border-radius: 100% !important;
+  background-color: currentColor !important;
+  color: #ddc2bd !important;
+  content: "" !important;
+}
+
+.swiper-pagination-bullet-active {
+  color: #222 !important;
+}
+
+.swiper-pagination-bullet-active::after {
+  color: #222 !important;
+}
