@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: "Jest", sans-serif;
+  /* font-family: "Jest", sans-serif; */
   font-size: 1em;
   line-height: 1.5;
   color: #333;
@@ -78,6 +78,10 @@ header {
   font-weight: 400;
   justify-content: space-between;
   text-transform: uppercase;
+}
+
+.menu-list a {
+  color: #333;
 }
 .menu-item {
   cursor: pointer;
