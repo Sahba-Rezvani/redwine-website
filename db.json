@@ -1,0 +1,185 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "addToCartBtn": "false",
+      "name": "Sports Shoes",
+      "price": 59.99,
+      "size": ["S", "M", "L", "XL"],
+      "type": "Shoes",
+      "description": "Comfortable and durable sports shoes for everyday use.",
+      "image": "../images/product-01.webp",
+      "favoritesCount": 10,
+      "isFavorite": false,
+      "stock": 25,
+      "rating": 4.5,
+      "reviews": [
+        {
+          "reviewerName": "John Doe",
+          "comment": "Great shoes! Very comfortable.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Sports Shoes",
+      "price": 59.99,
+      "size": ["S", "M", "L", "XL"],
+      "type": "Shoes",
+      "description": "Comfortable and durable sports shoes for everyday use.",
+      "image": "../images/product-02.webp",
+      "favoritesCount": 10,
+      "isFavorite": false,
+      "stock": 25,
+      "rating": 4.5,
+      "reviews": [
+        {
+          "reviewerName": "John Doe",
+          "comment": "Great shoes! Very comfortable.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Sports Shoes",
+      "price": 59.99,
+      "size": ["S", "M", "L", "XL"],
+      "type": "Shoes",
+      "description": "Comfortable and durable sports shoes for everyday use.",
+      "image": "../images/product-03.webp",
+      "favoritesCount": 10,
+      "isFavorite": false,
+      "stock": 25,
+      "rating": 4.5,
+      "reviews": [
+        {
+          "reviewerName": "John Doe",
+          "comment": "Great shoes! Very comfortable.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Sports Shoes",
+      "price": 59.99,
+      "size": ["S", "M", "L", "XL"],
+      "type": "Shoes",
+      "description": "Comfortable and durable sports shoes for everyday use.",
+      "image": "../images/product-04.webp",
+      "favoritesCount": 10,
+      "isFavorite": false,
+      "stock": 25,
+      "rating": 4.5,
+      "reviews": [
+        {
+          "reviewerName": "John Doe",
+          "comment": "Great shoes! Very comfortable.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Sports Shoes",
+      "price": 59.99,
+      "size": ["S", "M", "L", "XL"],
+      "type": "Shoes",
+      "description": "Comfortable and durable sports shoes for everyday use.",
+      "image": "../images/product-01.webp",
+      "favoritesCount": 10,
+      "isFavorite": false,
+      "stock": 25,
+      "rating": 4.5,
+      "reviews": [
+        {
+          "reviewerName": "John Doe",
+          "comment": "Great shoes! Very comfortable.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Sports Shoes",
+      "price": 59.99,
+      "size": ["S", "M", "L", "XL"],
+      "type": "Shoes",
+      "description": "Comfortable and durable sports shoes for everyday use.",
+      "image": "../images/product-01.webp",
+      "favoritesCount": 10,
+      "isFavorite": false,
+      "stock": 25,
+      "rating": 4.5,
+      "reviews": [
+        {
+          "reviewerName": "John Doe",
+          "comment": "Great shoes! Very comfortable.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Sports Shoes",
+      "price": 59.99,
+      "size": ["S", "M", "L", "XL"],
+      "type": "Shoes",
+      "description": "Comfortable and durable sports shoes for everyday use.",
+      "image": "../images/product-01.webp",
+      "favoritesCount": 10,
+      "isFavorite": false,
+      "stock": 25,
+      "rating": 4.5,
+      "reviews": [
+        {
+          "reviewerName": "John Doe",
+          "comment": "Great shoes! Very comfortable.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Sports Shoes",
+      "price": 59.99,
+      "size": ["S", "M", "L", "XL"],
+      "type": "Shoes",
+      "description": "Comfortable and durable sports shoes for everyday use.",
+      "image": "../images/product-01.webp",
+      "favoritesCount": 10,
+      "isFavorite": false,
+      "stock": 25,
+      "rating": 4.5,
+      "reviews": [
+        {
+          "reviewerName": "John Doe",
+          "comment": "Great shoes! Very comfortable.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Sports Shoes",
+      "price": 59.99,
+      "size": ["S", "M", "L", "XL"],
+      "type": "Shoes",
+      "description": "Comfortable and durable sports shoes for everyday use.",
+      "image": "../images/product-01.webp",
+      "favoritesCount": 10,
+      "isFavorite": false,
+      "stock": 25,
+      "rating": 4.5,
+      "reviews": [
+        {
+          "reviewerName": "John Doe",
+          "comment": "Great shoes! Very comfortable.",
+          "rating": 5
+        }
+      ]
+    }
+  ]
+}
