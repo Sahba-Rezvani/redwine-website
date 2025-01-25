@@ -1,11 +1,10 @@
-export default function FloatingInput(
+export default function FloatingInput({
   inputClassName,
   labelClassName,
   type,
-  placeholder,
+  children,
   id,
-  children
-) {
+}) {
   return (
     <div className="form-group">
       <input

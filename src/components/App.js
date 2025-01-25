@@ -1,20 +1,20 @@
 import "./App.css";
-import { useEffect, useState } from "react";
+import { Profiler, useEffect, useState } from "react";
 
 // import required modules
 import { Header } from "./Header";
 import { Footer } from "./Footer";
 import { Main } from "./Main";
-import Login from "./Login";
 import MainBanner from "./Banner";
 import ImageMenu from "./ImageMenu";
 import { LimitedEdition } from "./LimitedEdition";
 import { Discount } from "./Discount";
+import Login from "./Login";
 export default function App() {
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
-
+  const [profile, setProfile] = useState(false);
   useEffect(() => {
     const fetchProducts = async () => {
       try {
@@ -40,8 +40,8 @@ export default function App() {
   return (
     <div className="container">
       <Home>
-        <Login />
-        <Header />
+        {profile ? <Login setProfile={setProfile} /> : ""}
+        <Header setProfile={setProfile} />
         <Main>
           <MainBanner />
           <ImageMenu />

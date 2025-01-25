@@ -6,7 +6,7 @@ import {
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Menu } from "./Menu";
 
-export function Header() {
+export function Header({ profile, setProfile }) {
   return (
     <header>
       <div className="logo">logoooo</div>
@@ -14,7 +14,11 @@ export function Header() {
       <div className="header-tools">
         <FontAwesomeIcon icon={faMagnifyingGlass} className="search-box" />
         <FontAwesomeIcon icon={faCartShopping} className="shopping-cart" />
-        <FontAwesomeIcon icon={faUser} className="profile" />
+        <FontAwesomeIcon
+          icon={faUser}
+          className="profile"
+          onClick={() => setProfile(true)}
+        />
       </div>
     </header>
   );
