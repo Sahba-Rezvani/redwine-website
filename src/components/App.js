@@ -1,20 +1,24 @@
 import "./App.css";
-import { Profiler, useEffect, useState } from "react";
+import { Routes, Route } from "react-router-dom";
+import Home from "../pages/Home";
+import About from "../pages/About";
+import Shop from "../pages/Shop";
+import ProductDetails from "../pages/ProductDetails";
+// import { Contact } from "./Contact/Contact";
+
+import { useEffect, useState } from "react";
 
 // import required modules
 import { Header } from "./Header";
 import { Footer } from "./Footer";
-import { Main } from "./Main";
-import MainBanner from "./Banner";
-import ImageMenu from "./ImageMenu";
-import { LimitedEdition } from "./LimitedEdition";
-import { Discount } from "./Discount";
 import Login from "./Login";
+
 export default function App() {
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
   const [profile, setProfile] = useState(false);
+
   useEffect(() => {
     const fetchProducts = async () => {
       try {
@@ -39,21 +43,23 @@ export default function App() {
 
   return (
     <div className="container">
-      <Home>
-        {profile ? <Login setProfile={setProfile} /> : ""}
-        <Header setProfile={setProfile} />
-        <Main>
-          <MainBanner />
-          <ImageMenu />
-          <Discount />
-          <LimitedEdition products={products} />
-        </Main>
-        <Footer />
-      </Home>
+      {profile ? <Login setProfile={setProfile} /> : ""}
+      {/* <Login setProfile={setProfile} /> */}
+      <Header />
+      <Routes>
+        <Route path="/" element={<Home products={products} />} />
+        <Route path="/about" element={<About />} />
+        <Route
+          path="/shop"
+          element={<Shop products={products} itemsPerPage={10} />}
+        />
+        <Route
+          path="/product-details/:id"
+          element={<ProductDetails products={products} />}
+        />
+        {/* <Route path="*" element={<NotFound />} /> */}
+      </Routes>
+      <Footer />
     </div>
   );
-}
-
-function Home({ children }) {
-  return <>{children}</>;
 }

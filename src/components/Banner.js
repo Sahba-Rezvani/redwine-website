@@ -11,7 +11,7 @@ export default function MainBanner() {
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
           commodo
         </p>
-        <button className="btn shop-now-btn">shop now</button>
+        <button className="btn primary-btn">shop now</button>
       </div>
     </div>
   );

@@ -1,12 +1,12 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser } from "@fortawesome/free-regular-svg-icons";
 import {
   faMagnifyingGlass,
   faCartShopping,
 } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Menu } from "./Menu";
 
-export function Header({ profile, setProfile }) {
+export function Header({ setProfile }) {
   return (
     <header>
       <div className="logo">logoooo</div>

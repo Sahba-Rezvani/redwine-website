@@ -54,7 +54,7 @@ export default function Login({ setProfile }) {
               }
             </p>
           </a>
-          <button className="login-btn btn">log in</button>
+          <button className="secondary-btn">log in</button>
         </div>
       ) : (
         <div className="login-content">
@@ -66,7 +66,7 @@ export default function Login({ setProfile }) {
           >
             Phone or email address
           </FloatingInput>
-          <button className="login-btn btn" onClick={() => setLogin(true)}>
+          <button className="secondary-btn" onClick={() => setLogin(true)}>
             log in
           </button>
         </div>
