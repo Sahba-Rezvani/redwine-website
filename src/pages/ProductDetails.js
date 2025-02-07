@@ -9,6 +9,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // import TabList from "@mui/lab/TabList";
 // import TabPanel from "@mui/lab/TabPanel";
 
+import { Tabs } from "@base-ui-components/react/tabs";
+
 export default function ProductDetails({ products }) {
   const { id } = useParams(); // Access the ID from the route
   const [selectedProduct, setSelectedProduct] = useState(null);
@@ -22,6 +24,11 @@ export default function ProductDetails({ products }) {
   }, [selectedProduct, id, products]);
   console.log(id);
 
+  function handleImageSelect(imgUrl) {
+    setSelectedImage(imgUrl);
+    console.log("image selected");
+  }
+
   return (
     <>
       {selectedProduct ? (
@@ -29,34 +36,20 @@ export default function ProductDetails({ products }) {
           <div className="pc-detail-overview">
             <div className="pc-details-img-box">
               <div className="pc-details-thumbnail">
-                <div className="pc-details-img">
-                  <img
-                    src="../images/product-01-details/product_0-1.webp"
-                    alt="pc-01"
-                  />
-                </div>
-                <div className="pc-details-img">
-                  <img
-                    src="../images/product-01-details/product_0-2.webp"
-                    alt="pc-01"
-                  />
-                </div>
-                <div className="pc-details-img">
-                  <img
-                    src="../images/product-01-details/product_0-3.webp"
-                    alt="pc-01"
-                  />
-                </div>
-                <div className="pc-details-img">
-                  <img
-                    src="../images/product-01-details/product_0.webp"
-                    alt="pc-01"
-                  />
-                </div>
+                {selectedProduct.thumbnailImages.map((image, i) => (
+                  <div
+                    key={i}
+                    className="pc-details-img"
+                    onClick={() => handleImageSelect(i)}
+                    style={{ opacity: selectedImage === i ? 1 : 0.5 }}
+                  >
+                    <img src={image} alt="pc-01" />
+                  </div>
+                ))}
               </div>
               <div className="pc-details-main-img">
                 <img
-                  src="../images/product-01-details/product_0.webp"
+                  src={selectedProduct.thumbnailImages[selectedImage]}
                   alt="pc-01"
                 />
               </div>
@@ -116,7 +109,9 @@ export default function ProductDetails({ products }) {
               </div>
             </div>
           </div>
-          <div className="pc-detail-tab-box"></div>
+          <div className="pc-detail-tab-box">
+            <TabNavigation />
+          </div>
           <div className="related-products"></div>
         </div>
       ) : (
@@ -134,9 +129,9 @@ export function SizeRadioGroup({ sizeRange }) {
     console.log(e.target.value);
   }
   return (
-    <div className="swatch_list">
+    <ul className="swatch_list">
       {sizeRange.map((size, i) => (
-        <div className="swatch_item" key={i}>
+        <li className="swatch_item" key={i}>
           <label
             htmlFor={`swatch-${i + 1}`}
             aria-label="Small"
@@ -154,9 +149,9 @@ export function SizeRadioGroup({ sizeRange }) {
             checked={selectedSize === size}
           />
           {/* <span className="swatch_tooltip">This is option 1</span> */}
-        </div>
+        </li>
       ))}
-    </div>
+    </ul>
   );
 }
 
@@ -218,27 +213,106 @@ export function Counter() {
   );
 }
 
-// export function LabTabs() {
-//   const [value, setValue] = useState("1");
+export function TabNavigation() {
+  return (
+    <Tabs.Root className="tabs" defaultValue="description">
+      <Tabs.List className="tabs_list">
+        <Tabs.Tab className="tab_item" value="description">
+          Description
+        </Tabs.Tab>
+        <Tabs.Tab className="tab_item" value="additional">
+          Additional information
+        </Tabs.Tab>
+        {/* <Tabs.Tab className="tab_item" value="overview">
+          reviews
+        </Tabs.Tab> */}
+        <Tabs.Indicator className="tab_indicator" />
+      </Tabs.List>
+      <Tabs.Panel className="tab_panel" value="description">
+        <ProductDescriptionTab className="tab_item-description" />
+      </Tabs.Panel>
+      <Tabs.Panel className="tab_panel" value="additional">
+        <ProductAdditionalTab className="tab_item-additional" />
+      </Tabs.Panel>
+      {/* <Tabs.Panel className="tab_item-reviews" value="overview">
+        <ProductReviewsTab className="tab_item-reviews" />
+      </Tabs.Panel> */}
+    </Tabs.Root>
+  );
+}
 
-//   const handleChange = (event, newValue) => {
-//     setValue(newValue);
-//   };
+function ProductDescriptionTab() {
+  return (
+    <div className="tab_content-description">
+      <div className="tab_content-top">
+        <h4>Sed do eiusmod tempor incididunt ut labore</h4>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est laborum. Sed ut
+          perspiciatis unde omnis iste natus error sit voluptatem accusantium
+          doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo
+          inventore veritatis et quasi architecto beatae vitae dicta sunt
+          explicabo.
+        </p>
+      </div>
+      <div className="tab_content-bottom">
+        <div className="tab_content-bottom-left">
+          <h4>Why choose product?</h4>
+          <ul>
+            <li>Creat by cotton fibric with soft and smooth</li>
+            <li>Simple, Configurable (e.g. size, color, etc.), bundled</li>
+            <li>Downloadable/Digital Products, Virtual Products</li>
+          </ul>
+          <div className="lining">
+            <h4>lining</h4>
+            <p>100% Polyester, Main: 100% Polyester.</p>
+          </div>
+        </div>
+        <div className="tab_content-bottom-right">
+          <h4>Sample Number List</h4>
+          <ul>
+            <li>Create Store-specific attributes on the fly</li>
+            <li>Simple, Configurable (e.g. size, color, etc.), bundled</li>
+            <li>Downloadable/Digital Products, Virtual Products</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  );
+}
 
-//   return (
-//     <Box sx={{ width: "100%", typography: "body1" }}>
-//       <TabContext value={value}>
-//         <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
-//           <TabList onChange={handleChange} aria-label="lab API tabs example">
-//             <Tab label="Item One" value="1" />
-//             <Tab label="Item Two" value="2" />
-//             <Tab label="Item Three" value="3" />
-//           </TabList>
-//         </Box>
-//         <TabPanel value="1">Item One</TabPanel>
-//         <TabPanel value="2">Item Two</TabPanel>
-//         <TabPanel value="3">Item Three</TabPanel>
-//       </TabContext>
-//     </Box>
-//   );
-// }
+function ProductAdditionalTab() {
+  return (
+    <div className="tab_content-additional">
+      <div className="additional_item">
+        <label>weight</label>
+        <span>1.25 kg</span>
+      </div>
+      <div className="additional_item">
+        <label>Dimensions</label>
+        <span>90 x 60 x 90 cm</span>
+      </div>{" "}
+      <div className="additional_item">
+        <label>size</label>
+        <span>XS, S, M, L, XL</span>
+      </div>{" "}
+      <div className="additional_item">
+        <label>color</label>
+        <span>Black, Orange, White</span>
+      </div>{" "}
+      <div className="additional_item">
+        <label>storage</label>
+        <span>Relaxed fit shirt-style dress with a rugged</span>
+      </div>
+    </div>
+  );
+}
+
+function ProductReviewsTab() {
+  return <div>Item three</div>;
+}

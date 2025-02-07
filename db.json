@@ -9,7 +9,12 @@
       "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-01.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -30,7 +35,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-02.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -51,7 +61,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-03.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -72,7 +87,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-04.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -93,7 +113,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-01.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -114,7 +139,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-01.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -135,7 +165,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-01.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -156,7 +191,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-01.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -177,7 +217,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-01.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -198,7 +243,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-01.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -220,7 +270,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-01.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -241,7 +296,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-02.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -262,7 +322,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-03.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -283,7 +348,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-04.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -304,7 +374,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-01.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -325,7 +400,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-01.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -346,7 +426,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-01.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -367,7 +452,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-01.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -388,7 +478,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-01.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -409,7 +504,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-01.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -431,7 +531,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-01.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -452,7 +557,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-02.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -473,7 +583,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-03.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -494,7 +609,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-04.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -515,7 +635,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-01.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -536,7 +661,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-01.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -557,7 +687,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-01.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -578,7 +713,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-01.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -599,7 +739,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-01.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -620,7 +765,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-01.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -642,7 +792,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-01.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -663,7 +818,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-02.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -684,7 +844,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-03.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -705,7 +870,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-04.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -726,7 +896,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-01.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -747,7 +922,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-01.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -768,7 +948,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-01.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -789,7 +974,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-01.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -810,7 +1000,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-01.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -831,7 +1026,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-01.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -853,7 +1053,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-01.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -874,7 +1079,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-02.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -895,7 +1105,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-03.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -916,7 +1131,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-04.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -937,7 +1157,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-01.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -958,7 +1183,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-01.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -979,7 +1209,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-01.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -1000,7 +1235,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-01.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -1021,7 +1261,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-01.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -1042,7 +1287,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-01.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -1064,7 +1314,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-01.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -1085,7 +1340,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-02.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -1106,7 +1366,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-03.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -1127,7 +1392,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-04.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -1148,7 +1418,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-01.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -1169,7 +1444,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-01.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -1190,7 +1470,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-01.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -1211,7 +1496,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-01.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -1232,7 +1522,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-01.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -1253,7 +1548,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-01.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -1275,7 +1575,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-01.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -1296,7 +1601,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-02.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -1317,7 +1627,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-03.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -1338,7 +1653,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-04.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -1359,7 +1679,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-01.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -1380,7 +1705,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-01.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -1401,7 +1731,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-01.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -1422,7 +1757,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-01.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -1443,7 +1783,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-01.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -1464,7 +1809,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-01.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -1486,7 +1836,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-01.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -1507,7 +1862,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-02.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -1528,7 +1888,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-03.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -1549,7 +1914,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-04.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -1570,7 +1940,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-01.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -1591,7 +1966,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-01.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -1612,7 +1992,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-01.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -1633,7 +2018,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-01.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -1654,7 +2044,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-01.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -1675,7 +2070,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-01.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -1697,7 +2097,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-01.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -1718,7 +2123,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-02.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -1739,7 +2149,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-03.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -1760,7 +2175,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-04.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -1781,7 +2201,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-01.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -1802,7 +2227,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-01.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -1823,7 +2253,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-01.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -1844,7 +2279,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-01.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -1865,7 +2305,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-01.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -1886,7 +2331,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-01.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -1908,7 +2358,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-01.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -1929,7 +2384,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-02.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -1950,7 +2410,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-03.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -1971,7 +2436,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-04.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -1992,7 +2462,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-01.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -2013,7 +2488,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-01.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -2034,7 +2514,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-01.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -2055,7 +2540,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-01.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -2076,7 +2566,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-01.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
@@ -2097,7 +2592,12 @@
       "sizes": ["S", "M", "L", "XL"],
       "type": "Shoes",
       "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-01.webp",
+      "thumbnailImages": [
+        "../images/product-01-details/product_0.webp",
+        "../images/product-01-details/product_0-1.webp",
+        "../images/product-01-details/product_0-2.webp",
+        "../images/product-01-details/product_0-3.webp"
+      ],
       "favoritesCount": 10,
       "isFavorite": false,
       "stock": 25,
