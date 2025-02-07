@@ -659,15 +659,18 @@ footer form {
 }
 
 .products {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
 }
 
 .product {
   flex: 0 0 auto;
   cursor: pointer;
+}
+
+.product img {
+  max-height: 400px;
 }
 
 .pag-nums {
