@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function ImageMenu() {
   return (
     <div className="grid-image-collection section-width">
@@ -7,7 +9,9 @@ export default function ImageMenu() {
           <h3 className="grid-title">
             <strong>women</strong> collection
           </h3>
-          <button className="shop-now-btn btn">shop now</button>
+          <Link to="/shop">
+            <button className="primary-btn ">shop now &rarr;</button>
+          </Link>
         </div>
       </a>
       <a className="collection-grid-2" href="#">
@@ -16,7 +20,9 @@ export default function ImageMenu() {
           <h3 className="grid-title">
             <strong>men</strong> collection
           </h3>
-          <button className="shop-now-btn btn">shop now</button>
+          <Link to="/shop">
+            <button className="primary-btn ">shop now &rarr;</button>
+          </Link>{" "}
         </div>
       </a>
       <a className="collection-grid-3" href="#">
@@ -25,7 +31,9 @@ export default function ImageMenu() {
           <h3 className="grid-title">
             <strong>kids</strong> collection
           </h3>
-          <button className="shop-now-btn btn">shop now</button>
+          <Link to="/shop">
+            <button className="primary-btn ">shop now &rarr;</button>
+          </Link>{" "}
         </div>
       </a>
       <a className="collection-grid-4" href="#">
@@ -34,7 +42,9 @@ export default function ImageMenu() {
           <h3 className="grid-title">
             <strong>e-gift</strong> cards
           </h3>
-          <button className="shop-now-btn btn">shop now</button>
+          <Link to="/shop">
+            <button className="primary-btn ">shop now &rarr;</button>
+          </Link>{" "}
         </div>
       </a>
     </div>

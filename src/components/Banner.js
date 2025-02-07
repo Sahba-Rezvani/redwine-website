@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function MainBanner() {
   return (
     <div className="banner-container">
@@ -11,7 +13,9 @@ export default function MainBanner() {
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean
           commodo
         </p>
-        <button className="btn primary-btn">shop now</button>
+        <Link to="/shop">
+          <button className="btn primary-btn">shop now</button>
+        </Link>
       </div>
     </div>
   );

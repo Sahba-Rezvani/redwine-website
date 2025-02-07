@@ -1,4 +1,4 @@
-// import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import FlipClockCountdown from "@leenguyen/react-flip-clock-countdown";
 import "@leenguyen/react-flip-clock-countdown/dist/index.css";
 
@@ -13,8 +13,9 @@ export function Discount() {
       <h2 className="discount-title">
         <strong>spring</strong> collection
       </h2>
-      <button className="btn shop-now-btn">Shop now &rarr; </button>
-
+      <Link to="/shop">
+        <button className="primary-btn ">shop now &rarr;</button>
+      </Link>
       <div className="timer-box">
         <FlipClockCountdown
           className="flip-clock"
