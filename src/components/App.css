@@ -97,7 +97,7 @@ header {
   display: flex;
   align-items: center;
   padding: 8px 32px;
-  height: 60px;
+  height: 70px;
   width: 100%;
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
 }
@@ -107,7 +107,7 @@ header {
 .menu-list {
   display: flex;
   width: 300px;
-  font-size: 0.8em;
+  font-size: 0.85em;
   font-weight: 400;
   justify-content: space-between;
   text-transform: uppercase;
@@ -1036,4 +1036,119 @@ footer form {
   font-weight: 500;
   min-width: 125px;
   text-transform: capitalize;
+}
+
+/* About */
+.about {
+  padding-top: 30px;
+}
+
+.about_banner {
+  height: 100vh;
+}
+
+.about_title {
+  width: 70%;
+  margin: 40px auto;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.about_banner-img {
+  width: 100%;
+  height: 600px;
+}
+
+.about_banner-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about_main {
+  width: 65%;
+  margin: 20px auto;
+  padding: 24px;
+}
+
+.about_story {
+  margin-bottom: 24px;
+  line-height: 2;
+}
+
+.about_story h3 {
+  font-size: 1.75em;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.about_story h4 {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.about_story p {
+  font-weight: 400;
+  font-size: 0.9em;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.flexItems {
+  width: 50%;
+}
+
+.flexItems h3 {
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.flexItems p {
+  font-weight: 400;
+  color: #333;
+  margin-top: 10px;
+}
+
+.flexItems img {
+  width: 90%;
+  height: 500px;
+}
+.lorem {
+  line-height: 2;
+  text-align: justify;
+  margin-bottom: 16px;
+  width: 90%;
+  font-size: 0.9em;
+}
+
+.info {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.feature {
+  text-align: center;
+}
+
+.feature_icon {
+  font-size: 3em;
+  color: #222;
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-size: 1em;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.description {
+  font-size: 1em;
+  color: #767676;
 }

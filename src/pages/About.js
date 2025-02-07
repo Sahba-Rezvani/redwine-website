@@ -1,19 +1,27 @@
-import styles from "./About.module.css";
 // import { FaShippingFast, FaHeadset, FaShieldAlt } from 'react-icons/fa';
+import { faTruckFast } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faHeadset } from "@fortawesome/free-solid-svg-icons";
+import { faCircleCheck } from "@fortawesome/free-regular-svg-icons";
 
 export default function About() {
   return (
-    <section className={styles.fake}>
-      <div className={styles.header}>
-        <div className={styles.headetTitle}>
+    <section className="about">
+      <div className="about_banner section-width">
+        <div className="about_title">
           <h1>ABOUT UOMO</h1>
         </div>
-        <div className={styles.headerContent}>
-          <img src="/images/about.jpg" width={2000} height={2000} alt="about" />
+        <div className="about_banner-img">
+          <img
+            src="/images/about-1.webp"
+            width={2000}
+            height={2000}
+            alt="about"
+          />
         </div>
       </div>
-      <div className={styles.main}>
-        <div className={styles.Story}>
+      <div className="about_main">
+        <div className="about_story">
           <h3>OUR STORY</h3>
           <h4>
             Duis aute irure dolor in reprehenderit in voluptate velit esse
@@ -34,15 +42,15 @@ export default function About() {
           </p>
         </div>
 
-        <div className={styles.flex}>
-          <div className={styles.flexItems}>
+        <div className="flex">
+          <div className="flexItems">
             <h3>Our Mission</h3>
             <p>
               Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
               commodo consequat.
             </p>
           </div>
-          <div className={styles.flexItems}>
+          <div className="flexItems">
             <h3>Our Vision</h3>
             <p>
               Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
@@ -51,19 +59,19 @@ export default function About() {
           </div>
         </div>
 
-        <div className={styles.flex}>
-          <div className={styles.flexItems}>
+        <div className="flex">
+          <div className="flexItems">
             <img
-              src="/images/about-1.png"
+              src="/images/about-2.webp"
               width={2000}
               height={2000}
               alt="about"
             />
           </div>
 
-          <div className={styles.flexItems}>
+          <div className="flexItems">
             <h3>The Company</h3>
-            <p className={styles.lorem}>
+            <p className="lorem">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Amet
               sapien dignissim a elementum. Sociis metus, hendrerit mauris id
               in. Quis sit sit ultrices tincidunt euismod luctus diam. Turpis
@@ -74,23 +82,23 @@ export default function About() {
           </div>
         </div>
 
-        <div className={styles.info}>
-          <div className={styles.feature}>
-            {/* <FaShippingFast className={styles.icon} /> */}
-            <h3 className={styles.title}>FAST AND FREE DELIVERY</h3>
-            <p className={styles.description}>
+        <div className="info">
+          <div className="feature">
+            <FontAwesomeIcon icon={faTruckFast} className="feature_icon" />{" "}
+            <h3 className="title">FAST AND FREE DELIVERY</h3>
+            <p className="description">
               Free delivery for all orders over $140
             </p>
           </div>
-          <div className={styles.feature}>
-            {/* <FaHeadset className={styles.icon} /> */}
-            <h3 className={styles.title}>24/7 CUSTOMER SUPPORT</h3>
-            <p className={styles.description}>Friendly 24/7 customer support</p>
+          <div className="feature">
+            <FontAwesomeIcon icon={faHeadset} className="feature_icon" />{" "}
+            <h3 className="title">24/7 CUSTOMER SUPPORT</h3>
+            <p className="description">Friendly 24/7 customer support</p>
           </div>
-          <div className={styles.feature}>
-            {/* <FaShieldAlt className={styles.icon} /> */}
-            <h3 className={styles.title}>MONEY BACK GUARANTEE</h3>
-            <p className={styles.description}>We return money within 30 days</p>
+          <div className="feature">
+            <FontAwesomeIcon icon={faCircleCheck} className="feature_icon" />{" "}
+            <h3 className="title">MONEY BACK GUARANTEE</h3>
+            <p className="description">We return money within 30 days</p>
           </div>
         </div>
       </div>
