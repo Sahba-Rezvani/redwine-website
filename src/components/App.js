@@ -12,12 +12,16 @@ import { useEffect, useState } from "react";
 import { Header } from "./Header";
 import { Footer } from "./Footer";
 import Login from "./Login";
-
+import Drawer from "@mui/material/Drawer";
+import { ShoppingBag } from "./ShoppingBag";
 export default function App() {
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
   const [profile, setProfile] = useState(false);
+  const [loginDrawer, setLoginDrawer] = useState(false);
+  const [shoppingBagDrawer, setShoppingBagDrawer] = useState(false);
+  const [counter, setCounter] = useState(0);
 
   useEffect(() => {
     const fetchProducts = async () => {
@@ -41,11 +45,51 @@ export default function App() {
   if (loading) return <div>Loading...</div>;
   if (error) return <div>Error: {error}</div>;
 
+  const toggleLoginDrawer = () => (event) => {
+    if (
+      event.type === "keydown" &&
+      (event.key === "Tab" || event.key === "Shift")
+    ) {
+      return;
+    }
+
+    setLoginDrawer(!loginDrawer);
+  };
+
+  const toggleShoppingBagDrawer = () => (event) => {
+    if (
+      event.type === "keydown" &&
+      (event.key === "Tab" || event.key === "Shift")
+    ) {
+      return;
+    }
+
+    setShoppingBagDrawer(!shoppingBagDrawer);
+  };
+
   return (
     <div className="container">
-      {profile ? <Login setProfile={setProfile} /> : ""}
-      {/* <Login setProfile={setProfile} /> */}
-      <Header />
+      {/* {profile ? <Login setProfile={setProfile} /> : ""} */}
+      <Drawer anchor="right" open={loginDrawer} onClose={toggleLoginDrawer()}>
+        <Login toggleDrawer={toggleLoginDrawer} />
+      </Drawer>
+      <Drawer
+        anchor="right"
+        open={shoppingBagDrawer}
+        onClose={toggleShoppingBagDrawer()}
+      >
+        <ShoppingBag
+          counter={counter}
+          setCounter={setCounter}
+          products={products}
+          toggleDrawer={toggleShoppingBagDrawer}
+        />
+      </Drawer>
+      <Header
+        setProfile={setProfile}
+        toggleLoginDrawer={toggleLoginDrawer}
+        toggleShoppingBagDrawer={toggleShoppingBagDrawer}
+      />
       <Routes>
         <Route path="/" element={<Home products={products} />} />
         <Route path="/about" element={<About />} />
@@ -55,7 +99,13 @@ export default function App() {
         />
         <Route
           path="/product-details/:id"
-          element={<ProductDetails products={products} />}
+          element={
+            <ProductDetails
+              products={products}
+              counter={counter}
+              setCounter={setCounter}
+            />
+          }
         />
         {/* <Route path="*" element={<NotFound />} /> */}
       </Routes>

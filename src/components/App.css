@@ -116,10 +116,15 @@ header {
 .menu-list a {
   color: #333;
 }
+
 .menu-item {
   cursor: pointer;
   padding: 5px;
   font-weight: 500;
+}
+
+.menu_item-active {
+  color: #c12b27;
 }
 
 .menu-item::after,
@@ -569,7 +574,8 @@ footer form {
 
 /* Login Form */
 
-.login-container {
+/* .login-container,
+.bag_container {
   position: fixed;
   right: 0;
   top: 0;
@@ -577,9 +583,10 @@ footer form {
   background-color: #ffff;
   width: 28%;
   height: 100%;
-}
+} */
 
-.login-header {
+.login-header,
+.bag_header {
   display: flex;
   justify-content: space-between;
   background-color: #faf9f8;
@@ -588,12 +595,14 @@ footer form {
   padding: 30px 35px;
 }
 
-.login-close {
+.login-close,
+.bag_close {
   font-size: 18px;
   font-weight: 300;
   cursor: pointer;
 }
-.login-content {
+.login-content,
+.bag_content {
   width: 80%;
   margin: 30px auto;
 }
@@ -604,7 +613,7 @@ footer form {
 
 .resend-code {
   font-size: 12px;
-  margin-top: 20px;
+  margin: 20px 0 32px;
 }
 .form-group {
   position: relative;
@@ -619,6 +628,7 @@ footer form {
   outline: 0;
   font-size: 15px;
   transition: all 0.1s;
+  margin-bottom: 32px;
 }
 
 .login-label {
@@ -652,6 +662,99 @@ footer form {
   font-size: 16px;
 }
 
+/* Shopping Bag */
+
+.bag_empty {
+  text-align: center;
+  padding: 60px 0;
+  font-size: 1.15em;
+  height: 400px;
+}
+
+.bag_products {
+  height: 400px;
+  overflow-y: auto;
+}
+
+.bag_product {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  /* gap: 15px; */
+  padding: 15px 0;
+  border-bottom: 1px solid #e4e4e4;
+}
+.bag_product-img {
+  flex: 0 0 40%;
+  height: fit-content;
+}
+.bag_product-img img {
+  height: 120px;
+}
+.bag_product-info h4 {
+  font-weight: 400;
+  font-size: 1.05em;
+}
+
+.bag_product-info {
+  flex: 0 0 55%;
+  line-height: 1.75;
+}
+
+.bag_product-info p:not(:last-of-type) {
+  color: #767676;
+  font-size: 0.9em;
+}
+
+.bag_product-info div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bag_product-remove {
+  position: absolute;
+  top: 5px;
+  right: 0;
+  color: #767676;
+  cursor: pointer;
+}
+.bag_total {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+  font-size: 0.85em;
+  text-transform: uppercase;
+  padding: 20px 0;
+  border-top: 1px solid #e4e4e4;
+}
+
+.bag_counter {
+  display: flex;
+  position: relative;
+  align-items: center;
+}
+
+.bag_counter input {
+  text-align: center;
+  width: 30px;
+  height: 35px;
+  font-size: 0.95em;
+  border: none;
+  outline: none;
+}
+
+.bag_counter button {
+  width: 15px;
+  font-size: 1em;
+  height: 50px;
+  background-color: transparent;
+}
+
+.bag_product-price {
+  /* color: #222; */
+  /* font-size: 1em; */
+}
 /* Shop */
 
 .shop-container {
@@ -676,7 +779,7 @@ footer form {
 .pag-nums {
   display: flex;
   width: 30%;
-  margin: 0 auto;
+  margin: 32px auto;
   justify-content: space-between;
   font-family: inherit;
   text-transform: uppercase;
@@ -863,6 +966,8 @@ footer form {
   gap: 20px;
   width: 90%;
 }
+
+/* Counter */
 
 .counter-container {
   display: flex;

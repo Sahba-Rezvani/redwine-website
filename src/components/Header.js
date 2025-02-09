@@ -6,18 +6,22 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import { Menu } from "./Menu";
 
-export function Header({ setProfile }) {
+export function Header({ toggleShoppingBagDrawer, toggleLoginDrawer }) {
   return (
     <header>
       <div className="logo">logoooo</div>
       <Menu />
       <div className="header-tools">
         <FontAwesomeIcon icon={faMagnifyingGlass} className="search-box" />
-        <FontAwesomeIcon icon={faCartShopping} className="shopping-cart" />
+        <FontAwesomeIcon
+          icon={faCartShopping}
+          className="shopping-cart"
+          onClick={toggleShoppingBagDrawer()}
+        />
         <FontAwesomeIcon
           icon={faUser}
           className="profile"
-          onClick={() => setProfile(true)}
+          onClick={toggleLoginDrawer()}
         />
       </div>
     </header>

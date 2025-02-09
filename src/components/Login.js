@@ -4,11 +4,13 @@ import { faXmark } from "@fortawesome/free-solid-svg-icons";
 import React, { useState } from "react";
 import OtpInput from "react-otp-input";
 import Countdown from "react-countdown";
+import Box from "@mui/material/Box";
 
-export default function Login({ setProfile }) {
+export default function Login({ toggleDrawer }) {
   const [otp, setOtp] = useState("");
   const [login, setLogin] = useState(false);
-  // const [closeLogin, setCloseLogin] = useState(false);
+  console.log("LOGIN");
+
   const renderer = ({ minutes, seconds }) => {
     function makeTwoDigits(n) {
       return (n < 10 ? "0" : "") + n;
@@ -22,13 +24,13 @@ export default function Login({ setProfile }) {
   };
 
   return (
-    <div className="login-container">
+    <Box sx={{ width: 400 }} role="presentation">
       <div className="login-header">
         <p>login</p>
         <FontAwesomeIcon
           className="login-close"
           icon={faXmark}
-          onClick={() => setProfile(false)}
+          onClick={toggleDrawer()}
         />
       </div>
       {login ? (
@@ -71,6 +73,6 @@ export default function Login({ setProfile }) {
           </button>
         </div>
       )}
-    </div>
+    </Box>
   );
 }

@@ -3,15 +3,10 @@ import { useParams } from "react-router-dom";
 import { faHeart as RegularHeart } from "@fortawesome/free-regular-svg-icons";
 import { faShareNodes } from "@fortawesome/free-solid-svg-icons/faShareNodes";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import Box from "@mui/material/Box";
-// import Tab from "@mui/material/Tab";
-// import TabContext from "@mui/lab/TabContext";
-// import TabList from "@mui/lab/TabList";
-// import TabPanel from "@mui/lab/TabPanel";
 
 import { Tabs } from "@base-ui-components/react/tabs";
 
-export default function ProductDetails({ products }) {
+export default function ProductDetails({ products, setCounter, counter }) {
   const { id } = useParams(); // Access the ID from the route
   const [selectedProduct, setSelectedProduct] = useState(null);
   const [selectedImage, setSelectedImage] = useState(0);
@@ -77,7 +72,7 @@ export default function ProductDetails({ products }) {
                   <ColorRadioGroup colorPallet={selectedProduct.color} />
                 </div>
                 <div className="row pc-details-count">
-                  <Counter />
+                  <Counter setCounter={setCounter} counter={counter} />
                   <button className="secondary-btn">add to cart</button>
                 </div>
               </form>
@@ -185,16 +180,12 @@ export function ColorRadioGroup({ colorPallet }) {
   );
 }
 
-export function Counter() {
-  const [counter, setCounter] = useState(0);
-
+export function Counter({ counter, setCounter }) {
   function handleDecCounter() {
     setCounter((c) => (c > 0 ? c - 1 : 0));
-    console.log("Decrease");
   }
   function handleIncCounter() {
     setCounter((c) => c + 1);
-    console.log("Increase");
   }
   return (
     <div className="counter-container">
@@ -313,6 +304,6 @@ function ProductAdditionalTab() {
   );
 }
 
-function ProductReviewsTab() {
-  return <div>Item three</div>;
-}
+// function ProductReviewsTab() {
+//   return <div>Item three</div>;
+// }
