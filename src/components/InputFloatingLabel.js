@@ -4,6 +4,8 @@ export default function FloatingInput({
   type,
   children,
   id,
+  value,
+  onChange,
 }) {
   return (
     <div className="form-group">
@@ -12,6 +14,8 @@ export default function FloatingInput({
         className={inputClassName}
         id={id}
         required
+        value={value}
+        onChange={onChange} 
       />
       <label for={id} className={labelClassName}>
         {children}
