@@ -1257,3 +1257,58 @@ footer form {
   font-size: 1em;
   color: #767676;
 }
+
+.shop_wizard {
+  padding: 24px 0;
+  margin-top: 24px;
+}
+
+.page_title {
+  text-transform: uppercase;
+  margin-bottom: 48px;
+}
+
+.p-stepper {
+  font-family: "Jost", sans-serif;
+}
+
+.p-stepper-panels {
+  padding: 48px 0;
+}
+
+.p-stepper .p-stepper-header .p-stepper-action {
+  background: transparent;
+  border-radius: 0;
+  color: #222;
+  font-size: 1.2em;
+  font-weight: 500 !important;
+  padding: 0 10px;
+}
+
+#pr_id_1_2_header_action {
+  padding-right: 0;
+}
+
+#pr_id_1_0_header_action {
+  padding-left: 0;
+}
+.p-stepper-number {
+  /* display: none; */
+  background-color: transparent;
+  font-family: inherit;
+  border: none;
+  color: inherit;
+  min-width: 0;
+  height: 0;
+  margin-right: 10px;
+  font-weight: 600;
+  /* display: none; */
+}
+
+.p-stepper-title {
+  color: inherit;
+}
+
+.p-stepper .p-stepper-header:has(~ .p-highlight) .p-stepper-separator {
+  background-color: #c12b27;
+}

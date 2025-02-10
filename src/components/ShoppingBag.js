@@ -3,13 +3,15 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import * as React from "react";
 import { useState } from "react";
 import Box from "@mui/material/Box";
+import { Link } from "react-router-dom";
 
 export function ShoppingBag({ toggleDrawer, products, counter, setCounter }) {
   const [totalPrice, setTotalPrice] = useState(0);
-  // const addedProducts = undefined;
+
+  // const addedProducts = null;
   const addedProducts = products.slice(5, 11);
 
-  const bagProductsNum = addedProducts.length;
+  const bagProductsNum = addedProducts ? addedProducts.length : 0;
 
   // function handleTotalPrice() {}
 
@@ -45,9 +47,17 @@ export function ShoppingBag({ toggleDrawer, products, counter, setCounter }) {
           <span>${totalPrice}</span>
         </div>
         {addedProducts ? (
-          <button className="secondary-btn">View Cart</button>
+          <Link to="/shopping-wizard">
+            <button className="secondary-btn" onClick={toggleDrawer()}>
+              view cart{" "}
+            </button>
+          </Link>
         ) : (
-          <button className="secondary-btn">explore shop</button>
+          <Link to="/shop">
+            <button className="secondary-btn" onClick={toggleDrawer()}>
+              explore shop
+            </button>
+          </Link>
         )}
       </div>
     </Box>
