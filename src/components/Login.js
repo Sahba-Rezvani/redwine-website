@@ -12,37 +12,39 @@ export default function Login({ toggleDrawer }) {
   const [inputValue, setInputValue] = useState("");
   console.log("LOGIN");
 
-
   const handleLogin = async () => {
     console.log("Input Value:", inputValue);
 
     const data = {
-      "phone_number": inputValue
+      phone_number: inputValue,
     };
 
     try {
-        const response = await fetch("https://django-back.liara.run/auth/send-otp", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json"
-            },
-            body: JSON.stringify(data)
-        });
-
-        const result = await response.json();
-        console.log("Response:", result);
-
-        if (response.ok) {
-            setLogin(true); 
-        } else {
-            console.error("Error:", result);
-            alert(result.message || "خطایی رخ داد!");
+      const response = await fetch(
+        "https://django-back.liara.run/auth/send-otp",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(data),
         }
+      );
+
+      const result = await response.json();
+      console.log("Response:", result);
+
+      if (response.ok) {
+        setLogin(true);
+      } else {
+        console.error("Error:", result);
+        alert(result.message || "An error was found!");
+      }
     } catch (error) {
-        console.error("Request failed:", error);
-        alert("مشکلی در ارتباط با سرور وجود دارد.");
+      console.error("Request failed:", error);
+      alert("There is a problem connecting to the server!");
     }
-};
+  };
 
   const renderer = ({ minutes, seconds }) => {
     function makeTwoDigits(n) {
@@ -72,7 +74,7 @@ export default function Login({ toggleDrawer }) {
           <OtpInput
             value={otp}
             onChange={setOtp}
-            numInputs={4}
+            numInputs={6}
             inputStyle={"otp-input"}
             containerStyle={"otp-input-container"}
             renderInput={(props) => <input {...props} />}
@@ -103,7 +105,7 @@ export default function Login({ toggleDrawer }) {
           >
             Phone or email address
           </FloatingInput>
-          <button className="secondary-btn" onClick={handleLogin}  >
+          <button className="secondary-btn" onClick={handleLogin}>
             log in
           </button>
         </div>

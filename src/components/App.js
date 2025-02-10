@@ -19,7 +19,6 @@ export default function App() {
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
-  const [profile, setProfile] = useState(false);
   const [loginDrawer, setLoginDrawer] = useState(false);
   const [shoppingBagDrawer, setShoppingBagDrawer] = useState(false);
   const [counter, setCounter] = useState(0);
@@ -70,7 +69,6 @@ export default function App() {
 
   return (
     <div className="container">
-      {/* {profile ? <Login setProfile={setProfile} /> : ""} */}
       <Drawer anchor="right" open={loginDrawer} onClose={toggleLoginDrawer()}>
         <Login toggleDrawer={toggleLoginDrawer} />
       </Drawer>
@@ -87,7 +85,6 @@ export default function App() {
         />
       </Drawer>
       <Header
-        setProfile={setProfile}
         toggleLoginDrawer={toggleLoginDrawer}
         toggleShoppingBagDrawer={toggleShoppingBagDrawer}
       />

@@ -3,8 +3,8 @@ import { useParams } from "react-router-dom";
 import { faHeart as RegularHeart } from "@fortawesome/free-regular-svg-icons";
 import { faShareNodes } from "@fortawesome/free-solid-svg-icons/faShareNodes";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
 import { Tabs } from "@base-ui-components/react/tabs";
+import { Counter } from "../components/Counter";
 
 export default function ProductDetails({ products, setCounter, counter }) {
   const { id } = useParams(); // Access the ID from the route
@@ -176,30 +176,6 @@ export function ColorRadioGroup({ colorPallet }) {
           />
         </label>
       ))}
-    </div>
-  );
-}
-
-export function Counter({ counter, setCounter }) {
-  function handleDecCounter() {
-    setCounter((c) => (c > 0 ? c - 1 : 0));
-  }
-  function handleIncCounter() {
-    setCounter((c) => c + 1);
-  }
-  return (
-    <div className="counter-container">
-      <button onClick={handleDecCounter} type="button">
-        -
-      </button>
-      <input
-        type="text"
-        value={counter}
-        onChange={(e) => setCounter(Number(e.target.value))}
-      />
-      <button onClick={handleIncCounter} type="button">
-        +
-      </button>
     </div>
   );
 }
