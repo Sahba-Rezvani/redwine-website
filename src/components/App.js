@@ -71,7 +71,7 @@ export default function App() {
     <div className="container">
       {/* {profile ? <Login setProfile={setProfile} /> : ""} */}
       <Drawer anchor="right" open={loginDrawer} onClose={toggleLoginDrawer()}>
-        <Login toggleDrawer={toggleLoginDrawer} />
+        <Login toggleDrawer={toggleLoginDrawer}  setLoginDrawer={setLoginDrawer}/>
       </Drawer>
       <Drawer
         anchor="right"
