@@ -6,7 +6,7 @@ import OtpInput from "react-otp-input";
 import Countdown from "react-countdown";
 import Box from "@mui/material/Box";
 
-export default function Login({ toggleDrawer }) {
+export default function Login({ toggleDrawer, setLoginDrawer }) {
   const [otp, setOtp] = useState("");
   const [login, setLogin] = useState(false);
   const [inputValue, setInputValue] = useState("");
@@ -21,7 +21,7 @@ export default function Login({ toggleDrawer }) {
 
     try {
       const response = await fetch(
-        "https://django-back.liara.run/auth/send-otp",
+        "https://django-back.liara.run/accounts/login-otp/",
         {
           method: "POST",
           headers: {
@@ -38,11 +38,47 @@ export default function Login({ toggleDrawer }) {
         setLogin(true);
       } else {
         console.error("Error:", result);
-        alert(result.message || "An error was found!");
+        alert(result.message || "خطایی رخ داد!");
       }
     } catch (error) {
       console.error("Request failed:", error);
-      alert("There is a problem connecting to the server!");
+      alert("مشکلی در ارتباط با سرور وجود دارد.");
+    }
+  };
+
+  const sendOtp = async () => {
+    const dataOtp = {
+      otp_code: otp,
+    };
+
+    try {
+      const response = await fetch(
+        "https://django-back.liara.run/accounts/auth/verify-otp/",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(dataOtp),
+        }
+      );
+
+      const result = await response.json();
+      console.log("Response:", result);
+
+      // اطمینان از اینکه درخواست موفق بوده
+      if (response.ok) {
+        console.log("OTP verification successful!");
+        setLoginDrawer(false);
+      } else {
+        console.error("Error:", result);
+        alert(result.message || "خطایی رخ داد!");
+      }
+
+      console.log("hellooooooooo");
+    } catch (error) {
+      console.error("Request failed:", error);
+      alert("مشکلی در ارتباط با سرور وجود دارد.");
     }
   };
 
@@ -70,7 +106,7 @@ export default function Login({ toggleDrawer }) {
       </div>
       {login ? (
         <div className="login-content">
-          <p>Please enter the 4-digit code was sent to you.</p>
+          <p>Please enter the 6-digit code was sent to you.</p>
           <OtpInput
             value={otp}
             onChange={setOtp}
@@ -91,7 +127,9 @@ export default function Login({ toggleDrawer }) {
               }
             </p>
           </a>
-          <button className="secondary-btn">log in</button>
+          <button className="secondary-btn" onClick={sendOtp}>
+            log in
+          </button>
         </div>
       ) : (
         <div className="login-content">

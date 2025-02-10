@@ -70,7 +70,7 @@ export default function App() {
   return (
     <div className="container">
       <Drawer anchor="right" open={loginDrawer} onClose={toggleLoginDrawer()}>
-        <Login toggleDrawer={toggleLoginDrawer} />
+        <Login toggleDrawer={toggleLoginDrawer}  setLoginDrawer={setLoginDrawer}/>
       </Drawer>
       <Drawer
         anchor="right"
