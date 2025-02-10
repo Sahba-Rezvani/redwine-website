@@ -14,6 +14,7 @@ import { Footer } from "./Footer";
 import Login from "./Login";
 import Drawer from "@mui/material/Drawer";
 import { ShoppingBag } from "./ShoppingBag";
+import ShoppingWizard from "./ShoppingWizard";
 export default function App() {
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -101,6 +102,16 @@ export default function App() {
           path="/product-details/:id"
           element={
             <ProductDetails
+              products={products}
+              counter={counter}
+              setCounter={setCounter}
+            />
+          }
+        />
+        <Route
+          path="/shopping-wizard"
+          element={
+            <ShoppingWizard
               products={products}
               counter={counter}
               setCounter={setCounter}
