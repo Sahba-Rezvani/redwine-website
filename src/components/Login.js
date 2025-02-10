@@ -9,7 +9,40 @@ import Box from "@mui/material/Box";
 export default function Login({ toggleDrawer }) {
   const [otp, setOtp] = useState("");
   const [login, setLogin] = useState(false);
+  const [inputValue, setInputValue] = useState("");
   console.log("LOGIN");
+
+
+  const handleLogin = async () => {
+    console.log("Input Value:", inputValue);
+
+    const data = {
+      "phone_number": inputValue
+    };
+
+    try {
+        const response = await fetch("https://django-back.liara.run/auth/send-otp", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(data)
+        });
+
+        const result = await response.json();
+        console.log("Response:", result);
+
+        if (response.ok) {
+            setLogin(true); 
+        } else {
+            console.error("Error:", result);
+            alert(result.message || "خطایی رخ داد!");
+        }
+    } catch (error) {
+        console.error("Request failed:", error);
+        alert("مشکلی در ارتباط با سرور وجود دارد.");
+    }
+};
 
   const renderer = ({ minutes, seconds }) => {
     function makeTwoDigits(n) {
@@ -65,10 +98,12 @@ export default function Login({ toggleDrawer }) {
             inputClassName="login-input"
             labelClassName="login-label"
             id="name"
+            value={inputValue}
+            onChange={(e) => setInputValue(e.target.value)}
           >
             Phone or email address
           </FloatingInput>
-          <button className="secondary-btn" onClick={() => setLogin(true)}>
+          <button className="secondary-btn" onClick={handleLogin}  >
             log in
           </button>
         </div>
