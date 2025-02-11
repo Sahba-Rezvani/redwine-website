@@ -1,12 +1,18 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser } from "@fortawesome/free-regular-svg-icons";
+import { faArrowRightToBracket } from "@fortawesome/free-solid-svg-icons";
 import {
   faMagnifyingGlass,
   faCartShopping,
 } from "@fortawesome/free-solid-svg-icons";
 import { Menu } from "./Menu";
-
-export function Header({ toggleShoppingBagDrawer, toggleLoginDrawer }) {
+import { useState } from "react";
+export function Header({
+  toggleShoppingBagDrawer,
+  toggleLoginDrawer,
+  toggleRegisterDrawer,
+  isRegistered,
+}) {
   return (
     <header>
       <div className="logo">logoooo</div>
@@ -18,11 +24,19 @@ export function Header({ toggleShoppingBagDrawer, toggleLoginDrawer }) {
           className="shopping-cart"
           onClick={toggleShoppingBagDrawer()}
         />
-        <FontAwesomeIcon
-          icon={faUser}
-          className="profile"
-          onClick={toggleLoginDrawer()}
-        />
+
+        {isRegistered ? (
+          <FontAwesomeIcon
+            icon={faUser}
+            className="profile"
+            onClick={toggleLoginDrawer()}
+          />
+        ) : (
+          <FontAwesomeIcon
+            icon={faArrowRightToBracket}
+            onClick={toggleRegisterDrawer()}
+          />
+        )}
       </div>
     </header>
   );

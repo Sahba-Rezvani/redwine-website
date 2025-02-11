@@ -6,7 +6,7 @@ import OtpInput from "react-otp-input";
 import Countdown from "react-countdown";
 import Box from "@mui/material/Box";
 
-export default function Login({ toggleDrawer, setLoginDrawer }) {
+export default function Login({ toggleDrawer }) {
   const [otp, setOtp] = useState("");
   const [login, setLogin] = useState(false);
   const [inputValue, setInputValue] = useState("");
@@ -38,15 +38,15 @@ export default function Login({ toggleDrawer, setLoginDrawer }) {
         setLogin(true);
       } else {
         console.error("Error:", result);
-        alert(result.message || "خطایی رخ داد!");
+        alert(result.message || "An error was found!");
       }
     } catch (error) {
       console.error("Request failed:", error);
-      alert("مشکلی در ارتباط با سرور وجود دارد.");
+      alert("There was a problem connecting to the server!");
     }
   };
 
-  const sendOtp = async () => {
+  const sendOtp = async (event) => {
     const dataOtp = {
       otp_code: otp,
     };
@@ -69,16 +69,16 @@ export default function Login({ toggleDrawer, setLoginDrawer }) {
       // اطمینان از اینکه درخواست موفق بوده
       if (response.ok) {
         console.log("OTP verification successful!");
-        setLoginDrawer(false);
+        toggleDrawer()(event);
       } else {
         console.error("Error:", result);
-        alert(result.message || "خطایی رخ داد!");
+        alert(result.message || "An error was found!");
       }
 
       console.log("hellooooooooo");
     } catch (error) {
       console.error("Request failed:", error);
-      alert("مشکلی در ارتباط با سرور وجود دارد.");
+      alert("There was a problem connecting to the server!");
     }
   };
 

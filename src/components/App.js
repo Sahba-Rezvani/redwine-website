@@ -12,6 +12,7 @@ import { useEffect, useState } from "react";
 import { Header } from "./Header";
 import { Footer } from "./Footer";
 import Login from "./Login";
+import Register from "./Register";
 import Drawer from "@mui/material/Drawer";
 import { ShoppingBag } from "./ShoppingBag";
 import ShoppingWizard from "./ShoppingWizard";
@@ -20,6 +21,9 @@ export default function App() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
   const [loginDrawer, setLoginDrawer] = useState(false);
+  const [registerDrawer, setRegisterDrawer] = useState(false);
+  const [isRegistered, setIsRegistered] = useState(false);
+
   const [shoppingBagDrawer, setShoppingBagDrawer] = useState(false);
   const [counter, setCounter] = useState(0);
 
@@ -56,6 +60,17 @@ export default function App() {
     setLoginDrawer(!loginDrawer);
   };
 
+  const toggleRegisterDrawer = () => (event) => {
+    if (
+      event.type === "keydown" &&
+      (event.key === "Tab" || event.key === "Shift")
+    ) {
+      return;
+    }
+
+    setRegisterDrawer(!registerDrawer);
+  };
+
   const toggleShoppingBagDrawer = () => (event) => {
     if (
       event.type === "keydown" &&
@@ -70,7 +85,21 @@ export default function App() {
   return (
     <div className="container">
       <Drawer anchor="right" open={loginDrawer} onClose={toggleLoginDrawer()}>
-        <Login toggleDrawer={toggleLoginDrawer}  setLoginDrawer={setLoginDrawer}/>
+        <Login
+          toggleDrawer={toggleLoginDrawer}
+          setLoginDrawer={setLoginDrawer}
+        />
+      </Drawer>
+      <Drawer
+        anchor="right"
+        open={registerDrawer}
+        onClose={toggleRegisterDrawer()}
+      >
+        <Register
+          toggleDrawer={toggleRegisterDrawer}
+          setIsRegistered={setIsRegistered}
+          setRegisterDrawer={setRegisterDrawer}
+        />
       </Drawer>
       <Drawer
         anchor="right"
@@ -87,6 +116,8 @@ export default function App() {
       <Header
         toggleLoginDrawer={toggleLoginDrawer}
         toggleShoppingBagDrawer={toggleShoppingBagDrawer}
+        toggleRegisterDrawer={toggleRegisterDrawer}
+        isRegistered={isRegistered}
       />
       <Routes>
         <Route path="/" element={<Home products={products} />} />
