@@ -6,7 +6,16 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Tabs } from "@base-ui-components/react/tabs";
 import { Counter } from "../components/Counter";
 
-export default function ProductDetails({ products, setCounter, counter }) {
+export default function ProductDetails({
+  products,
+  setQuantity,
+  quantity,
+  handleAddToCart,
+  selectedColor,
+  setSelectedColor,
+  selectedSize,
+  setSelectedSize,
+}) {
   const { id } = useParams(); // Access the ID from the route
   const [selectedProduct, setSelectedProduct] = useState(null);
   const [selectedImage, setSelectedImage] = useState(0);
@@ -33,7 +42,7 @@ export default function ProductDetails({ products, setCounter, counter }) {
               <div className="pc-details-thumbnail">
                 {selectedProduct.thumbnailImages.map((image, i) => (
                   <div
-                    key={i}
+                    key={selectedProduct.id}
                     className="pc-details-img"
                     onClick={() => handleImageSelect(i)}
                     style={{ opacity: selectedImage === i ? 1 : 0.5 }}
@@ -72,8 +81,14 @@ export default function ProductDetails({ products, setCounter, counter }) {
                   <ColorRadioGroup colorPallet={selectedProduct.color} />
                 </div>
                 <div className="row pc-details-count">
-                  <Counter setCounter={setCounter} counter={counter} />
-                  <button className="secondary-btn">add to cart</button>
+                  <Counter setCounter={setQuantity} counter={quantity} />
+                  <button
+                    type="button"
+                    className="secondary-btn"
+                    onClick={() => handleAddToCart(selectedProduct)}
+                  >
+                    add to cart
+                  </button>
                 </div>
               </form>
               <div className="row">

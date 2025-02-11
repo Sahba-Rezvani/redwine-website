@@ -10,7 +10,7 @@ import FloatingInput from "./InputFloatingLabel";
 import "primereact/resources/themes/lara-light-cyan/theme.css";
 import { styled } from "@mui/material";
 
-export default function ShoppingWizard({ products, counter, setCounter }) {
+export default function ShoppingWizard({ products, quantity, setQuantity }) {
   const stepperRef = useRef(null);
   const [shipping, setShipping] = useState(null);
   const [boxing, setBoxing] = useState(null);
@@ -53,7 +53,7 @@ export default function ShoppingWizard({ products, counter, setCounter }) {
                         <p className="wizard_product-price">${product.price}</p>
                       </td>
                       <td>
-                        <Counter counter={counter} setCounter={setCounter} />
+                        <Counter counter={quantity} setCounter={setQuantity} />
                       </td>
                       <td className="wizard_product-subtotal">$XX</td>
                       <td>

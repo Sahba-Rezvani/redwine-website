@@ -5,13 +5,18 @@ import { useState } from "react";
 import Box from "@mui/material/Box";
 import { Link } from "react-router-dom";
 
-export function ShoppingBag({ toggleDrawer, products, counter, setCounter }) {
+export function ShoppingBag({
+  toggleDrawer,
+  cartProducts,
+  quantity,
+  setQuantity,
+}) {
   const [totalPrice, setTotalPrice] = useState(0);
 
   // const addedProducts = null;
-  const addedProducts = products.slice(5, 11);
+  // const addedProducts = products.slice(5, 11);
 
-  const bagProductsNum = addedProducts ? addedProducts.length : 0;
+  const bagProductsNum = cartProducts ? cartProducts.length : 0;
 
   // function handleTotalPrice() {}
 
@@ -28,13 +33,13 @@ export function ShoppingBag({ toggleDrawer, products, counter, setCounter }) {
         />
       </div>
       <div className="bag_content">
-        {addedProducts ? (
+        {cartProducts ? (
           <div className="bag_products">
-            {addedProducts.map((product, i) => (
+            {cartProducts.map((product, i) => (
               <CartProducts
                 product={product}
-                counter={counter}
-                setCounter={setCounter}
+                counter={quantity}
+                setCounter={setQuantity}
                 key={i}
               />
             ))}
@@ -46,7 +51,7 @@ export function ShoppingBag({ toggleDrawer, products, counter, setCounter }) {
           <label>subtotal:</label>
           <span>${totalPrice}</span>
         </div>
-        {addedProducts ? (
+        {cartProducts ? (
           <Link to="/shopping-wizard">
             <button className="secondary-btn" onClick={toggleDrawer()}>
               view cart{" "}

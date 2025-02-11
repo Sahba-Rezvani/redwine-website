@@ -17,8 +17,6 @@ import Drawer from "@mui/material/Drawer";
 import { ShoppingBag } from "./ShoppingBag";
 import ShoppingWizard from "./ShoppingWizard";
 
-import FloatingInput from "./InputFloatingLabel";
-
 export default function App() {
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
@@ -26,9 +24,11 @@ export default function App() {
   const [loginDrawer, setLoginDrawer] = useState(false);
   const [registerDrawer, setRegisterDrawer] = useState(false);
   const [isRegistered, setIsRegistered] = useState(false);
-
   const [shoppingBagDrawer, setShoppingBagDrawer] = useState(false);
-  const [counter, setCounter] = useState(0);
+  const [quantity, setQuantity] = useState(0);
+  const [cartProducts, setCartProducts] = useState([]);
+  const [selectedColor, setSelectedColor] = useState("");
+  const [selectedSize, setSelectedSize] = useState("");
 
   useEffect(() => {
     const fetchProducts = async () => {
@@ -85,6 +85,17 @@ export default function App() {
     setShoppingBagDrawer(!shoppingBagDrawer);
   };
 
+  function handleAddToCart(product) {
+    const newCartItem = {
+      ...product,
+      color: selectedColor,
+      size: selectedSize,
+      quantity: quantity,
+    };
+
+    setCartProducts([...cartProducts, newCartItem]);
+  }
+
   return (
     <div className="container">
       <Drawer anchor="right" open={loginDrawer} onClose={toggleLoginDrawer()}>
@@ -110,9 +121,9 @@ export default function App() {
         onClose={toggleShoppingBagDrawer()}
       >
         <ShoppingBag
-          counter={counter}
-          setCounter={setCounter}
-          products={products}
+          quantity={quantity}
+          setQuantity={setQuantity}
+          cartProducts={cartProducts}
           toggleDrawer={toggleShoppingBagDrawer}
         />
       </Drawer>
@@ -134,8 +145,13 @@ export default function App() {
           element={
             <ProductDetails
               products={products}
-              counter={counter}
-              setCounter={setCounter}
+              quantity={quantity}
+              setQuantity={setQuantity}
+              selectedColor={selectedColor}
+              setSelectedColor={setSelectedColor}
+              selectedSize={selectedSize}
+              setSelectedSize={setSelectedSize}
+              handleAddToCart={handleAddToCart}
             />
           }
         />
@@ -144,8 +160,8 @@ export default function App() {
           element={
             <ShoppingWizard
               products={products}
-              counter={counter}
-              setCounter={setCounter}
+              quantity={quantity}
+              setQuantity={setQuantity}
             />
           }
         />
