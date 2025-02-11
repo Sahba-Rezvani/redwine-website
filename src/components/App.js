@@ -18,6 +18,7 @@ import { ShoppingBag } from "./ShoppingBag";
 import ShoppingWizard from "./ShoppingWizard";
 
 import FloatingInput from "./InputFloatingLabel";
+import SignUpPage from "./SignUpPage";
 
 export default function App() {
   const [products, setProducts] = useState([]);
@@ -149,6 +150,8 @@ export default function App() {
             />
           }
         />
+        <Route path="/login" element={<SignUpPage />} />
+
         {/* <Route path="*" element={<NotFound />} /> */}
       </Routes>
       <Footer />
