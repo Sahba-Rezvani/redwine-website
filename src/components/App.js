@@ -1,5 +1,5 @@
 import "./App.css";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 import Home from "../pages/Home";
 import About from "../pages/About";
 import Shop from "../pages/Shop";
@@ -50,6 +50,18 @@ export default function App() {
     fetchProducts();
   }, []); // Empty dependency array means it runs once on mount.
 
+
+  useEffect(() => {
+    const loggedInUser = localStorage.getItem("loggedInUser");
+    if (loggedInUser) {
+        console.log("Current Logged-in User:", JSON.parse(loggedInUser));
+    } else {
+        console.log("No user is logged in.");
+    }
+}, []);
+
+
+
   if (loading) return <div>Loading...</div>;
   if (error) return <div>Error: {error}</div>;
 
@@ -85,6 +97,13 @@ export default function App() {
 
     setShoppingBagDrawer(!shoppingBagDrawer);
   };
+
+
+  const isAuthenticated = () => {
+    return !!localStorage.getItem("loggedInUser"); 
+};
+
+
 
   return (
     <div className="container">
@@ -124,7 +143,7 @@ export default function App() {
         isRegistered={isRegistered}
       />
       <Routes>
-        <Route path="/" element={<Home products={products} />} />
+        <Route path="/"  element={isAuthenticated() ? <Home products={products} /> : <Navigate to="/login" />} />
         <Route path="/about" element={<About />} />
         <Route
           path="/shop"

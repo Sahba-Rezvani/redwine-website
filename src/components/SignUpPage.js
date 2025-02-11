@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import FloatingInput from './InputFloatingLabel';
 
 import styles from './SignUpPage.module.css'
@@ -17,12 +17,21 @@ export default function SignUpPage() {
     const [registerPassword, setRegisterPassword] = useState('');
 
     const [loginEmail, setLoginEmail] = useState("");
+    const [isLoggedIn, setIsLoggedIn] = useState(false);
     const [loginPassword, setLoginPassword] = useState("");
 
     const [selectedTab, setSelectedTab] = useState(0);
 
 
     const navigate = useNavigate();
+
+
+    useEffect(() => {
+        if (isLoggedIn) {
+            navigate("/"); // ✅ بعد از تغییر مقدار، ریدایرکت کن
+        }
+    }, [isLoggedIn]);
+
 
 
     const handleInputChange = (e, setter) => {
@@ -66,28 +75,24 @@ export default function SignUpPage() {
             alert("Please enter both email and password.");
             return;
         }
-
-        // دریافت اطلاعات کاربر از localStorage
+    
         const storedUser = localStorage.getItem(`user_${loginEmail}`);
-
         if (!storedUser) {
             alert("User not found! Please register first.");
             return;
         }
-
+    
         const userData = JSON.parse(storedUser);
-
-        // بررسی پسورد
         if (userData.password !== loginPassword) {
             alert("Incorrect password!");
             return;
         }
-
-        // ذخیره اطلاعات کاربر که وارد شده
+    
         localStorage.setItem("loggedInUser", JSON.stringify(userData));
-
         alert("Login successful!");
-        navigate("/"); // هدایت به صفحه اصلی (Home)
+    
+        // ✅ ذخیره وضعیت لاگین
+        setIsLoggedIn(true); 
     };
 
 
