@@ -16,6 +16,9 @@ import Register from "./Register";
 import Drawer from "@mui/material/Drawer";
 import { ShoppingBag } from "./ShoppingBag";
 import ShoppingWizard from "./ShoppingWizard";
+
+import FloatingInput from "./InputFloatingLabel";
+
 export default function App() {
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
