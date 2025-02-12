@@ -16,8 +16,8 @@ import Register from "./Register";
 import Drawer from "@mui/material/Drawer";
 import { ShoppingBag } from "./ShoppingBag";
 import ShoppingWizard from "./ShoppingWizard";
-
 import FloatingInput from "./InputFloatingLabel";
+import SignUpPage from "./SignUpPage";
 
 export default function App() {
   const [products, setProducts] = useState([]);
@@ -96,6 +96,21 @@ export default function App() {
     setShoppingBagDrawer(!shoppingBagDrawer);
   };
 
+  const isAuthenticated = () => {
+    return !!localStorage.getItem("loggedInUser");
+  };
+
+  function handleAddToCart(product) {
+    const newCartItem = {
+      ...product,
+      color: selectedColor,
+      size: selectedSize,
+      quantity: quantity,
+    };
+
+    setCartProducts([...cartProducts, newCartItem]);
+  }
+
   return (
     <div className="container">
       <Drawer anchor="right" open={loginDrawer} onClose={toggleLoginDrawer()}>
@@ -144,6 +159,7 @@ export default function App() {
             )
           }
         />
+
         <Route path="/about" element={<About />} />
         <Route
           path="/shop"
