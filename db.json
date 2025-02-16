@@ -7,7 +7,7 @@
       "price": 144.13,
       "sizes": ["M", "L", "XL"],
       "color": ["#0000FF", "#808080", "#FFFFFF"],
-      "type": "Loafers",
+      "category": "hoodie",
       "description": "Lightweight and perfect for running.",
       "image": "../images/product-01/card/product_2.webp",
       "thumbnailImages": [
@@ -31,11 +31,11 @@
     {
       "id": "2",
       "addToCartBtn": "false",
-      "name": "Running Sneakers",
+      "name": "Running pants",
       "price": 93.45,
       "sizes": ["M", "L", "XL"],
       "color": ["#0000FF", "#808080", "#FFFFFF"],
-      "type": "Sneakers",
+      "category": "t-shirt",
       "description": "Elegant and sophisticated for formal occasions.",
       "image": "../images/product-02/card/product_2.webp",
       "thumbnailImages": [
@@ -59,11 +59,11 @@
     {
       "id": "3",
       "addToCartBtn": "false",
-      "name": "Leather Loafers",
+      "name": "Leather hoodie",
       "price": 132.11,
       "sizes": ["M", "L", "XL"],
       "color": ["#333333", "#F0F0F0", "#AA0000"],
-      "type": "Boots",
+      "category": "sweater",
       "description": "Comfortable and durable for everyday use.",
       "image": "../images/product-03/card/product_3.webp",
       "thumbnailImages": [
@@ -87,11 +87,11 @@
     {
       "id": "4",
       "addToCartBtn": "false",
-      "name": "Casual Sneakers",
+      "name": "Casual t-shirt",
       "price": 48.48,
       "sizes": ["S", "M", "L", "XL"],
       "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "type": "Boots",
+      "category": "sweater",
       "description": "Lightweight and perfect for running.",
       "image": "../images/product-04/card/product_4.webp",
       "thumbnailImages": [
@@ -119,7 +119,7 @@
       "price": 142.38,
       "sizes": ["M", "L", "XL"],
       "color": ["#FF5733", "#232323", "#DDDDDD"],
-      "type": "Sneakers",
+      "category": "t-shirt",
       "description": "Comfortable and durable for everyday use.",
       "image": "../images/product-05/card/product_5.webp",
       "thumbnailImages": [
@@ -143,11 +143,11 @@
     {
       "id": "6",
       "addToCartBtn": "false",
-      "name": "Basketball Shoes",
+      "name": "Basketball jacket",
       "price": 34.75,
       "sizes": ["S", "M", "L"],
       "color": ["#0000FF", "#808080", "#FFFFFF"],
-      "type": "Sneakers",
+      "category": "t-shirt",
       "description": "Stylish and versatile for casual wear.",
       "image": "../images/product-06/card/product_6.webp",
       "thumbnailImages": [
@@ -171,11 +171,11 @@
     {
       "id": "7",
       "addToCartBtn": "false",
-      "name": "Formal Shoes",
+      "name": "Formal jacket",
       "price": 51.73,
       "sizes": ["M", "L", "XL"],
       "color": ["#008000", "#D4A017", "#6B4423"],
-      "type": "Shoes",
+      "category": "jacket",
       "description": "Elegant and sophisticated for formal occasions.",
       "image": "../images/product-07/card/product_7.webp",
       "thumbnailImages": [
@@ -199,11 +199,11 @@
     {
       "id": "8",
       "addToCartBtn": "false",
-      "name": "Slip-On Sneakers",
+      "name": "Slip-On t-shirt",
       "price": 86.6,
       "sizes": ["XS", "S", "M", "L", "XL"],
       "color": ["#FF5733", "#232323", "#DDDDDD"],
-      "type": "Boots",
+      "category": "sweater",
       "description": "Lightweight and perfect for running.",
       "image": "../images/product-08/card/product_8.webp",
       "thumbnailImages": [
@@ -227,11 +227,11 @@
     {
       "id": "9",
       "addToCartBtn": "false",
-      "name": "Formal Shoes",
+      "name": "Formal jacket",
       "price": 67.14,
       "sizes": ["S", "M", "L", "XL"],
       "color": ["#008000", "#D4A017", "#6B4423"],
-      "type": "Sneakers",
+      "category": "t-shirt",
       "description": "Elegant and sophisticated for formal occasions.",
       "image": "../images/product-09/card/product_9.webp",
       "thumbnailImages": [
@@ -259,7 +259,7 @@
       "price": 31.53,
       "sizes": ["XS", "S", "M", "L", "XL"],
       "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "type": "Sandals",
+      "category": "socks",
       "description": "Comfortable and durable for everyday use.",
       "image": "../images/product-10/card/product_10.webp",
       "thumbnailImages": [
@@ -283,11 +283,11 @@
     {
       "id": "11",
       "addToCartBtn": "false",
-      "name": "Sports Shoes",
+      "name": "Sports jacket",
       "price": 64.43,
       "sizes": ["M", "L", "XL"],
       "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "type": "Sneakers",
+      "category": "t-shirt",
       "description": "Stylish and versatile for casual wear.",
       "image": "../images/product-11/card/product_11.webp",
       "thumbnailImages": [
@@ -311,11 +311,11 @@
     {
       "id": "12",
       "addToCartBtn": "false",
-      "name": "Formal Shoes",
+      "name": "Formal jacket",
       "price": 72.81,
       "sizes": ["M", "L", "XL"],
       "color": ["#FF5733", "#232323", "#DDDDDD"],
-      "type": "Sandals",
+      "category": "socks",
       "description": "Comfortable and durable for everyday use.",
       "image": "../images/product-12/card/product_12.webp",
       "thumbnailImages": [
@@ -339,11 +339,11 @@
     {
       "id": "13",
       "addToCartBtn": "false",
-      "name": "Leather Loafers",
+      "name": "Leather hoodie",
       "price": 79.29,
       "sizes": ["S", "M", "L", "XL"],
       "color": ["#0000FF", "#808080", "#FFFFFF"],
-      "type": "Sneakers",
+      "category": "t-shirt",
       "description": "Rugged and sturdy for outdoor adventures.",
       "image": "../images/product-13/card/product_13.webp",
       "thumbnailImages": [
@@ -367,11 +367,11 @@
     {
       "id": "14",
       "addToCartBtn": "false",
-      "name": "Hiking Boots",
+      "name": "Hiking sweater",
       "price": 116.97,
       "sizes": ["M", "L", "XL"],
       "color": ["#008000", "#D4A017", "#6B4423"],
-      "type": "Shoes",
+      "category": "jacket",
       "description": "Lightweight and perfect for running.",
       "image": "../images/product-14/card/product_14.webp",
       "thumbnailImages": [
@@ -395,11 +395,11 @@
     {
       "id": "15",
       "addToCartBtn": "false",
-      "name": "Leather Loafers",
+      "name": "Leather hoodie",
       "price": 141.18,
       "sizes": ["XS", "S", "M", "L", "XL"],
       "color": ["#0000FF", "#808080", "#FFFFFF"],
-      "type": "Boots",
+      "category": "sweater",
       "description": "Lightweight and perfect for running.",
       "image": "../images/product-15/card/product_15.webp",
       "thumbnailImages": [
@@ -423,11 +423,11 @@
     {
       "id": "16",
       "addToCartBtn": "false",
-      "name": "Sandals",
+      "name": "socks",
       "price": 120.58,
       "sizes": ["M", "L", "XL"],
       "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "type": "Sneakers",
+      "category": "t-shirt",
       "description": "Rugged and sturdy for outdoor adventures.",
       "image": "../images/product-16/card/product_16.webp",
       "thumbnailImages": [
@@ -451,11 +451,11 @@
     {
       "id": "17",
       "addToCartBtn": "false",
-      "name": "Sandals",
+      "name": "socks",
       "price": 51.42,
       "sizes": ["M", "L", "XL"],
       "color": ["#333333", "#F0F0F0", "#AA0000"],
-      "type": "Shoes",
+      "category": "jacket",
       "description": "Comfortable and durable for everyday use.",
       "image": "../images/product-17/card/product_1.webp",
       "thumbnailImages": [
@@ -479,11 +479,11 @@
     {
       "id": "18",
       "addToCartBtn": "false",
-      "name": "Casual Sneakers",
+      "name": "Casual t-shirt",
       "price": 42.01,
       "sizes": ["XS", "S", "M", "L", "XL"],
       "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "type": "Sandals",
+      "category": "socks",
       "description": "Lightweight and perfect for running.",
       "image": "../images/product-02/card/product_2.webp",
       "thumbnailImages": [
@@ -511,7 +511,7 @@
       "price": 52.84,
       "sizes": ["S", "M", "L", "XL"],
       "color": ["#FF5733", "#232323", "#DDDDDD"],
-      "type": "Loafers",
+      "category": "hoodie",
       "description": "Comfortable and durable for everyday use.",
       "image": "../images/product-08/card/product_8.webp",
       "thumbnailImages": [
@@ -535,11 +535,11 @@
     {
       "id": "20",
       "addToCartBtn": "false",
-      "name": "Hiking Boots",
+      "name": "Hiking sweater",
       "price": 23.28,
       "sizes": ["S", "M", "L"],
       "color": ["#0000FF", "#808080", "#FFFFFF"],
-      "type": "Sandals",
+      "category": "socks",
       "description": "Lightweight and perfect for running.",
       "image": "../images/product-04/card/product_4.webp",
       "thumbnailImages": [
@@ -563,11 +563,11 @@
     {
       "id": "21",
       "addToCartBtn": "false",
-      "name": "Hiking Boots",
+      "name": "Hiking sweater",
       "price": 68.9,
       "sizes": ["M", "L", "XL"],
       "color": ["#FF5733", "#232323", "#DDDDDD"],
-      "type": "Sneakers",
+      "category": "t-shirt",
       "description": "Comfortable and durable for everyday use.",
       "image": "../images/product-06/card/product_6.webp",
       "thumbnailImages": [
@@ -591,11 +591,11 @@
     {
       "id": "22",
       "addToCartBtn": "false",
-      "name": "Sandals",
+      "name": "socks",
       "price": 129.77,
       "sizes": ["S", "M", "L", "XL"],
       "color": ["#333333", "#F0F0F0", "#AA0000"],
-      "type": "Shoes",
+      "category": "jacket",
       "description": "Elegant and sophisticated for formal occasions.",
       "image": "../images/product-13/card/product_13.webp",
       "thumbnailImages": [
@@ -619,11 +619,11 @@
     {
       "id": "23",
       "addToCartBtn": "false",
-      "name": "Basketball Shoes",
+      "name": "Basketball jacket",
       "price": 80.29,
       "sizes": ["S", "M", "L", "XL"],
       "color": ["#0000FF", "#808080", "#FFFFFF"],
-      "type": "Shoes",
+      "category": "jacket",
       "description": "Lightweight and perfect for running.",
       "image": "../images/product-03/card/product_3.webp",
       "thumbnailImages": [
@@ -647,11 +647,11 @@
     {
       "id": "24",
       "addToCartBtn": "false",
-      "name": "Slip-On Sneakers",
+      "name": "Slip-On t-shirt",
       "price": 24.34,
       "sizes": ["M", "L", "XL"],
       "color": ["#333333", "#F0F0F0", "#AA0000"],
-      "type": "Sneakers",
+      "category": "t-shirt",
       "description": "Rugged and sturdy for outdoor adventures.",
       "image": "../images/product-14/card/product_14.webp",
       "thumbnailImages": [
@@ -675,11 +675,11 @@
     {
       "id": "25",
       "addToCartBtn": "false",
-      "name": "Hiking Boots",
+      "name": "Hiking sweater",
       "price": 56.0,
       "sizes": ["XS", "S", "M", "L", "XL"],
       "color": ["#FF5733", "#232323", "#DDDDDD"],
-      "type": "Shoes",
+      "category": "jacket",
       "description": "Elegant and sophisticated for formal occasions.",
       "image": "../images/product-05/card/product_5.webp",
       "thumbnailImages": [
@@ -703,11 +703,11 @@
     {
       "id": "26",
       "addToCartBtn": "false",
-      "name": "Hiking Boots",
+      "name": "Hiking sweater",
       "price": 60.2,
       "sizes": ["XS", "S", "M", "L", "XL"],
       "color": ["#008000", "#D4A017", "#6B4423"],
-      "type": "Loafers",
+      "category": "hoodie",
       "description": "Lightweight and perfect for running.",
       "image": "../images/product-16/card/product_16.webp",
       "thumbnailImages": [
@@ -731,11 +731,11 @@
     {
       "id": "27",
       "addToCartBtn": "false",
-      "name": "Basketball Shoes",
+      "name": "Basketball jacket",
       "price": 58.01,
       "sizes": ["S", "M", "L", "XL"],
       "color": ["#008000", "#D4A017", "#6B4423"],
-      "type": "Boots",
+      "category": "sweater",
       "description": "Stylish and versatile for casual wear.",
       "image": "../images/product-07/card/product_7.webp",
       "thumbnailImages": [
@@ -759,11 +759,11 @@
     {
       "id": "28",
       "addToCartBtn": "false",
-      "name": "Hiking Boots",
+      "name": "Hiking sweater",
       "price": 86.56,
       "sizes": ["S", "M", "L"],
       "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "type": "Shoes",
+      "category": "jacket",
       "description": "Comfortable and durable for everyday use.",
       "image": "../images/product-08/card/product_8.webp",
       "thumbnailImages": [
@@ -787,11 +787,11 @@
     {
       "id": "29",
       "addToCartBtn": "false",
-      "name": "Running Sneakers",
+      "name": "Running t-shirt",
       "price": 113.04,
       "sizes": ["XS", "S", "M", "L", "XL"],
       "color": ["#0000FF", "#808080", "#FFFFFF"],
-      "type": "Boots",
+      "category": "sweater",
       "description": "Lightweight and perfect for running.",
       "image": "../images/product-09/card/product_9.webp",
       "thumbnailImages": [
@@ -815,11 +815,11 @@
     {
       "id": "30",
       "addToCartBtn": "false",
-      "name": "Slip-On Sneakers",
+      "name": "Slip-On t-shirt",
       "price": 95.62,
       "sizes": ["S", "M", "L"],
       "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "type": "Sneakers",
+      "category": "t-shirt",
       "description": "Stylish and versatile for casual wear.",
       "image": "../images/product-10/card/product_10.webp",
       "thumbnailImages": [
@@ -843,11 +843,11 @@
     {
       "id": "31",
       "addToCartBtn": "false",
-      "name": "Sandals",
+      "name": "socks",
       "price": 65.82,
       "sizes": ["S", "M", "L", "XL"],
       "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "type": "Sandals",
+      "category": "socks",
       "description": "Comfortable and durable for everyday use.",
       "image": "../images/product-11/card/product_11.webp",
       "thumbnailImages": [
@@ -871,11 +871,11 @@
     {
       "id": "32",
       "addToCartBtn": "false",
-      "name": "Casual Sneakers",
+      "name": "Casual t-shirt",
       "price": 124.83,
       "sizes": ["M", "L", "XL"],
       "color": ["#333333", "#F0F0F0", "#AA0000"],
-      "type": "Loafers",
+      "category": "hoodie",
       "description": "Elegant and sophisticated for formal occasions.",
       "image": "../images/product-12/card/product_12.webp",
       "thumbnailImages": [
@@ -899,11 +899,11 @@
     {
       "id": "33",
       "addToCartBtn": "false",
-      "name": "Formal Shoes",
+      "name": "Formal jacket",
       "price": 64.03,
       "sizes": ["S", "M", "L", "XL"],
       "color": ["#008000", "#D4A017", "#6B4423"],
-      "type": "Loafers",
+      "category": "hoodie",
       "description": "Comfortable and durable for everyday use.",
       "image": "../images/product-03/card/product_3.webp",
       "thumbnailImages": [
@@ -927,11 +927,11 @@
     {
       "id": "34",
       "addToCartBtn": "false",
-      "name": "Sandals",
+      "name": "socks",
       "price": 128.27,
       "sizes": ["S", "M", "L", "XL"],
       "color": ["#0000FF", "#808080", "#FFFFFF"],
-      "type": "Boots",
+      "category": "sweater",
       "description": "Comfortable and durable for everyday use.",
       "image": "../images/product-14/card/product_14.webp",
       "thumbnailImages": [
@@ -955,11 +955,11 @@
     {
       "id": "35",
       "addToCartBtn": "false",
-      "name": "Sandals",
+      "name": "socks",
       "price": 149.27,
       "sizes": ["M", "L", "XL"],
       "color": ["#008000", "#D4A017", "#6B4423"],
-      "type": "Boots",
+      "category": "sweater",
       "description": "Comfortable and durable for everyday use.",
       "image": "../images/product-17/card/product_1.webp",
       "thumbnailImages": [
@@ -983,11 +983,11 @@
     {
       "id": "36",
       "addToCartBtn": "false",
-      "name": "Sandals",
+      "name": "socks",
       "price": 112.16,
       "sizes": ["S", "M", "L"],
       "color": ["#FF5733", "#232323", "#DDDDDD"],
-      "type": "Loafers",
+      "category": "hoodie",
       "description": "Rugged and sturdy for outdoor adventures.",
       "image": "../images/product-04/card/product_4.webp",
       "thumbnailImages": [
@@ -1011,11 +1011,11 @@
     {
       "id": "37",
       "addToCartBtn": "false",
-      "name": "Sports Shoes",
+      "name": "Sports jacket",
       "price": 84.64,
       "sizes": ["S", "M", "L"],
       "color": ["#008000", "#D4A017", "#6B4423"],
-      "type": "Sneakers",
+      "category": "t-shirt",
       "description": "Rugged and sturdy for outdoor adventures.",
       "image": "../images/product-07/card/product_7.webp",
       "thumbnailImages": [
@@ -1043,7 +1043,7 @@
       "price": 107.23,
       "sizes": ["S", "M", "L", "XL"],
       "color": ["#0000FF", "#808080", "#FFFFFF"],
-      "type": "Shoes",
+      "category": "jacket",
       "description": "Elegant and sophisticated for formal occasions.",
       "image": "../images/product-08/card/product_8.webp",
       "thumbnailImages": [
@@ -1067,11 +1067,11 @@
     {
       "id": "39",
       "addToCartBtn": "false",
-      "name": "Slip-On Sneakers",
+      "name": "Slip-On t-shirt",
       "price": 73.94,
       "sizes": ["XS", "S", "M", "L", "XL"],
       "color": ["#008000", "#D4A017", "#6B4423"],
-      "type": "Shoes",
+      "category": "jacket",
       "description": "Rugged and sturdy for outdoor adventures.",
       "image": "../images/product-13/card/product_13.webp",
       "thumbnailImages": [
@@ -1095,11 +1095,11 @@
     {
       "id": "40",
       "addToCartBtn": "false",
-      "name": "Casual Sneakers",
+      "name": "Casual t-shirt",
       "price": 87.49,
       "sizes": ["XS", "S", "M", "L", "XL"],
       "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "type": "Sneakers",
+      "category": "t-shirt",
       "description": "Comfortable and durable for everyday use.",
       "image": "../images/product-05/card/product_5.webp",
       "thumbnailImages": [
@@ -1123,11 +1123,11 @@
     {
       "id": "41",
       "addToCartBtn": "false",
-      "name": "Sandals",
+      "name": "socks",
       "price": 52.87,
       "sizes": ["S", "M", "L", "XL"],
       "color": ["#008000", "#D4A017", "#6B4423"],
-      "type": "Boots",
+      "category": "sweater",
       "description": "Rugged and sturdy for outdoor adventures.",
       "image": "../images/product-11/card/product_11.webp",
       "thumbnailImages": [
@@ -1151,11 +1151,11 @@
     {
       "id": "42",
       "addToCartBtn": "false",
-      "name": "Running Sneakers",
+      "name": "Running t-shirt",
       "price": 115.37,
       "sizes": ["M", "L", "XL"],
       "color": ["#0000FF", "#808080", "#FFFFFF"],
-      "type": "Shoes",
+      "category": "jacket",
       "description": "Rugged and sturdy for outdoor adventures.",
       "image": "../images/product-12/card/product_12.webp",
       "thumbnailImages": [
@@ -1183,7 +1183,7 @@
       "price": 79.17,
       "sizes": ["S", "M", "L", "XL"],
       "color": ["#333333", "#F0F0F0", "#AA0000"],
-      "type": "Boots",
+      "category": "sweater",
       "description": "Comfortable and durable for everyday use.",
       "image": "../images/product-13/card/product_13.webp",
       "thumbnailImages": [
@@ -1207,11 +1207,11 @@
     {
       "id": "44",
       "addToCartBtn": "false",
-      "name": "Hiking Boots",
+      "name": "Hiking sweater",
       "price": 68.98,
       "sizes": ["S", "M", "L"],
       "color": ["#0000FF", "#808080", "#FFFFFF"],
-      "type": "Boots",
+      "category": "sweater",
       "description": "Elegant and sophisticated for formal occasions.",
       "image": "../images/product-14/card/product_14.webp",
       "thumbnailImages": [
@@ -1235,11 +1235,11 @@
     {
       "id": "45",
       "addToCartBtn": "false",
-      "name": "Casual Sneakers",
+      "name": "Casual t-shirt",
       "price": 131.13,
       "sizes": ["M", "L", "XL"],
       "color": ["#0000FF", "#808080", "#FFFFFF"],
-      "type": "Boots",
+      "category": "sweater",
       "description": "Comfortable and durable for everyday use.",
       "image": "../images/product-15/card/product_15.webp",
       "thumbnailImages": [
@@ -1263,11 +1263,11 @@
     {
       "id": "46",
       "addToCartBtn": "false",
-      "name": "Slip-On Sneakers",
+      "name": "Slip-On t-shirt",
       "price": 146.45,
       "sizes": ["XS", "S", "M", "L", "XL"],
       "color": ["#333333", "#F0F0F0", "#AA0000"],
-      "type": "Shoes",
+      "category": "jacket",
       "description": "Elegant and sophisticated for formal occasions.",
       "image": "../images/product-16/card/product_16.webp",
       "thumbnailImages": [
@@ -1291,11 +1291,11 @@
     {
       "id": "47",
       "addToCartBtn": "false",
-      "name": "Sandals",
+      "name": "socks",
       "price": 142.03,
       "sizes": ["S", "M", "L"],
       "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "type": "Shoes",
+      "category": "jacket",
       "description": "Elegant and sophisticated for formal occasions.",
       "image": "../images/product-17/card/product_1.webp",
       "thumbnailImages": [
@@ -1319,11 +1319,11 @@
     {
       "id": "48",
       "addToCartBtn": "false",
-      "name": "Slip-On Sneakers",
+      "name": "Slip-On t-shirt",
       "price": 131.43,
       "sizes": ["XS", "S", "M", "L", "XL"],
       "color": ["#333333", "#F0F0F0", "#AA0000"],
-      "type": "Shoes",
+      "category": "jacket",
       "description": "Lightweight and perfect for running.",
       "image": "../images/product-08/card/product_8.webp",
       "thumbnailImages": [
@@ -1351,7 +1351,7 @@
       "price": 121.66,
       "sizes": ["S", "M", "L"],
       "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "type": "Sandals",
+      "category": "socks",
       "description": "Elegant and sophisticated for formal occasions.",
       "image": "../images/product-09/card/product_9.webp",
       "thumbnailImages": [
@@ -1375,11 +1375,11 @@
     {
       "id": "50",
       "addToCartBtn": "false",
-      "name": "Slip-On Sneakers",
+      "name": "Slip-On t-shirt",
       "price": 105.66,
       "sizes": ["M", "L", "XL"],
       "color": ["#333333", "#F0F0F0", "#AA0000"],
-      "type": "Boots",
+      "category": "sweater",
       "description": "Comfortable and durable for everyday use.",
       "image": "../images/product-10/card/product_10.webp",
       "thumbnailImages": [
@@ -1403,11 +1403,11 @@
     {
       "id": "51",
       "addToCartBtn": "false",
-      "name": "Formal Shoes",
+      "name": "Formal jacket",
       "price": 94.76,
       "sizes": ["XS", "S", "M", "L", "XL"],
       "color": ["#333333", "#F0F0F0", "#AA0000"],
-      "type": "Sneakers",
+      "category": "t-shirt",
       "description": "Stylish and versatile for casual wear.",
       "image": "../images/product-11/card/product_11.webp",
       "thumbnailImages": [
@@ -1431,11 +1431,11 @@
     {
       "id": "52",
       "addToCartBtn": "false",
-      "name": "Slip-On Sneakers",
+      "name": "Slip-On t-shirt",
       "price": 120.33,
       "sizes": ["S", "M", "L"],
       "color": ["#FF5733", "#232323", "#DDDDDD"],
-      "type": "Shoes",
+      "category": "jacket",
       "description": "Rugged and sturdy for outdoor adventures.",
       "image": "../images/product-12/card/product_12.webp",
       "thumbnailImages": [
@@ -1459,11 +1459,11 @@
     {
       "id": "53",
       "addToCartBtn": "false",
-      "name": "Basketball Shoes",
+      "name": "Basketball jacket",
       "price": 146.89,
       "sizes": ["XS", "S", "M", "L", "XL"],
       "color": ["#333333", "#F0F0F0", "#AA0000"],
-      "type": "Boots",
+      "category": "sweater",
       "description": "Comfortable and durable for everyday use.",
       "image": "../images/product-13/card/product_13.webp",
       "thumbnailImages": [
@@ -1487,11 +1487,11 @@
     {
       "id": "54",
       "addToCartBtn": "false",
-      "name": "Formal Shoes",
+      "name": "Formal jacket",
       "price": 21.25,
       "sizes": ["XS", "S", "M", "L", "XL"],
       "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "type": "Sneakers",
+      "category": "t-shirt",
       "description": "Lightweight and perfect for running.",
       "image": "../images/product-14/card/product_14.webp",
       "thumbnailImages": [
@@ -1515,11 +1515,11 @@
     {
       "id": "55",
       "addToCartBtn": "false",
-      "name": "Sports Shoes",
+      "name": "Sports jacket",
       "price": 145.81,
       "sizes": ["M", "L", "XL"],
       "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "type": "Boots",
+      "category": "sweater",
       "description": "Comfortable and durable for everyday use.",
       "image": "../images/product-15/card/product_15.webp",
       "thumbnailImages": [
@@ -1543,11 +1543,11 @@
     {
       "id": "56",
       "addToCartBtn": "false",
-      "name": "Casual Sneakers",
+      "name": "Casual t-shirt",
       "price": 142.58,
       "sizes": ["S", "M", "L"],
       "color": ["#0000FF", "#808080", "#FFFFFF"],
-      "type": "Sandals",
+      "category": "socks",
       "description": "Comfortable and durable for everyday use.",
       "image": "../images/product-16/card/product_16.webp",
       "thumbnailImages": [
@@ -1571,11 +1571,11 @@
     {
       "id": "57",
       "addToCartBtn": "false",
-      "name": "Sports Shoes",
+      "name": "Sports jacket",
       "price": 118.61,
       "sizes": ["XS", "S", "M", "L", "XL"],
       "color": ["#008000", "#D4A017", "#6B4423"],
-      "type": "Sandals",
+      "category": "socks",
       "description": "Stylish and versatile for casual wear.",
       "image": "../images/product-17/card/product_1.webp",
       "thumbnailImages": [
@@ -1599,11 +1599,11 @@
     {
       "id": "58",
       "addToCartBtn": "false",
-      "name": "Running Sneakers",
+      "name": "Running t-shirt",
       "price": 67.97,
       "sizes": ["M", "L", "XL"],
       "color": ["#008000", "#D4A017", "#6B4423"],
-      "type": "Shoes",
+      "category": "jacket",
       "description": "Comfortable and durable for everyday use.",
       "image": "../images/product-05/card/product_5.webp",
       "thumbnailImages": [
@@ -1627,11 +1627,11 @@
     {
       "id": "59",
       "addToCartBtn": "false",
-      "name": "Basketball Shoes",
+      "name": "Basketball jacket",
       "price": 136.0,
       "sizes": ["XS", "S", "M", "L", "XL"],
       "color": ["#008000", "#D4A017", "#6B4423"],
-      "type": "Boots",
+      "category": "sweater",
       "description": "Rugged and sturdy for outdoor adventures.",
       "image": "../images/product-09/card/product_9.webp",
       "thumbnailImages": [
@@ -1655,11 +1655,11 @@
     {
       "id": "60",
       "addToCartBtn": "false",
-      "name": "Leather Loafers",
+      "name": "Leather hoodie",
       "price": 34.36,
       "sizes": ["S", "M", "L", "XL"],
       "color": ["#0000FF", "#808080", "#FFFFFF"],
-      "type": "Shoes",
+      "category": "jacket",
       "description": "Elegant and sophisticated for formal occasions.",
       "image": "../images/product-10/card/product_10.webp",
       "thumbnailImages": [
@@ -1683,11 +1683,11 @@
     {
       "id": "61",
       "addToCartBtn": "false",
-      "name": "Leather Loafers",
+      "name": "Leather hoodie",
       "price": 112.36,
       "sizes": ["XS", "S", "M", "L", "XL"],
       "color": ["#008000", "#D4A017", "#6B4423"],
-      "type": "Sneakers",
+      "category": "pants",
       "description": "Rugged and sturdy for outdoor adventures.",
       "image": "../images/product-11/card/product_11.webp",
       "thumbnailImages": [
@@ -1711,11 +1711,11 @@
     {
       "id": "62",
       "addToCartBtn": "false",
-      "name": "Formal Shoes",
+      "name": "Formal jacket",
       "price": 31.84,
       "sizes": ["XS", "S", "M", "L", "XL"],
       "color": ["#333333", "#F0F0F0", "#AA0000"],
-      "type": "Boots",
+      "category": "sweater",
       "description": "Lightweight and perfect for running.",
       "image": "../images/product-12/card/product_12.webp",
       "thumbnailImages": [
@@ -1739,11 +1739,11 @@
     {
       "id": "63",
       "addToCartBtn": "false",
-      "name": "Sports Shoes",
+      "name": "Sports jacket",
       "price": 104.28,
       "sizes": ["S", "M", "L", "XL"],
       "color": ["#0000FF", "#808080", "#FFFFFF"],
-      "type": "Loafers",
+      "category": "hoodie",
       "description": "Comfortable and durable for everyday use.",
       "image": "../images/product-13/card/product_13.webp",
       "thumbnailImages": [
@@ -1767,11 +1767,11 @@
     {
       "id": "64",
       "addToCartBtn": "false",
-      "name": "Basketball Shoes",
+      "name": "Basketball jacket",
       "price": 63.34,
       "sizes": ["XS", "S", "M", "L", "XL"],
       "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "type": "Loafers",
+      "category": "hoodie",
       "description": "Elegant and sophisticated for formal occasions.",
       "image": "../images/product-14/card/product_14.webp",
       "thumbnailImages": [
@@ -1795,11 +1795,11 @@
     {
       "id": "65",
       "addToCartBtn": "false",
-      "name": "Casual Sneakers",
+      "name": "Casual pants",
       "price": 92.03,
       "sizes": ["M", "L", "XL"],
       "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "type": "Sneakers",
+      "category": "pants",
       "description": "Comfortable and durable for everyday use.",
       "image": "../images/product-15/card/product_15.webp",
       "thumbnailImages": [
@@ -1823,11 +1823,11 @@
     {
       "id": "66",
       "addToCartBtn": "false",
-      "name": "Leather Loafers",
+      "name": "Leather hoodie",
       "price": 42.64,
       "sizes": ["S", "M", "L", "XL"],
       "color": ["#333333", "#F0F0F0", "#AA0000"],
-      "type": "Loafers",
+      "category": "hoodie",
       "description": "Elegant and sophisticated for formal occasions.",
       "image": "../images/product-16/card/product_16.webp",
       "thumbnailImages": [
@@ -1851,11 +1851,11 @@
     {
       "id": "67",
       "addToCartBtn": "false",
-      "name": "Formal Shoes",
+      "name": "Formal jacket",
       "price": 91.91,
       "sizes": ["S", "M", "L"],
       "color": ["#008000", "#D4A017", "#6B4423"],
-      "type": "Sandals",
+      "category": "socks",
       "description": "Comfortable and durable for everyday use.",
       "image": "../images/product-17/card/product_1.webp",
       "thumbnailImages": [
@@ -1879,11 +1879,11 @@
     {
       "id": "68",
       "addToCartBtn": "false",
-      "name": "Running Sneakers",
+      "name": "Running pants",
       "price": 139.88,
       "sizes": ["XS", "S", "M", "L", "XL"],
       "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "type": "Boots",
+      "category": "sweater",
       "description": "Elegant and sophisticated for formal occasions.",
       "image": "../images/product-08/card/product_8.webp",
       "thumbnailImages": [
@@ -1907,11 +1907,11 @@
     {
       "id": "69",
       "addToCartBtn": "false",
-      "name": "Slip-On Sneakers",
+      "name": "Slip-On pants",
       "price": 20.67,
       "sizes": ["M", "L", "XL"],
       "color": ["#0000FF", "#808080", "#FFFFFF"],
-      "type": "Loafers",
+      "category": "hoodie",
       "description": "Stylish and versatile for casual wear.",
       "image": "../images/product-09/card/product_9.webp",
       "thumbnailImages": [
@@ -1935,11 +1935,11 @@
     {
       "id": "70",
       "addToCartBtn": "false",
-      "name": "Leather Loafers",
+      "name": "Leather hoodie",
       "price": 101.91,
       "sizes": ["XS", "S", "M", "L", "XL"],
       "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "type": "Shoes",
+      "category": "jacket",
       "description": "Lightweight and perfect for running.",
       "image": "../images/product-10/card/product_10.webp",
       "thumbnailImages": [
@@ -1963,11 +1963,11 @@
     {
       "id": "71",
       "addToCartBtn": "false",
-      "name": "Sports Shoes",
+      "name": "Sports jacket",
       "price": 55.54,
       "sizes": ["S", "M", "L"],
       "color": ["#333333", "#F0F0F0", "#AA0000"],
-      "type": "Boots",
+      "category": "sweater",
       "description": "Elegant and sophisticated for formal occasions.",
       "image": "../images/product-11/card/product_11.webp",
       "thumbnailImages": [
@@ -1991,11 +1991,11 @@
     {
       "id": "72",
       "addToCartBtn": "false",
-      "name": "Sports Shoes",
+      "name": "Sports jacket",
       "price": 140.89,
       "sizes": ["XS", "S", "M", "L", "XL"],
       "color": ["#333333", "#F0F0F0", "#AA0000"],
-      "type": "Sneakers",
+      "category": "pants",
       "description": "Comfortable and durable for everyday use.",
       "image": "../images/product-12/card/product_12.webp",
       "thumbnailImages": [
@@ -2019,11 +2019,11 @@
     {
       "id": "73",
       "addToCartBtn": "false",
-      "name": "Formal Shoes",
+      "name": "Formal jacket",
       "price": 38.94,
       "sizes": ["S", "M", "L", "XL"],
       "color": ["#FF5733", "#232323", "#DDDDDD"],
-      "type": "Loafers",
+      "category": "hoodie",
       "description": "Stylish and versatile for casual wear.",
       "image": "../images/product-13/card/product_13.webp",
       "thumbnailImages": [
@@ -2047,11 +2047,11 @@
     {
       "id": "74",
       "addToCartBtn": "false",
-      "name": "Basketball Shoes",
+      "name": "Basketball jacket",
       "price": 63.63,
       "sizes": ["S", "M", "L", "XL"],
       "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "type": "Sandals",
+      "category": "socks",
       "description": "Comfortable and durable for everyday use.",
       "image": "../images/product-14/card/product_14.webp",
       "thumbnailImages": [
@@ -2075,11 +2075,11 @@
     {
       "id": "75",
       "addToCartBtn": "false",
-      "name": "Basketball Shoes",
+      "name": "Basketball jacket",
       "price": 121.27,
       "sizes": ["M", "L", "XL"],
       "color": ["#333333", "#F0F0F0", "#AA0000"],
-      "type": "Boots",
+      "category": "sweater",
       "description": "Elegant and sophisticated for formal occasions.",
       "image": "../images/product-15/card/product_15.webp",
       "thumbnailImages": [
@@ -2103,11 +2103,11 @@
     {
       "id": "76",
       "addToCartBtn": "false",
-      "name": "Sandals",
+      "name": "socks",
       "price": 90.02,
       "sizes": ["XS", "S", "M", "L", "XL"],
       "color": ["#008000", "#D4A017", "#6B4423"],
-      "type": "Sandals",
+      "category": "socks",
       "description": "Rugged and sturdy for outdoor adventures.",
       "image": "../images/product-16/card/product_16.webp",
       "thumbnailImages": [
@@ -2131,11 +2131,11 @@
     {
       "id": "77",
       "addToCartBtn": "false",
-      "name": "Formal Shoes",
+      "name": "Formal jacket",
       "price": 54.47,
       "sizes": ["M", "L", "XL"],
       "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "type": "Shoes",
+      "category": "jacket",
       "description": "Comfortable and durable for everyday use.",
       "image": "../images/product-17/card/product_1.webp",
       "thumbnailImages": [
@@ -2159,11 +2159,11 @@
     {
       "id": "78",
       "addToCartBtn": "false",
-      "name": "Hiking Boots",
+      "name": "Hiking sweater",
       "price": 55.65,
       "sizes": ["M", "L", "XL"],
       "color": ["#333333", "#F0F0F0", "#AA0000"],
-      "type": "Shoes",
+      "category": "jacket",
       "description": "Stylish and versatile for casual wear.",
       "image": "../images/product-08/card/product_8.webp",
       "thumbnailImages": [
@@ -2187,11 +2187,11 @@
     {
       "id": "79",
       "addToCartBtn": "false",
-      "name": "Formal Shoes",
+      "name": "Formal jacket",
       "price": 139.28,
       "sizes": ["S", "M", "L", "XL"],
       "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "type": "Loafers",
+      "category": "hoodie",
       "description": "Stylish and versatile for casual wear.",
       "image": "../images/product-09/card/product_9.webp",
       "thumbnailImages": [
@@ -2215,11 +2215,11 @@
     {
       "id": "80",
       "addToCartBtn": "false",
-      "name": "Sports Shoes",
+      "name": "Sports jacket",
       "price": 86.82,
       "sizes": ["S", "M", "L", "XL"],
       "color": ["#008000", "#D4A017", "#6B4423"],
-      "type": "Boots",
+      "category": "sweater",
       "description": "Elegant and sophisticated for formal occasions.",
       "image": "../images/product-10/card/product_10.webp",
       "thumbnailImages": [
@@ -2243,11 +2243,11 @@
     {
       "id": "81",
       "addToCartBtn": "false",
-      "name": "Running Sneakers",
+      "name": "Running pants",
       "price": 40.92,
       "sizes": ["S", "M", "L"],
       "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "type": "Sneakers",
+      "category": "pants",
       "description": "Stylish and versatile for casual wear.",
       "image": "../images/product-11/card/product_11.webp",
       "thumbnailImages": [
@@ -2271,11 +2271,11 @@
     {
       "id": "82",
       "addToCartBtn": "false",
-      "name": "Running Sneakers",
+      "name": "Running pants",
       "price": 77.55,
       "sizes": ["M", "L", "XL"],
       "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "type": "Shoes",
+      "category": "jacket",
       "description": "Stylish and versatile for casual wear.",
       "image": "../images/product-12/card/product_12.webp",
       "thumbnailImages": [
@@ -2303,7 +2303,7 @@
       "price": 57.84,
       "sizes": ["S", "M", "L"],
       "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "type": "Boots",
+      "category": "sweater",
       "description": "Stylish and versatile for casual wear.",
       "image": "../images/product-13/card/product_13.webp",
       "thumbnailImages": [
@@ -2331,7 +2331,7 @@
       "price": 80.34,
       "sizes": ["S", "M", "L"],
       "color": ["#FF5733", "#232323", "#DDDDDD"],
-      "type": "Sandals",
+      "category": "socks",
       "description": "Comfortable and durable for everyday use.",
       "image": "../images/product-14/card/product_14.webp",
       "thumbnailImages": [
@@ -2355,11 +2355,11 @@
     {
       "id": "85",
       "addToCartBtn": "false",
-      "name": "Hiking Boots",
+      "name": "Hiking sweater",
       "price": 62.39,
       "sizes": ["M", "L", "XL"],
       "color": ["#0000FF", "#808080", "#FFFFFF"],
-      "type": "Sandals",
+      "category": "socks",
       "description": "Comfortable and durable for everyday use.",
       "image": "../images/product-15/card/product_15.webp",
       "thumbnailImages": [
@@ -2387,7 +2387,7 @@
       "price": 38.17,
       "sizes": ["M", "L", "XL"],
       "color": ["#333333", "#F0F0F0", "#AA0000"],
-      "type": "Sneakers",
+      "category": "pants",
       "description": "Stylish and versatile for casual wear.",
       "image": "../images/product-16/card/product_16.webp",
       "thumbnailImages": [
@@ -2415,7 +2415,7 @@
       "price": 61.32,
       "sizes": ["M", "L", "XL"],
       "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "type": "Boots",
+      "category": "sweater",
       "description": "Comfortable and durable for everyday use.",
       "image": "../images/product-17/card/product_1.webp",
       "thumbnailImages": [
@@ -2439,11 +2439,11 @@
     {
       "id": "88",
       "addToCartBtn": "false",
-      "name": "Casual Sneakers",
+      "name": "Casual pants",
       "price": 86.53,
       "sizes": ["M", "L", "XL"],
       "color": ["#0000FF", "#808080", "#FFFFFF"],
-      "type": "Sandals",
+      "category": "socks",
       "description": "Stylish and versatile for casual wear.",
       "image": "../images/product-08/card/product_8.webp",
       "thumbnailImages": [
@@ -2467,11 +2467,11 @@
     {
       "id": "89",
       "addToCartBtn": "false",
-      "name": "Hiking Boots",
+      "name": "Hiking sweater",
       "price": 41.07,
       "sizes": ["XS", "S", "M", "L", "XL"],
       "color": ["#FF5733", "#232323", "#DDDDDD"],
-      "type": "Shoes",
+      "category": "jacket",
       "description": "Rugged and sturdy for outdoor adventures.",
       "image": "../images/product-09/card/product_9.webp",
       "thumbnailImages": [
@@ -2495,11 +2495,11 @@
     {
       "id": "90",
       "addToCartBtn": "false",
-      "name": "Sandals",
+      "name": "socks",
       "price": 54.43,
       "sizes": ["XS", "S", "M", "L", "XL"],
       "color": ["#008000", "#D4A017", "#6B4423"],
-      "type": "Loafers",
+      "category": "hoodie",
       "description": "Elegant and sophisticated for formal occasions.",
       "image": "../images/product-10/card/product_10.webp",
       "thumbnailImages": [
@@ -2523,11 +2523,11 @@
     {
       "id": "91",
       "addToCartBtn": "false",
-      "name": "Formal Shoes",
+      "name": "Formal jacket",
       "price": 42.71,
       "sizes": ["S", "M", "L", "XL"],
       "color": ["#008000", "#D4A017", "#6B4423"],
-      "type": "Sneakers",
+      "category": "pants",
       "description": "Elegant and sophisticated for formal occasions.",
       "image": "../images/product-11/card/product_11.webp",
       "thumbnailImages": [
@@ -2551,11 +2551,11 @@
     {
       "id": "92",
       "addToCartBtn": "false",
-      "name": "Running Sneakers",
+      "name": "Running pants",
       "price": 78.21,
       "sizes": ["S", "M", "L"],
       "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "type": "Boots",
+      "category": "sweater",
       "description": "Stylish and versatile for casual wear.",
       "image": "../images/product-02/card/product_2.webp",
       "thumbnailImages": [
@@ -2579,11 +2579,11 @@
     {
       "id": "93",
       "addToCartBtn": "false",
-      "name": "Running Sneakers",
+      "name": "Running pants",
       "price": 92.33,
       "sizes": ["S", "M", "L"],
       "color": ["#008000", "#D4A017", "#6B4423"],
-      "type": "Loafers",
+      "category": "hoodie",
       "description": "Comfortable and durable for everyday use.",
       "image": "../images/product-03/card/product_3.webp",
       "thumbnailImages": [
@@ -2607,11 +2607,11 @@
     {
       "id": "94",
       "addToCartBtn": "false",
-      "name": "Sandals",
+      "name": "socks",
       "price": 49.61,
       "sizes": ["M", "L", "XL"],
       "color": ["#0000FF", "#808080", "#FFFFFF"],
-      "type": "Boots",
+      "category": "sweater",
       "description": "Stylish and versatile for casual wear.",
       "image": "../images/product-04/card/product_4.webp",
       "thumbnailImages": [
@@ -2635,11 +2635,11 @@
     {
       "id": "95",
       "addToCartBtn": "false",
-      "name": "Hiking Boots",
+      "name": "Hiking sweater",
       "price": 101.98,
       "sizes": ["S", "M", "L", "XL"],
       "color": ["#FF5733", "#232323", "#DDDDDD"],
-      "type": "Loafers",
+      "category": "hoodie",
       "description": "Stylish and versatile for casual wear.",
       "image": "../images/product-05/card/product_5.webp",
       "thumbnailImages": [
@@ -2667,7 +2667,7 @@
       "price": 22.83,
       "sizes": ["M", "L", "XL"],
       "color": ["#0000FF", "#808080", "#FFFFFF"],
-      "type": "Sneakers",
+      "category": "pants",
       "description": "Comfortable and durable for everyday use.",
       "image": "../images/product-06/card/product_6.webp",
       "thumbnailImages": [
@@ -2691,11 +2691,11 @@
     {
       "id": "97",
       "addToCartBtn": "false",
-      "name": "Basketball Shoes",
+      "name": "Basketball jacket",
       "price": 122.35,
       "sizes": ["XS", "S", "M", "L", "XL"],
       "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "type": "Boots",
+      "category": "sweater",
       "description": "Comfortable and durable for everyday use.",
       "image": "../images/product-07/card/product_7.webp",
       "thumbnailImages": [
@@ -2719,11 +2719,11 @@
     {
       "id": "98",
       "addToCartBtn": "false",
-      "name": "Running Sneakers",
+      "name": "Running pants",
       "price": 66.1,
       "sizes": ["M", "L", "XL"],
       "color": ["#0000FF", "#808080", "#FFFFFF"],
-      "type": "Boots",
+      "category": "sweater",
       "description": "Comfortable and durable for everyday use.",
       "image": "../images/product-08/card/product_8.webp",
       "thumbnailImages": [
@@ -2747,11 +2747,11 @@
     {
       "id": "99",
       "addToCartBtn": "false",
-      "name": "Sports Shoes",
+      "name": "Sports jacket",
       "price": 119.0,
       "sizes": ["XS", "S", "M", "L", "XL"],
       "color": ["#333333", "#F0F0F0", "#AA0000"],
-      "type": "Sneakers",
+      "category": "pants",
       "description": "Rugged and sturdy for outdoor adventures.",
       "image": "../images/product-09/card/product_9.webp",
       "thumbnailImages": [
@@ -2775,11 +2775,11 @@
     {
       "id": "100",
       "addToCartBtn": "false",
-      "name": "Formal Shoes",
+      "name": "Formal jacket",
       "price": 94.92,
       "sizes": ["S", "M", "L"],
       "color": ["#FF5733", "#232323", "#DDDDDD"],
-      "type": "Boots",
+      "category": "sweater",
       "description": "Rugged and sturdy for outdoor adventures.",
       "image": "../images/product-10/card/product_10.webp",
       "thumbnailImages": [

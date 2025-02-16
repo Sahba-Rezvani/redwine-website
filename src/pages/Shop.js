@@ -7,27 +7,57 @@ import Slider from "@mui/material/Slider";
 
 export default function Shop({ itemsPerPage, products }) {
   let sortedProducts;
-
+  let priceSortedProducts;
+  let categoryFilteredProducts;
   const [itemOffset, setItemOffset] = useState(0);
-  const [selectedCategory, setSelectedCategory] = useState(null);
-  const [priceRange, setPriceRange] = React.useState([150, 445]);
+  const [priceRange, setPriceRange] = useState([50, 100]);
   const [sortedBy, setSortedBy] = useState("Default Sorting");
+  const [filteredBy, setFilteredBy] = useState("All");
+
+  if (filteredBy === "All") categoryFilteredProducts = products;
+  if (filteredBy === "Socks")
+    categoryFilteredProducts = products.filter((p) => p.category === "socks");
+  if (filteredBy === "Sweaters & Jackets")
+    categoryFilteredProducts = products.filter(
+      (p) => p.category === "jacket" || p.category === "sweater"
+    );
+  if (filteredBy === "T-shirts")
+    categoryFilteredProducts = products.filter((p) => p.category === "t-shirt");
+  if (filteredBy === "Pants")
+    categoryFilteredProducts = products.filter((p) => p.category === "pants");
+
+  if (filteredBy === "Hoodies")
+    categoryFilteredProducts = products.filter((p) => p.category === "hoodie");
+
+  console.log(categoryFilteredProducts);
+
   const endOffset = itemOffset + itemsPerPage;
 
-  if (sortedBy === "Default Sorting") sortedProducts = products;
+  priceSortedProducts = products
+    .slice()
+    .filter((p) => p.price >= priceRange[0] && p.price <= priceRange[1]);
+  // console.log(priceSortedProducts);
+
+  if (sortedBy === "Default Sorting") sortedProducts = categoryFilteredProducts;
   if (sortedBy === "Price, Low to High")
-    sortedProducts = products.slice().sort((a, b) => a.price - b.price);
-  if (sortedBy === "Price, High to Low")
-    sortedProducts = products.slice().sort((a, b) => b.price - a.price);
-  if (sortedBy === "Most Liked")
-    sortedProducts = products
+    sortedProducts = categoryFilteredProducts
       .slice()
-      .sort((a, b) => a.favoritesCount - b.favoritesCount);
+      .sort((a, b) => a.price - b.price);
+  if (sortedBy === "Price, High to Low")
+    sortedProducts = categoryFilteredProducts
+      .slice()
+      .sort((a, b) => b.price - a.price);
+  if (sortedBy === "Most Liked")
+    sortedProducts = categoryFilteredProducts
+      .slice()
+      .sort((a, b) => b.favoritesCount - a.favoritesCount);
+
+  console.log(sortedProducts);
 
   const currentProducts = sortedProducts.slice(itemOffset, endOffset);
   const pageCount = Math.ceil(sortedProducts.length / itemsPerPage);
 
-  const cities = [
+  const sortOptions = [
     "Default Sorting",
     "Best Selling",
     "Price, Low to High",
@@ -36,13 +66,13 @@ export default function Shop({ itemsPerPage, products }) {
     "Newest",
   ];
 
-  const categories = [
-    { name: "All" },
-    { name: "Underwear" },
-    { name: "Pants" },
-    { name: "Crop top" },
-    { name: "Socks" },
-    { name: "Sportswear" },
+  const categoryOptions = [
+    "All",
+    "Socks",
+    "Hoodies",
+    "Sweaters & Jackets",
+    "T-shirts",
+    "Pants",
   ];
 
   // Invoke when user click to request another page.
@@ -54,17 +84,20 @@ export default function Shop({ itemsPerPage, products }) {
     setItemOffset(newOffset);
   };
 
-  const handleChange = (event, newValue) => {
-    setPriceRange(newValue);
-    console.log(priceRange);
-  };
-
-  function valuetext(priceRange) {
-    return `$${priceRange}`;
+  function handleCategoryFilter(e) {
+    setFilteredBy(e.value);
+    console.log(e.value);
   }
 
+  const handlePriceRange = (e) => {
+    setPriceRange(e.priceRange);
+  };
+
+  // function valuetext(priceRange) {
+  //   return `$${priceRange}`;
+  // }
+
   function handleSort(e) {
-    console.log(e.value);
     setSortedBy(e.value);
   }
 
@@ -76,9 +109,9 @@ export default function Shop({ itemsPerPage, products }) {
             <div className="shop-filter-category">
               {" "}
               <Dropdown
-                value={selectedCategory}
-                onChange={(e) => setSelectedCategory(e.value)}
-                options={categories}
+                value={filteredBy}
+                onChange={handleCategoryFilter}
+                options={categoryOptions}
                 optionLabel="name"
                 placeholder="Category"
                 className="w-full md:w-14rem"
@@ -93,9 +126,9 @@ export default function Shop({ itemsPerPage, products }) {
                 <Slider
                   getAriaLabel={() => "price range"}
                   value={priceRange}
-                  onChange={handleChange}
+                  onChange={handlePriceRange}
                   // valueLabelDisplay="on"
-                  getAriaValueText={valuetext}
+                  // getAriaValueText={valuetext}
                   min={10}
                   max={1000}
                   step={5}
@@ -113,7 +146,7 @@ export default function Shop({ itemsPerPage, products }) {
               <Dropdown
                 value={sortedBy}
                 onChange={handleSort}
-                options={cities}
+                options={sortOptions}
                 optionLabel="name"
                 placeholder="Sort by"
                 className="w-full md:w-14rem"
