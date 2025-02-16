@@ -284,8 +284,25 @@ main {
   cursor: pointer !important;
 }
 
+/* Product Card */
+
 .pc-img-box {
   position: relative;
+}
+
+.discount-label {
+  background-color: #c12b27;
+  width: 50px;
+  height: 30px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-size: 0.85em;
+  font-weight: 400;
 }
 
 .pc-info-box {
@@ -312,6 +329,24 @@ main {
 .pc-name {
   font-weight: 400;
   font-size: inherit;
+}
+
+.pc-price {
+  position: relative;
+  display: inline-block;
+}
+
+.pc-discount-line {
+  width: 101%;
+  height: 1.5px;
+  background-color: #c12b27;
+  position: absolute;
+  top: 45%;
+  left: 0;
+}
+.pc-discount-price {
+  color: #c12b27;
+  margin-left: 10px;
 }
 
 @keyframes fade-in {

@@ -18,6 +18,7 @@
       ],
       "favoritesCount": 33,
       "isFavorite": true,
+      "isDiscount": 0,
       "stock": 28,
       "rating": 4.9,
       "reviews": [
@@ -46,6 +47,7 @@
       ],
       "favoritesCount": 38,
       "isFavorite": false,
+      "isDiscount": 24,
       "stock": 68,
       "rating": 3.5,
       "reviews": [
@@ -74,6 +76,7 @@
       ],
       "favoritesCount": 46,
       "isFavorite": true,
+      "isDiscount": 0,
       "stock": 31,
       "rating": 4.5,
       "reviews": [
@@ -102,6 +105,7 @@
       ],
       "favoritesCount": 19,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 64,
       "rating": 3.7,
       "reviews": [
@@ -130,6 +134,7 @@
       ],
       "favoritesCount": 12,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 94,
       "rating": 4.5,
       "reviews": [
@@ -158,6 +163,7 @@
       ],
       "favoritesCount": 48,
       "isFavorite": true,
+      "isDiscount": 10,
       "stock": 29,
       "rating": 4.9,
       "reviews": [
@@ -186,6 +192,7 @@
       ],
       "favoritesCount": 15,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 32,
       "rating": 4.5,
       "reviews": [
@@ -214,6 +221,7 @@
       ],
       "favoritesCount": 6,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 13,
       "rating": 4.5,
       "reviews": [
@@ -242,6 +250,7 @@
       ],
       "favoritesCount": 13,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 89,
       "rating": 4.6,
       "reviews": [
@@ -270,6 +279,7 @@
       ],
       "favoritesCount": 6,
       "isFavorite": false,
+      "isDiscount": 30,
       "stock": 89,
       "rating": 3.9,
       "reviews": [
@@ -298,6 +308,7 @@
       ],
       "favoritesCount": 7,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 28,
       "rating": 4.1,
       "reviews": [
@@ -326,6 +337,7 @@
       ],
       "favoritesCount": 44,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 68,
       "rating": 3.9,
       "reviews": [
@@ -354,6 +366,7 @@
       ],
       "favoritesCount": 19,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 54,
       "rating": 3.8,
       "reviews": [
@@ -382,6 +395,7 @@
       ],
       "favoritesCount": 37,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 62,
       "rating": 3.7,
       "reviews": [
@@ -410,6 +424,7 @@
       ],
       "favoritesCount": 27,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 87,
       "rating": 4.5,
       "reviews": [
@@ -438,6 +453,7 @@
       ],
       "favoritesCount": 27,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 64,
       "rating": 4.7,
       "reviews": [
@@ -466,6 +482,7 @@
       ],
       "favoritesCount": 40,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 50,
       "rating": 4.0,
       "reviews": [
@@ -494,6 +511,7 @@
       ],
       "favoritesCount": 33,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 100,
       "rating": 4.3,
       "reviews": [
@@ -522,6 +540,7 @@
       ],
       "favoritesCount": 5,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 91,
       "rating": 4.9,
       "reviews": [
@@ -550,6 +569,7 @@
       ],
       "favoritesCount": 15,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 20,
       "rating": 4.8,
       "reviews": [
@@ -578,6 +598,7 @@
       ],
       "favoritesCount": 16,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 11,
       "rating": 4.0,
       "reviews": [
@@ -606,6 +627,7 @@
       ],
       "favoritesCount": 22,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 33,
       "rating": 3.6,
       "reviews": [
@@ -634,6 +656,7 @@
       ],
       "favoritesCount": 18,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 85,
       "rating": 5.0,
       "reviews": [
@@ -662,6 +685,7 @@
       ],
       "favoritesCount": 30,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 40,
       "rating": 4.4,
       "reviews": [
@@ -690,6 +714,7 @@
       ],
       "favoritesCount": 21,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 75,
       "rating": 4.8,
       "reviews": [
@@ -718,6 +743,7 @@
       ],
       "favoritesCount": 6,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 53,
       "rating": 5.0,
       "reviews": [
@@ -746,6 +772,7 @@
       ],
       "favoritesCount": 39,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 35,
       "rating": 3.8,
       "reviews": [
@@ -774,6 +801,7 @@
       ],
       "favoritesCount": 8,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 41,
       "rating": 4.5,
       "reviews": [
@@ -802,6 +830,7 @@
       ],
       "favoritesCount": 24,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 61,
       "rating": 3.7,
       "reviews": [
@@ -830,6 +859,7 @@
       ],
       "favoritesCount": 41,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 98,
       "rating": 4.3,
       "reviews": [
@@ -858,6 +888,7 @@
       ],
       "favoritesCount": 41,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 61,
       "rating": 4.7,
       "reviews": [
@@ -886,6 +917,7 @@
       ],
       "favoritesCount": 46,
       "isFavorite": false,
+      "isDiscount": 5,
       "stock": 22,
       "rating": 4.6,
       "reviews": [
@@ -914,6 +946,7 @@
       ],
       "favoritesCount": 6,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 74,
       "rating": 4.6,
       "reviews": [
@@ -942,6 +975,7 @@
       ],
       "favoritesCount": 38,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 50,
       "rating": 4.1,
       "reviews": [
@@ -970,6 +1004,7 @@
       ],
       "favoritesCount": 6,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 74,
       "rating": 3.5,
       "reviews": [
@@ -998,6 +1033,7 @@
       ],
       "favoritesCount": 38,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 62,
       "rating": 3.6,
       "reviews": [
@@ -1026,6 +1062,7 @@
       ],
       "favoritesCount": 22,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 90,
       "rating": 3.9,
       "reviews": [
@@ -1054,6 +1091,7 @@
       ],
       "favoritesCount": 47,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 10,
       "rating": 4.1,
       "reviews": [
@@ -1082,6 +1120,7 @@
       ],
       "favoritesCount": 15,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 91,
       "rating": 4.2,
       "reviews": [
@@ -1110,6 +1149,7 @@
       ],
       "favoritesCount": 35,
       "isFavorite": false,
+      "isDiscount": 15,
       "stock": 29,
       "rating": 4.0,
       "reviews": [
@@ -1138,6 +1178,7 @@
       ],
       "favoritesCount": 43,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 73,
       "rating": 4.4,
       "reviews": [
@@ -1166,6 +1207,7 @@
       ],
       "favoritesCount": 18,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 99,
       "rating": 3.9,
       "reviews": [
@@ -1194,6 +1236,7 @@
       ],
       "favoritesCount": 8,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 87,
       "rating": 4.2,
       "reviews": [
@@ -1222,6 +1265,7 @@
       ],
       "favoritesCount": 50,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 76,
       "rating": 4.2,
       "reviews": [
@@ -1250,6 +1294,7 @@
       ],
       "favoritesCount": 42,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 50,
       "rating": 4.6,
       "reviews": [
@@ -1278,6 +1323,7 @@
       ],
       "favoritesCount": 32,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 53,
       "rating": 4.2,
       "reviews": [
@@ -1306,6 +1352,7 @@
       ],
       "favoritesCount": 36,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 21,
       "rating": 3.8,
       "reviews": [
@@ -1334,6 +1381,7 @@
       ],
       "favoritesCount": 29,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 81,
       "rating": 4.8,
       "reviews": [
@@ -1362,6 +1410,7 @@
       ],
       "favoritesCount": 6,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 18,
       "rating": 4.4,
       "reviews": [
@@ -1390,6 +1439,7 @@
       ],
       "favoritesCount": 15,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 56,
       "rating": 4.0,
       "reviews": [
@@ -1418,6 +1468,7 @@
       ],
       "favoritesCount": 50,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 87,
       "rating": 4.6,
       "reviews": [
@@ -1446,6 +1497,7 @@
       ],
       "favoritesCount": 45,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 73,
       "rating": 4.6,
       "reviews": [
@@ -1474,6 +1526,7 @@
       ],
       "favoritesCount": 25,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 84,
       "rating": 3.5,
       "reviews": [
@@ -1502,6 +1555,7 @@
       ],
       "favoritesCount": 33,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 72,
       "rating": 3.7,
       "reviews": [
@@ -1530,6 +1584,7 @@
       ],
       "favoritesCount": 37,
       "isFavorite": false,
+      "isDiscount": 20,
       "stock": 74,
       "rating": 4.6,
       "reviews": [
@@ -1558,6 +1613,7 @@
       ],
       "favoritesCount": 30,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 74,
       "rating": 4.2,
       "reviews": [
@@ -1586,6 +1642,7 @@
       ],
       "favoritesCount": 40,
       "isFavorite": false,
+      "isDiscount": 5,
       "stock": 70,
       "rating": 4.6,
       "reviews": [
@@ -1614,6 +1671,7 @@
       ],
       "favoritesCount": 11,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 58,
       "rating": 4.2,
       "reviews": [
@@ -1642,6 +1700,7 @@
       ],
       "favoritesCount": 32,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 16,
       "rating": 4.3,
       "reviews": [
@@ -1670,6 +1729,7 @@
       ],
       "favoritesCount": 15,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 65,
       "rating": 4.2,
       "reviews": [
@@ -1698,6 +1758,7 @@
       ],
       "favoritesCount": 41,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 16,
       "rating": 4.0,
       "reviews": [
@@ -1726,6 +1787,7 @@
       ],
       "favoritesCount": 23,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 32,
       "rating": 3.6,
       "reviews": [
@@ -1754,6 +1816,7 @@
       ],
       "favoritesCount": 39,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 80,
       "rating": 4.4,
       "reviews": [
@@ -1782,6 +1845,7 @@
       ],
       "favoritesCount": 49,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 87,
       "rating": 4.3,
       "reviews": [
@@ -1810,6 +1874,7 @@
       ],
       "favoritesCount": 8,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 79,
       "rating": 4.4,
       "reviews": [
@@ -1838,6 +1903,7 @@
       ],
       "favoritesCount": 43,
       "isFavorite": false,
+      "isDiscount": 10,
       "stock": 87,
       "rating": 4.5,
       "reviews": [
@@ -1866,6 +1932,7 @@
       ],
       "favoritesCount": 30,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 80,
       "rating": 4.6,
       "reviews": [
@@ -1894,6 +1961,7 @@
       ],
       "favoritesCount": 28,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 19,
       "rating": 3.9,
       "reviews": [
@@ -1922,6 +1990,7 @@
       ],
       "favoritesCount": 13,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 21,
       "rating": 4.2,
       "reviews": [
@@ -1950,6 +2019,7 @@
       ],
       "favoritesCount": 6,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 53,
       "rating": 3.9,
       "reviews": [
@@ -1978,6 +2048,7 @@
       ],
       "favoritesCount": 29,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 84,
       "rating": 4.7,
       "reviews": [
@@ -2006,6 +2077,7 @@
       ],
       "favoritesCount": 35,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 93,
       "rating": 4.1,
       "reviews": [
@@ -2034,6 +2106,7 @@
       ],
       "favoritesCount": 23,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 40,
       "rating": 4.9,
       "reviews": [
@@ -2062,6 +2135,7 @@
       ],
       "favoritesCount": 25,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 82,
       "rating": 4.5,
       "reviews": [
@@ -2090,6 +2164,7 @@
       ],
       "favoritesCount": 22,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 96,
       "rating": 4.2,
       "reviews": [
@@ -2118,6 +2193,7 @@
       ],
       "favoritesCount": 9,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 41,
       "rating": 4.6,
       "reviews": [
@@ -2146,6 +2222,7 @@
       ],
       "favoritesCount": 40,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 80,
       "rating": 4.7,
       "reviews": [
@@ -2174,6 +2251,7 @@
       ],
       "favoritesCount": 17,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 56,
       "rating": 4.2,
       "reviews": [
@@ -2202,6 +2280,7 @@
       ],
       "favoritesCount": 17,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 21,
       "rating": 4.2,
       "reviews": [
@@ -2230,6 +2309,7 @@
       ],
       "favoritesCount": 45,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 17,
       "rating": 4.7,
       "reviews": [
@@ -2258,6 +2338,7 @@
       ],
       "favoritesCount": 42,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 21,
       "rating": 4.6,
       "reviews": [
@@ -2286,6 +2367,7 @@
       ],
       "favoritesCount": 11,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 32,
       "rating": 3.9,
       "reviews": [
@@ -2314,6 +2396,7 @@
       ],
       "favoritesCount": 49,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 41,
       "rating": 4.8,
       "reviews": [
@@ -2342,6 +2425,7 @@
       ],
       "favoritesCount": 26,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 33,
       "rating": 4.7,
       "reviews": [
@@ -2370,6 +2454,7 @@
       ],
       "favoritesCount": 46,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 58,
       "rating": 3.6,
       "reviews": [
@@ -2398,6 +2483,7 @@
       ],
       "favoritesCount": 42,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 71,
       "rating": 3.8,
       "reviews": [
@@ -2426,6 +2512,7 @@
       ],
       "favoritesCount": 12,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 13,
       "rating": 3.8,
       "reviews": [
@@ -2454,6 +2541,7 @@
       ],
       "favoritesCount": 27,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 77,
       "rating": 3.6,
       "reviews": [
@@ -2482,6 +2570,7 @@
       ],
       "favoritesCount": 35,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 48,
       "rating": 4.1,
       "reviews": [
@@ -2510,6 +2599,7 @@
       ],
       "favoritesCount": 18,
       "isFavorite": false,
+      "isDiscount": 50,
       "stock": 29,
       "rating": 4.9,
       "reviews": [
@@ -2538,6 +2628,7 @@
       ],
       "favoritesCount": 19,
       "isFavorite": false,
+      "isDiscount": 10,
       "stock": 88,
       "rating": 4.0,
       "reviews": [
@@ -2566,6 +2657,7 @@
       ],
       "favoritesCount": 43,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 59,
       "rating": 4.0,
       "reviews": [
@@ -2594,6 +2686,7 @@
       ],
       "favoritesCount": 23,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 17,
       "rating": 5.0,
       "reviews": [
@@ -2622,6 +2715,7 @@
       ],
       "favoritesCount": 14,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 94,
       "rating": 4.6,
       "reviews": [
@@ -2650,6 +2744,7 @@
       ],
       "favoritesCount": 28,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 50,
       "rating": 4.5,
       "reviews": [
@@ -2678,6 +2773,7 @@
       ],
       "favoritesCount": 19,
       "isFavorite": false,
+      "isDiscount": 13,
       "stock": 79,
       "rating": 4.3,
       "reviews": [
@@ -2706,6 +2802,7 @@
       ],
       "favoritesCount": 10,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 34,
       "rating": 4.5,
       "reviews": [
@@ -2734,6 +2831,7 @@
       ],
       "favoritesCount": 44,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 46,
       "rating": 5.0,
       "reviews": [
@@ -2762,6 +2860,7 @@
       ],
       "favoritesCount": 18,
       "isFavorite": false,
+      "isDiscount": 0,
       "stock": 88,
       "rating": 4.1,
       "reviews": [
@@ -2790,6 +2889,7 @@
       ],
       "favoritesCount": 28,
       "isFavorite": false,
+      "isDiscount": 11,
       "stock": 83,
       "rating": 3.8,
       "reviews": [

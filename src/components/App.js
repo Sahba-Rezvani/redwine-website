@@ -31,7 +31,6 @@ export default function App() {
   const [cartProducts, setCartProducts] = useState([]);
   const [selectedColor, setSelectedColor] = useState("");
   const [selectedSize, setSelectedSize] = useState("");
-
   useEffect(() => {
     const fetchProducts = async () => {
       try {

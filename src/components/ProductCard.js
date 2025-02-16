@@ -20,12 +20,18 @@ export function ProductCard({ product }) {
       className="product"
     >
       <Link to={`/product-details/${product.id}`}>
-        <div className="sl-img-box">
-          <img src={product.image} alt="product-0" className="sl-img" />
+        <div className="pc-img-box">
+          <img src={product.image} alt="product-0" className="pc-img" />
           {isHovered && (
             <button className={`pc-btn ${isHovered ? `pc-btn-visible` : ""}`}>
               add to cart
             </button>
+          )}
+
+          {product.isDiscount !== 0 ? (
+            <div className="discount-label">-{product.isDiscount}%</div>
+          ) : (
+            ""
           )}
         </div>
         <div className="pc-info-box">
@@ -39,7 +45,19 @@ export function ProductCard({ product }) {
           </div>
           {/* <h3>{product.favoritesCount}</h3> */}
           <h6 className="pc-name">{product.name}</h6>
-          <p className="pc-price">${product.price}</p>
+          <p className="pc-price">
+            ${product.price}
+            {product.isDiscount ? <div className="pc-discount-line"></div> : ""}
+          </p>
+          {product.isDiscount !== 0 ? (
+            <>
+              <span className="pc-discount-price">
+                ${product.price - (product.price * product.isDiscount) / 100}
+              </span>
+            </>
+          ) : (
+            ""
+          )}
         </div>
       </Link>
     </div>
