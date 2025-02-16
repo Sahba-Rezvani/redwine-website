@@ -37,6 +37,7 @@ export function ProductCard({ product }) {
             />
             {/* <FontAwesomeIcon icon={SolidHeart} /> */}
           </div>
+          {/* <h3>{product.favoritesCount}</h3> */}
           <h6 className="pc-name">{product.name}</h6>
           <p className="pc-price">${product.price}</p>
         </div>

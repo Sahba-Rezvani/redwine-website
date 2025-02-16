@@ -5,32 +5,31 @@ import { faShareNodes } from "@fortawesome/free-solid-svg-icons/faShareNodes";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Tabs } from "@base-ui-components/react/tabs";
 import { Counter } from "../components/Counter";
+import { CardActions } from "@mui/material";
 
 export default function ProductDetails({
   products,
-  setQuantity,
-  quantity,
   handleAddToCart,
+  cartProducts,
+  updateQuantity,
   selectedColor,
   setSelectedColor,
   selectedSize,
   setSelectedSize,
+  setCount,
+  count,
 }) {
   const { id } = useParams(); // Access the ID from the route
   const [selectedProduct, setSelectedProduct] = useState(null);
   const [selectedImage, setSelectedImage] = useState(0);
-
   useEffect(() => {
     const product = products.find((product) => product.id === id);
     console.log(product);
     setSelectedProduct(product);
-    console.log(selectedProduct);
   }, [selectedProduct, id, products]);
-  console.log(id);
 
   function handleImageSelect(imgUrl) {
     setSelectedImage(imgUrl);
-    console.log("image selected");
   }
 
   return (
@@ -72,16 +71,30 @@ export default function ProductDetails({
                   <div className="pc-details-swatch-left">
                     {" "}
                     <label className="size-label">sizes</label>
-                    <SizeRadioGroup sizeRange={selectedProduct.sizes} />
+                    <SizeRadioGroup
+                      sizeRange={selectedProduct.sizes}
+                      setSelectedSize={setSelectedSize}
+                      selectedSize={selectedSize}
+                    />
                   </div>
                   <button className="primary-btn">size guid</button>
                 </div>
                 <div className="row pc-details-swatch">
                   <label className="color-label">color</label>
-                  <ColorRadioGroup colorPallet={selectedProduct.color} />
+                  <ColorRadioGroup
+                    colorPallet={selectedProduct.color}
+                    selectedColor={selectedColor}
+                    setSelectedColor={setSelectedColor}
+                  />
                 </div>
                 <div className="row pc-details-count">
-                  <Counter setCounter={setQuantity} counter={quantity} />
+                  <Counter
+                    setCount={setCount}
+                    count={count}
+                    productId={selectedProduct.id}
+                    updateQuantity={updateQuantity}
+                    cartProducts={cartProducts}
+                  />
                   <button
                     type="button"
                     className="secondary-btn"
@@ -131,13 +144,7 @@ export default function ProductDetails({
   );
 }
 
-export function SizeRadioGroup({ sizeRange }) {
-  const [selectedSize, setSelectedSize] = useState("");
-  function handleSizeChange(e) {
-    setSelectedSize(e.target.value);
-    console.log(e.target);
-    console.log(e.target.value);
-  }
+export function SizeRadioGroup({ sizeRange, setSelectedSize, selectedSize }) {
   return (
     <ul className="swatch_list">
       {sizeRange.map((size, i) => (
@@ -155,7 +162,7 @@ export function SizeRadioGroup({ sizeRange }) {
             id={`swatch-${i + 1}`}
             className="swatch_item-input"
             value={size}
-            onChange={handleSizeChange}
+            onChange={(e) => setSelectedSize(e.target.value)}
             checked={selectedSize === size}
           />
           {/* <span className="swatch_tooltip">This is option 1</span> */}
@@ -165,12 +172,11 @@ export function SizeRadioGroup({ sizeRange }) {
   );
 }
 
-export function ColorRadioGroup({ colorPallet }) {
-  const [selectedColor, setSelectedColor] = useState("");
-
-  function handleColorChange(e) {
-    setSelectedColor(e.target.value);
-  }
+export function ColorRadioGroup({
+  colorPallet,
+  setSelectedColor,
+  selectedColor,
+}) {
   return (
     <div className="swatch_list">
       {colorPallet.map((color, i) => (
@@ -186,7 +192,7 @@ export function ColorRadioGroup({ colorPallet }) {
             id={`color-${i + 1}`}
             className="swatch_item-input"
             value={color}
-            onChange={handleColorChange}
+            onChange={(e) => setSelectedColor(e.target.value)}
             checked={selectedColor === color}
           />
         </label>

@@ -27,7 +27,7 @@ export default function App() {
   const [registerDrawer, setRegisterDrawer] = useState(false);
   const [isRegistered, setIsRegistered] = useState(false);
   const [shoppingBagDrawer, setShoppingBagDrawer] = useState(false);
-  const [quantity, setQuantity] = useState(0);
+  const [count, setCount] = useState(1);
   const [cartProducts, setCartProducts] = useState([]);
   const [selectedColor, setSelectedColor] = useState("");
   const [selectedSize, setSelectedSize] = useState("");
@@ -105,11 +105,25 @@ export default function App() {
       ...product,
       color: selectedColor,
       size: selectedSize,
-      quantity: quantity,
+      count: count,
     };
-
     setCartProducts([...cartProducts, newCartItem]);
+    console.log(cartProducts);
   }
+
+  const updateQuantity = (id, count) => {
+    if (cartProducts.length !== 0) {
+      setCartProducts((prevCart) =>
+        prevCart.map((cartProducts) =>
+          cartProducts.id === id
+            ? { ...cartProducts, quantity: count }
+            : cartProducts
+        )
+      );
+    } else {
+      console.log("not in the cart yet!");
+    }
+  };
 
   return (
     <div className="container">
@@ -136,8 +150,7 @@ export default function App() {
         onClose={toggleShoppingBagDrawer()}
       >
         <ShoppingBag
-          quantity={quantity}
-          setQuantity={setQuantity}
+          updateQuantity={updateQuantity}
           cartProducts={cartProducts}
           toggleDrawer={toggleShoppingBagDrawer}
         />
@@ -170,8 +183,10 @@ export default function App() {
           element={
             <ProductDetails
               products={products}
-              quantity={quantity}
-              setQuantity={setQuantity}
+              count={count}
+              setCount={setCount}
+              updateQuantity={updateQuantity}
+              cartProducts={cartProducts}
               selectedColor={selectedColor}
               setSelectedColor={setSelectedColor}
               selectedSize={selectedSize}
@@ -185,8 +200,8 @@ export default function App() {
           element={
             <ShoppingWizard
               products={products}
-              quantity={quantity}
-              setQuantity={setQuantity}
+              count={count}
+              setCount={setCount}
             />
           }
         />

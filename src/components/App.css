@@ -250,7 +250,6 @@ main {
   text-align: center;
   font-size: 18px;
   background: #fff;
-
   /* Center slide text vertically */
   display: flex;
   justify-content: center;
@@ -716,7 +715,7 @@ footer form {
   line-height: 1.75;
 }
 
-.bag_product-info p:not(:last-of-type) {
+.bag_product-info p {
   color: #767676;
   font-size: 0.9em;
 }
@@ -1636,6 +1635,3 @@ footer form {
   width: 100%;
   margin: 10px 0;
 }
-
-
- 

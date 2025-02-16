@@ -6,22 +6,34 @@ import Box from "@mui/material/Box";
 import Slider from "@mui/material/Slider";
 
 export default function Shop({ itemsPerPage, products }) {
-  // Here we use item offsets; we could also use page offsets
-  // following the API or data you're working with.
+  let sortedProducts;
+
   const [itemOffset, setItemOffset] = useState(0);
-  const [isSortedBy, setIsSortedBy] = useState(null);
   const [selectedCategory, setSelectedCategory] = useState(null);
   const [priceRange, setPriceRange] = React.useState([150, 445]);
+  const [sortedBy, setSortedBy] = useState("Default Sorting");
   const endOffset = itemOffset + itemsPerPage;
-  const currentProducts = products.slice(itemOffset, endOffset);
-  const pageCount = Math.ceil(products.length / itemsPerPage);
+
+  if (sortedBy === "Default Sorting") sortedProducts = products;
+  if (sortedBy === "Price, Low to High")
+    sortedProducts = products.slice().sort((a, b) => a.price - b.price);
+  if (sortedBy === "Price, High to Low")
+    sortedProducts = products.slice().sort((a, b) => b.price - a.price);
+  if (sortedBy === "Most Liked")
+    sortedProducts = products
+      .slice()
+      .sort((a, b) => a.favoritesCount - b.favoritesCount);
+
+  const currentProducts = sortedProducts.slice(itemOffset, endOffset);
+  const pageCount = Math.ceil(sortedProducts.length / itemsPerPage);
+
   const cities = [
-    { name: "Default Sorting", code: "NY" },
-    { name: "Best Selling", code: "NY" },
-    { name: "Price, Low to High", code: "RM" },
-    { name: "Price, High to Low", code: "LDN" },
-    { name: "Most Liked", code: "IST" },
-    { name: "Newest", code: "PRS" },
+    "Default Sorting",
+    "Best Selling",
+    "Price, Low to High",
+    "Price, High to Low",
+    "Most Liked",
+    "Newest",
   ];
 
   const categories = [
@@ -35,7 +47,7 @@ export default function Shop({ itemsPerPage, products }) {
 
   // Invoke when user click to request another page.
   const handlePageClick = (event) => {
-    const newOffset = (event.selected * itemsPerPage) % products.length;
+    const newOffset = (event.selected * itemsPerPage) % sortedProducts.length;
     console.log(
       `User requested page number ${event.selected}, which is offset ${newOffset}`
     );
@@ -49,6 +61,11 @@ export default function Shop({ itemsPerPage, products }) {
 
   function valuetext(priceRange) {
     return `$${priceRange}`;
+  }
+
+  function handleSort(e) {
+    console.log(e.value);
+    setSortedBy(e.value);
   }
 
   return (
@@ -94,8 +111,8 @@ export default function Shop({ itemsPerPage, products }) {
           <div className="shop-sort-box">
             <div className="card flex justify-content-center">
               <Dropdown
-                value={isSortedBy}
-                onChange={(e) => setIsSortedBy(e.value)}
+                value={sortedBy}
+                onChange={handleSort}
                 options={cities}
                 optionLabel="name"
                 placeholder="Sort by"

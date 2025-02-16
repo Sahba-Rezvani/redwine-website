@@ -3,12 +3,12 @@
     {
       "id": "1",
       "addToCartBtn": "false",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "sizes": ["XS", "S", "M", "L", "XL"],
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
+      "name": "Flip Flops",
+      "price": 144.13,
+      "sizes": ["M", "L", "XL"],
+      "color": ["#0000FF", "#808080", "#FFFFFF"],
+      "type": "Loafers",
+      "description": "Lightweight and perfect for running.",
       "image": "../images/product-01/card/product_2.webp",
       "thumbnailImages": [
         "../images/product-01/details/product_0.webp",
@@ -16,26 +16,27 @@
         "../images/product-01/details/product_0-2.webp",
         "../images/product-01/details/product_0-3.webp"
       ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
+      "favoritesCount": 33,
+      "isFavorite": true,
+      "stock": 28,
+      "rating": 4.9,
       "reviews": [
         {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
+          "reviewerName": "User 2",
+          "comment": "Great product! Very satisfied.",
+          "rating": 4
         }
       ]
     },
     {
       "id": "2",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
+      "addToCartBtn": "false",
+      "name": "Running Sneakers",
+      "price": 93.45,
+      "sizes": ["M", "L", "XL"],
+      "color": ["#0000FF", "#808080", "#FFFFFF"],
+      "type": "Sneakers",
+      "description": "Elegant and sophisticated for formal occasions.",
       "image": "../images/product-02/card/product_2.webp",
       "thumbnailImages": [
         "../images/product-01/details/product_0.webp",
@@ -43,26 +44,27 @@
         "../images/product-01/details/product_0-2.webp",
         "../images/product-01/details/product_0-3.webp"
       ],
-      "favoritesCount": 10,
+      "favoritesCount": 38,
       "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
+      "stock": 68,
+      "rating": 3.5,
       "reviews": [
         {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
+          "reviewerName": "User 2",
+          "comment": "Great product! Very satisfied.",
           "rating": 5
         }
       ]
     },
     {
       "id": "3",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
+      "addToCartBtn": "false",
+      "name": "Leather Loafers",
+      "price": 132.11,
+      "sizes": ["M", "L", "XL"],
+      "color": ["#333333", "#F0F0F0", "#AA0000"],
+      "type": "Boots",
+      "description": "Comfortable and durable for everyday use.",
       "image": "../images/product-03/card/product_3.webp",
       "thumbnailImages": [
         "../images/product-01/details/product_0.webp",
@@ -70,26 +72,27 @@
         "../images/product-01/details/product_0-2.webp",
         "../images/product-01/details/product_0-3.webp"
       ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
+      "favoritesCount": 46,
+      "isFavorite": true,
+      "stock": 31,
       "rating": 4.5,
       "reviews": [
         {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
+          "reviewerName": "User 39",
+          "comment": "Great product! Very satisfied.",
           "rating": 5
         }
       ]
     },
     {
       "id": "4",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
+      "addToCartBtn": "false",
+      "name": "Casual Sneakers",
+      "price": 48.48,
       "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
+      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
+      "type": "Boots",
+      "description": "Lightweight and perfect for running.",
       "image": "../images/product-04/card/product_4.webp",
       "thumbnailImages": [
         "../images/product-01/details/product_0.webp",
@@ -97,54 +100,55 @@
         "../images/product-01/details/product_0-2.webp",
         "../images/product-01/details/product_0-3.webp"
       ],
-      "favoritesCount": 10,
+      "favoritesCount": 19,
       "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
+      "stock": 64,
+      "rating": 3.7,
       "reviews": [
         {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
+          "reviewerName": "User 58",
+          "comment": "Great product! Very satisfied.",
+          "rating": 4
         }
       ]
     },
     {
       "id": "5",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
+      "addToCartBtn": "false",
+      "name": "Flip Flops",
+      "price": 142.38,
+      "sizes": ["M", "L", "XL"],
+      "color": ["#FF5733", "#232323", "#DDDDDD"],
+      "type": "Sneakers",
+      "description": "Comfortable and durable for everyday use.",
       "image": "../images/product-05/card/product_5.webp",
-
       "thumbnailImages": [
         "../images/product-01/details/product_0.webp",
         "../images/product-01/details/product_0-1.webp",
         "../images/product-01/details/product_0-2.webp",
         "../images/product-01/details/product_0-3.webp"
       ],
-      "favoritesCount": 10,
+      "favoritesCount": 12,
       "isFavorite": false,
-      "stock": 25,
+      "stock": 94,
       "rating": 4.5,
       "reviews": [
         {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
+          "reviewerName": "User 94",
+          "comment": "Great product! Very satisfied.",
+          "rating": 4
         }
       ]
     },
     {
       "id": "6",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
+      "addToCartBtn": "false",
+      "name": "Basketball Shoes",
+      "price": 34.75,
+      "sizes": ["S", "M", "L"],
+      "color": ["#0000FF", "#808080", "#FFFFFF"],
+      "type": "Sneakers",
+      "description": "Stylish and versatile for casual wear.",
       "image": "../images/product-06/card/product_6.webp",
       "thumbnailImages": [
         "../images/product-01/details/product_0.webp",
@@ -152,26 +156,2547 @@
         "../images/product-01/details/product_0-2.webp",
         "../images/product-01/details/product_0-3.webp"
       ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
+      "favoritesCount": 48,
+      "isFavorite": true,
+      "stock": 29,
+      "rating": 4.9,
       "reviews": [
         {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
+          "reviewerName": "User 30",
+          "comment": "Great product! Very satisfied.",
+          "rating": 4
         }
       ]
     },
     {
       "id": "7",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
+      "addToCartBtn": "false",
+      "name": "Formal Shoes",
+      "price": 51.73,
+      "sizes": ["M", "L", "XL"],
+      "color": ["#008000", "#D4A017", "#6B4423"],
       "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
+      "description": "Elegant and sophisticated for formal occasions.",
+      "image": "../images/product-07/card/product_7.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 15,
+      "isFavorite": false,
+      "stock": 32,
+      "rating": 4.5,
+      "reviews": [
+        {
+          "reviewerName": "User 27",
+          "comment": "Great product! Very satisfied.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "addToCartBtn": "false",
+      "name": "Slip-On Sneakers",
+      "price": 86.6,
+      "sizes": ["XS", "S", "M", "L", "XL"],
+      "color": ["#FF5733", "#232323", "#DDDDDD"],
+      "type": "Boots",
+      "description": "Lightweight and perfect for running.",
+      "image": "../images/product-08/card/product_8.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 6,
+      "isFavorite": false,
+      "stock": 13,
+      "rating": 4.5,
+      "reviews": [
+        {
+          "reviewerName": "User 54",
+          "comment": "Great product! Very satisfied.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "addToCartBtn": "false",
+      "name": "Formal Shoes",
+      "price": 67.14,
+      "sizes": ["S", "M", "L", "XL"],
+      "color": ["#008000", "#D4A017", "#6B4423"],
+      "type": "Sneakers",
+      "description": "Elegant and sophisticated for formal occasions.",
+      "image": "../images/product-09/card/product_9.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 13,
+      "isFavorite": false,
+      "stock": 89,
+      "rating": 4.6,
+      "reviews": [
+        {
+          "reviewerName": "User 100",
+          "comment": "Great product! Very satisfied.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "addToCartBtn": "false",
+      "name": "Flip Flops",
+      "price": 31.53,
+      "sizes": ["XS", "S", "M", "L", "XL"],
+      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
+      "type": "Sandals",
+      "description": "Comfortable and durable for everyday use.",
+      "image": "../images/product-10/card/product_10.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 6,
+      "isFavorite": false,
+      "stock": 89,
+      "rating": 3.9,
+      "reviews": [
+        {
+          "reviewerName": "User 78",
+          "comment": "Great product! Very satisfied.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "addToCartBtn": "false",
+      "name": "Sports Shoes",
+      "price": 64.43,
+      "sizes": ["M", "L", "XL"],
+      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
+      "type": "Sneakers",
+      "description": "Stylish and versatile for casual wear.",
+      "image": "../images/product-11/card/product_11.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 7,
+      "isFavorite": false,
+      "stock": 28,
+      "rating": 4.1,
+      "reviews": [
+        {
+          "reviewerName": "User 79",
+          "comment": "Great product! Very satisfied.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "addToCartBtn": "false",
+      "name": "Formal Shoes",
+      "price": 72.81,
+      "sizes": ["M", "L", "XL"],
+      "color": ["#FF5733", "#232323", "#DDDDDD"],
+      "type": "Sandals",
+      "description": "Comfortable and durable for everyday use.",
+      "image": "../images/product-12/card/product_12.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 44,
+      "isFavorite": false,
+      "stock": 68,
+      "rating": 3.9,
+      "reviews": [
+        {
+          "reviewerName": "User 100",
+          "comment": "Great product! Very satisfied.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "addToCartBtn": "false",
+      "name": "Leather Loafers",
+      "price": 79.29,
+      "sizes": ["S", "M", "L", "XL"],
+      "color": ["#0000FF", "#808080", "#FFFFFF"],
+      "type": "Sneakers",
+      "description": "Rugged and sturdy for outdoor adventures.",
+      "image": "../images/product-13/card/product_13.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 19,
+      "isFavorite": false,
+      "stock": 54,
+      "rating": 3.8,
+      "reviews": [
+        {
+          "reviewerName": "User 75",
+          "comment": "Great product! Very satisfied.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "addToCartBtn": "false",
+      "name": "Hiking Boots",
+      "price": 116.97,
+      "sizes": ["M", "L", "XL"],
+      "color": ["#008000", "#D4A017", "#6B4423"],
+      "type": "Shoes",
+      "description": "Lightweight and perfect for running.",
+      "image": "../images/product-14/card/product_14.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 37,
+      "isFavorite": false,
+      "stock": 62,
+      "rating": 3.7,
+      "reviews": [
+        {
+          "reviewerName": "User 38",
+          "comment": "Great product! Very satisfied.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "addToCartBtn": "false",
+      "name": "Leather Loafers",
+      "price": 141.18,
+      "sizes": ["XS", "S", "M", "L", "XL"],
+      "color": ["#0000FF", "#808080", "#FFFFFF"],
+      "type": "Boots",
+      "description": "Lightweight and perfect for running.",
+      "image": "../images/product-15/card/product_15.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 27,
+      "isFavorite": false,
+      "stock": 87,
+      "rating": 4.5,
+      "reviews": [
+        {
+          "reviewerName": "User 86",
+          "comment": "Great product! Very satisfied.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "addToCartBtn": "false",
+      "name": "Sandals",
+      "price": 120.58,
+      "sizes": ["M", "L", "XL"],
+      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
+      "type": "Sneakers",
+      "description": "Rugged and sturdy for outdoor adventures.",
+      "image": "../images/product-16/card/product_16.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 27,
+      "isFavorite": false,
+      "stock": 64,
+      "rating": 4.7,
+      "reviews": [
+        {
+          "reviewerName": "User 88",
+          "comment": "Great product! Very satisfied.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "addToCartBtn": "false",
+      "name": "Sandals",
+      "price": 51.42,
+      "sizes": ["M", "L", "XL"],
+      "color": ["#333333", "#F0F0F0", "#AA0000"],
+      "type": "Shoes",
+      "description": "Comfortable and durable for everyday use.",
+      "image": "../images/product-17/card/product_1.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 40,
+      "isFavorite": false,
+      "stock": 50,
+      "rating": 4.0,
+      "reviews": [
+        {
+          "reviewerName": "User 67",
+          "comment": "Great product! Very satisfied.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "addToCartBtn": "false",
+      "name": "Casual Sneakers",
+      "price": 42.01,
+      "sizes": ["XS", "S", "M", "L", "XL"],
+      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
+      "type": "Sandals",
+      "description": "Lightweight and perfect for running.",
+      "image": "../images/product-02/card/product_2.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 33,
+      "isFavorite": false,
+      "stock": 100,
+      "rating": 4.3,
+      "reviews": [
+        {
+          "reviewerName": "User 62",
+          "comment": "Great product! Very satisfied.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "addToCartBtn": "false",
+      "name": "Flip Flops",
+      "price": 52.84,
+      "sizes": ["S", "M", "L", "XL"],
+      "color": ["#FF5733", "#232323", "#DDDDDD"],
+      "type": "Loafers",
+      "description": "Comfortable and durable for everyday use.",
+      "image": "../images/product-08/card/product_8.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 5,
+      "isFavorite": false,
+      "stock": 91,
+      "rating": 4.9,
+      "reviews": [
+        {
+          "reviewerName": "User 64",
+          "comment": "Great product! Very satisfied.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "addToCartBtn": "false",
+      "name": "Hiking Boots",
+      "price": 23.28,
+      "sizes": ["S", "M", "L"],
+      "color": ["#0000FF", "#808080", "#FFFFFF"],
+      "type": "Sandals",
+      "description": "Lightweight and perfect for running.",
+      "image": "../images/product-04/card/product_4.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 15,
+      "isFavorite": false,
+      "stock": 20,
+      "rating": 4.8,
+      "reviews": [
+        {
+          "reviewerName": "User 62",
+          "comment": "Great product! Very satisfied.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "addToCartBtn": "false",
+      "name": "Hiking Boots",
+      "price": 68.9,
+      "sizes": ["M", "L", "XL"],
+      "color": ["#FF5733", "#232323", "#DDDDDD"],
+      "type": "Sneakers",
+      "description": "Comfortable and durable for everyday use.",
+      "image": "../images/product-06/card/product_6.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 16,
+      "isFavorite": false,
+      "stock": 11,
+      "rating": 4.0,
+      "reviews": [
+        {
+          "reviewerName": "User 11",
+          "comment": "Great product! Very satisfied.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "addToCartBtn": "false",
+      "name": "Sandals",
+      "price": 129.77,
+      "sizes": ["S", "M", "L", "XL"],
+      "color": ["#333333", "#F0F0F0", "#AA0000"],
+      "type": "Shoes",
+      "description": "Elegant and sophisticated for formal occasions.",
+      "image": "../images/product-13/card/product_13.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 22,
+      "isFavorite": false,
+      "stock": 33,
+      "rating": 3.6,
+      "reviews": [
+        {
+          "reviewerName": "User 21",
+          "comment": "Great product! Very satisfied.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "addToCartBtn": "false",
+      "name": "Basketball Shoes",
+      "price": 80.29,
+      "sizes": ["S", "M", "L", "XL"],
+      "color": ["#0000FF", "#808080", "#FFFFFF"],
+      "type": "Shoes",
+      "description": "Lightweight and perfect for running.",
+      "image": "../images/product-03/card/product_3.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 18,
+      "isFavorite": false,
+      "stock": 85,
+      "rating": 5.0,
+      "reviews": [
+        {
+          "reviewerName": "User 63",
+          "comment": "Great product! Very satisfied.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "addToCartBtn": "false",
+      "name": "Slip-On Sneakers",
+      "price": 24.34,
+      "sizes": ["M", "L", "XL"],
+      "color": ["#333333", "#F0F0F0", "#AA0000"],
+      "type": "Sneakers",
+      "description": "Rugged and sturdy for outdoor adventures.",
+      "image": "../images/product-14/card/product_14.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 30,
+      "isFavorite": false,
+      "stock": 40,
+      "rating": 4.4,
+      "reviews": [
+        {
+          "reviewerName": "User 38",
+          "comment": "Great product! Very satisfied.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "addToCartBtn": "false",
+      "name": "Hiking Boots",
+      "price": 56.0,
+      "sizes": ["XS", "S", "M", "L", "XL"],
+      "color": ["#FF5733", "#232323", "#DDDDDD"],
+      "type": "Shoes",
+      "description": "Elegant and sophisticated for formal occasions.",
+      "image": "../images/product-05/card/product_5.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 21,
+      "isFavorite": false,
+      "stock": 75,
+      "rating": 4.8,
+      "reviews": [
+        {
+          "reviewerName": "User 98",
+          "comment": "Great product! Very satisfied.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "addToCartBtn": "false",
+      "name": "Hiking Boots",
+      "price": 60.2,
+      "sizes": ["XS", "S", "M", "L", "XL"],
+      "color": ["#008000", "#D4A017", "#6B4423"],
+      "type": "Loafers",
+      "description": "Lightweight and perfect for running.",
+      "image": "../images/product-16/card/product_16.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 6,
+      "isFavorite": false,
+      "stock": 53,
+      "rating": 5.0,
+      "reviews": [
+        {
+          "reviewerName": "User 88",
+          "comment": "Great product! Very satisfied.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "addToCartBtn": "false",
+      "name": "Basketball Shoes",
+      "price": 58.01,
+      "sizes": ["S", "M", "L", "XL"],
+      "color": ["#008000", "#D4A017", "#6B4423"],
+      "type": "Boots",
+      "description": "Stylish and versatile for casual wear.",
+      "image": "../images/product-07/card/product_7.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 39,
+      "isFavorite": false,
+      "stock": 35,
+      "rating": 3.8,
+      "reviews": [
+        {
+          "reviewerName": "User 49",
+          "comment": "Great product! Very satisfied.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "addToCartBtn": "false",
+      "name": "Hiking Boots",
+      "price": 86.56,
+      "sizes": ["S", "M", "L"],
+      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
+      "type": "Shoes",
+      "description": "Comfortable and durable for everyday use.",
+      "image": "../images/product-08/card/product_8.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 8,
+      "isFavorite": false,
+      "stock": 41,
+      "rating": 4.5,
+      "reviews": [
+        {
+          "reviewerName": "User 100",
+          "comment": "Great product! Very satisfied.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "addToCartBtn": "false",
+      "name": "Running Sneakers",
+      "price": 113.04,
+      "sizes": ["XS", "S", "M", "L", "XL"],
+      "color": ["#0000FF", "#808080", "#FFFFFF"],
+      "type": "Boots",
+      "description": "Lightweight and perfect for running.",
+      "image": "../images/product-09/card/product_9.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 24,
+      "isFavorite": false,
+      "stock": 61,
+      "rating": 3.7,
+      "reviews": [
+        {
+          "reviewerName": "User 75",
+          "comment": "Great product! Very satisfied.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "addToCartBtn": "false",
+      "name": "Slip-On Sneakers",
+      "price": 95.62,
+      "sizes": ["S", "M", "L"],
+      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
+      "type": "Sneakers",
+      "description": "Stylish and versatile for casual wear.",
+      "image": "../images/product-10/card/product_10.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 41,
+      "isFavorite": false,
+      "stock": 98,
+      "rating": 4.3,
+      "reviews": [
+        {
+          "reviewerName": "User 9",
+          "comment": "Great product! Very satisfied.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "addToCartBtn": "false",
+      "name": "Sandals",
+      "price": 65.82,
+      "sizes": ["S", "M", "L", "XL"],
+      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
+      "type": "Sandals",
+      "description": "Comfortable and durable for everyday use.",
+      "image": "../images/product-11/card/product_11.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 41,
+      "isFavorite": false,
+      "stock": 61,
+      "rating": 4.7,
+      "reviews": [
+        {
+          "reviewerName": "User 47",
+          "comment": "Great product! Very satisfied.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "addToCartBtn": "false",
+      "name": "Casual Sneakers",
+      "price": 124.83,
+      "sizes": ["M", "L", "XL"],
+      "color": ["#333333", "#F0F0F0", "#AA0000"],
+      "type": "Loafers",
+      "description": "Elegant and sophisticated for formal occasions.",
+      "image": "../images/product-12/card/product_12.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 46,
+      "isFavorite": false,
+      "stock": 22,
+      "rating": 4.6,
+      "reviews": [
+        {
+          "reviewerName": "User 62",
+          "comment": "Great product! Very satisfied.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "33",
+      "addToCartBtn": "false",
+      "name": "Formal Shoes",
+      "price": 64.03,
+      "sizes": ["S", "M", "L", "XL"],
+      "color": ["#008000", "#D4A017", "#6B4423"],
+      "type": "Loafers",
+      "description": "Comfortable and durable for everyday use.",
+      "image": "../images/product-03/card/product_3.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 6,
+      "isFavorite": false,
+      "stock": 74,
+      "rating": 4.6,
+      "reviews": [
+        {
+          "reviewerName": "User 42",
+          "comment": "Great product! Very satisfied.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "addToCartBtn": "false",
+      "name": "Sandals",
+      "price": 128.27,
+      "sizes": ["S", "M", "L", "XL"],
+      "color": ["#0000FF", "#808080", "#FFFFFF"],
+      "type": "Boots",
+      "description": "Comfortable and durable for everyday use.",
+      "image": "../images/product-14/card/product_14.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 38,
+      "isFavorite": false,
+      "stock": 50,
+      "rating": 4.1,
+      "reviews": [
+        {
+          "reviewerName": "User 23",
+          "comment": "Great product! Very satisfied.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "addToCartBtn": "false",
+      "name": "Sandals",
+      "price": 149.27,
+      "sizes": ["M", "L", "XL"],
+      "color": ["#008000", "#D4A017", "#6B4423"],
+      "type": "Boots",
+      "description": "Comfortable and durable for everyday use.",
+      "image": "../images/product-17/card/product_1.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 6,
+      "isFavorite": false,
+      "stock": 74,
+      "rating": 3.5,
+      "reviews": [
+        {
+          "reviewerName": "User 83",
+          "comment": "Great product! Very satisfied.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "36",
+      "addToCartBtn": "false",
+      "name": "Sandals",
+      "price": 112.16,
+      "sizes": ["S", "M", "L"],
+      "color": ["#FF5733", "#232323", "#DDDDDD"],
+      "type": "Loafers",
+      "description": "Rugged and sturdy for outdoor adventures.",
+      "image": "../images/product-04/card/product_4.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 38,
+      "isFavorite": false,
+      "stock": 62,
+      "rating": 3.6,
+      "reviews": [
+        {
+          "reviewerName": "User 50",
+          "comment": "Great product! Very satisfied.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "37",
+      "addToCartBtn": "false",
+      "name": "Sports Shoes",
+      "price": 84.64,
+      "sizes": ["S", "M", "L"],
+      "color": ["#008000", "#D4A017", "#6B4423"],
+      "type": "Sneakers",
+      "description": "Rugged and sturdy for outdoor adventures.",
+      "image": "../images/product-07/card/product_7.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 22,
+      "isFavorite": false,
+      "stock": 90,
+      "rating": 3.9,
+      "reviews": [
+        {
+          "reviewerName": "User 68",
+          "comment": "Great product! Very satisfied.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "38",
+      "addToCartBtn": "false",
+      "name": "Flip Flops",
+      "price": 107.23,
+      "sizes": ["S", "M", "L", "XL"],
+      "color": ["#0000FF", "#808080", "#FFFFFF"],
+      "type": "Shoes",
+      "description": "Elegant and sophisticated for formal occasions.",
+      "image": "../images/product-08/card/product_8.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 47,
+      "isFavorite": false,
+      "stock": 10,
+      "rating": 4.1,
+      "reviews": [
+        {
+          "reviewerName": "User 12",
+          "comment": "Great product! Very satisfied.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "addToCartBtn": "false",
+      "name": "Slip-On Sneakers",
+      "price": 73.94,
+      "sizes": ["XS", "S", "M", "L", "XL"],
+      "color": ["#008000", "#D4A017", "#6B4423"],
+      "type": "Shoes",
+      "description": "Rugged and sturdy for outdoor adventures.",
+      "image": "../images/product-13/card/product_13.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 15,
+      "isFavorite": false,
+      "stock": 91,
+      "rating": 4.2,
+      "reviews": [
+        {
+          "reviewerName": "User 73",
+          "comment": "Great product! Very satisfied.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "40",
+      "addToCartBtn": "false",
+      "name": "Casual Sneakers",
+      "price": 87.49,
+      "sizes": ["XS", "S", "M", "L", "XL"],
+      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
+      "type": "Sneakers",
+      "description": "Comfortable and durable for everyday use.",
+      "image": "../images/product-05/card/product_5.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 35,
+      "isFavorite": false,
+      "stock": 29,
+      "rating": 4.0,
+      "reviews": [
+        {
+          "reviewerName": "User 33",
+          "comment": "Great product! Very satisfied.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "41",
+      "addToCartBtn": "false",
+      "name": "Sandals",
+      "price": 52.87,
+      "sizes": ["S", "M", "L", "XL"],
+      "color": ["#008000", "#D4A017", "#6B4423"],
+      "type": "Boots",
+      "description": "Rugged and sturdy for outdoor adventures.",
+      "image": "../images/product-11/card/product_11.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 43,
+      "isFavorite": false,
+      "stock": 73,
+      "rating": 4.4,
+      "reviews": [
+        {
+          "reviewerName": "User 63",
+          "comment": "Great product! Very satisfied.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "42",
+      "addToCartBtn": "false",
+      "name": "Running Sneakers",
+      "price": 115.37,
+      "sizes": ["M", "L", "XL"],
+      "color": ["#0000FF", "#808080", "#FFFFFF"],
+      "type": "Shoes",
+      "description": "Rugged and sturdy for outdoor adventures.",
+      "image": "../images/product-12/card/product_12.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 18,
+      "isFavorite": false,
+      "stock": 99,
+      "rating": 3.9,
+      "reviews": [
+        {
+          "reviewerName": "User 46",
+          "comment": "Great product! Very satisfied.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "addToCartBtn": "false",
+      "name": "Flip Flops",
+      "price": 79.17,
+      "sizes": ["S", "M", "L", "XL"],
+      "color": ["#333333", "#F0F0F0", "#AA0000"],
+      "type": "Boots",
+      "description": "Comfortable and durable for everyday use.",
+      "image": "../images/product-13/card/product_13.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 8,
+      "isFavorite": false,
+      "stock": 87,
+      "rating": 4.2,
+      "reviews": [
+        {
+          "reviewerName": "User 39",
+          "comment": "Great product! Very satisfied.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "addToCartBtn": "false",
+      "name": "Hiking Boots",
+      "price": 68.98,
+      "sizes": ["S", "M", "L"],
+      "color": ["#0000FF", "#808080", "#FFFFFF"],
+      "type": "Boots",
+      "description": "Elegant and sophisticated for formal occasions.",
+      "image": "../images/product-14/card/product_14.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 50,
+      "isFavorite": false,
+      "stock": 76,
+      "rating": 4.2,
+      "reviews": [
+        {
+          "reviewerName": "User 81",
+          "comment": "Great product! Very satisfied.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "addToCartBtn": "false",
+      "name": "Casual Sneakers",
+      "price": 131.13,
+      "sizes": ["M", "L", "XL"],
+      "color": ["#0000FF", "#808080", "#FFFFFF"],
+      "type": "Boots",
+      "description": "Comfortable and durable for everyday use.",
+      "image": "../images/product-15/card/product_15.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 42,
+      "isFavorite": false,
+      "stock": 50,
+      "rating": 4.6,
+      "reviews": [
+        {
+          "reviewerName": "User 26",
+          "comment": "Great product! Very satisfied.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "46",
+      "addToCartBtn": "false",
+      "name": "Slip-On Sneakers",
+      "price": 146.45,
+      "sizes": ["XS", "S", "M", "L", "XL"],
+      "color": ["#333333", "#F0F0F0", "#AA0000"],
+      "type": "Shoes",
+      "description": "Elegant and sophisticated for formal occasions.",
+      "image": "../images/product-16/card/product_16.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 32,
+      "isFavorite": false,
+      "stock": 53,
+      "rating": 4.2,
+      "reviews": [
+        {
+          "reviewerName": "User 65",
+          "comment": "Great product! Very satisfied.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "47",
+      "addToCartBtn": "false",
+      "name": "Sandals",
+      "price": 142.03,
+      "sizes": ["S", "M", "L"],
+      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
+      "type": "Shoes",
+      "description": "Elegant and sophisticated for formal occasions.",
+      "image": "../images/product-17/card/product_1.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 36,
+      "isFavorite": false,
+      "stock": 21,
+      "rating": 3.8,
+      "reviews": [
+        {
+          "reviewerName": "User 14",
+          "comment": "Great product! Very satisfied.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "48",
+      "addToCartBtn": "false",
+      "name": "Slip-On Sneakers",
+      "price": 131.43,
+      "sizes": ["XS", "S", "M", "L", "XL"],
+      "color": ["#333333", "#F0F0F0", "#AA0000"],
+      "type": "Shoes",
+      "description": "Lightweight and perfect for running.",
+      "image": "../images/product-08/card/product_8.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 29,
+      "isFavorite": false,
+      "stock": 81,
+      "rating": 4.8,
+      "reviews": [
+        {
+          "reviewerName": "User 56",
+          "comment": "Great product! Very satisfied.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "49",
+      "addToCartBtn": "false",
+      "name": "Flip Flops",
+      "price": 121.66,
+      "sizes": ["S", "M", "L"],
+      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
+      "type": "Sandals",
+      "description": "Elegant and sophisticated for formal occasions.",
+      "image": "../images/product-09/card/product_9.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 6,
+      "isFavorite": false,
+      "stock": 18,
+      "rating": 4.4,
+      "reviews": [
+        {
+          "reviewerName": "User 98",
+          "comment": "Great product! Very satisfied.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "50",
+      "addToCartBtn": "false",
+      "name": "Slip-On Sneakers",
+      "price": 105.66,
+      "sizes": ["M", "L", "XL"],
+      "color": ["#333333", "#F0F0F0", "#AA0000"],
+      "type": "Boots",
+      "description": "Comfortable and durable for everyday use.",
+      "image": "../images/product-10/card/product_10.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 15,
+      "isFavorite": false,
+      "stock": 56,
+      "rating": 4.0,
+      "reviews": [
+        {
+          "reviewerName": "User 57",
+          "comment": "Great product! Very satisfied.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "51",
+      "addToCartBtn": "false",
+      "name": "Formal Shoes",
+      "price": 94.76,
+      "sizes": ["XS", "S", "M", "L", "XL"],
+      "color": ["#333333", "#F0F0F0", "#AA0000"],
+      "type": "Sneakers",
+      "description": "Stylish and versatile for casual wear.",
+      "image": "../images/product-11/card/product_11.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 50,
+      "isFavorite": false,
+      "stock": 87,
+      "rating": 4.6,
+      "reviews": [
+        {
+          "reviewerName": "User 87",
+          "comment": "Great product! Very satisfied.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "52",
+      "addToCartBtn": "false",
+      "name": "Slip-On Sneakers",
+      "price": 120.33,
+      "sizes": ["S", "M", "L"],
+      "color": ["#FF5733", "#232323", "#DDDDDD"],
+      "type": "Shoes",
+      "description": "Rugged and sturdy for outdoor adventures.",
+      "image": "../images/product-12/card/product_12.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 45,
+      "isFavorite": false,
+      "stock": 73,
+      "rating": 4.6,
+      "reviews": [
+        {
+          "reviewerName": "User 81",
+          "comment": "Great product! Very satisfied.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "53",
+      "addToCartBtn": "false",
+      "name": "Basketball Shoes",
+      "price": 146.89,
+      "sizes": ["XS", "S", "M", "L", "XL"],
+      "color": ["#333333", "#F0F0F0", "#AA0000"],
+      "type": "Boots",
+      "description": "Comfortable and durable for everyday use.",
+      "image": "../images/product-13/card/product_13.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 25,
+      "isFavorite": false,
+      "stock": 84,
+      "rating": 3.5,
+      "reviews": [
+        {
+          "reviewerName": "User 52",
+          "comment": "Great product! Very satisfied.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "54",
+      "addToCartBtn": "false",
+      "name": "Formal Shoes",
+      "price": 21.25,
+      "sizes": ["XS", "S", "M", "L", "XL"],
+      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
+      "type": "Sneakers",
+      "description": "Lightweight and perfect for running.",
+      "image": "../images/product-14/card/product_14.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 33,
+      "isFavorite": false,
+      "stock": 72,
+      "rating": 3.7,
+      "reviews": [
+        {
+          "reviewerName": "User 34",
+          "comment": "Great product! Very satisfied.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "55",
+      "addToCartBtn": "false",
+      "name": "Sports Shoes",
+      "price": 145.81,
+      "sizes": ["M", "L", "XL"],
+      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
+      "type": "Boots",
+      "description": "Comfortable and durable for everyday use.",
+      "image": "../images/product-15/card/product_15.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 37,
+      "isFavorite": false,
+      "stock": 74,
+      "rating": 4.6,
+      "reviews": [
+        {
+          "reviewerName": "User 2",
+          "comment": "Great product! Very satisfied.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "56",
+      "addToCartBtn": "false",
+      "name": "Casual Sneakers",
+      "price": 142.58,
+      "sizes": ["S", "M", "L"],
+      "color": ["#0000FF", "#808080", "#FFFFFF"],
+      "type": "Sandals",
+      "description": "Comfortable and durable for everyday use.",
+      "image": "../images/product-16/card/product_16.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 30,
+      "isFavorite": false,
+      "stock": 74,
+      "rating": 4.2,
+      "reviews": [
+        {
+          "reviewerName": "User 62",
+          "comment": "Great product! Very satisfied.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "57",
+      "addToCartBtn": "false",
+      "name": "Sports Shoes",
+      "price": 118.61,
+      "sizes": ["XS", "S", "M", "L", "XL"],
+      "color": ["#008000", "#D4A017", "#6B4423"],
+      "type": "Sandals",
+      "description": "Stylish and versatile for casual wear.",
+      "image": "../images/product-17/card/product_1.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 40,
+      "isFavorite": false,
+      "stock": 70,
+      "rating": 4.6,
+      "reviews": [
+        {
+          "reviewerName": "User 70",
+          "comment": "Great product! Very satisfied.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "58",
+      "addToCartBtn": "false",
+      "name": "Running Sneakers",
+      "price": 67.97,
+      "sizes": ["M", "L", "XL"],
+      "color": ["#008000", "#D4A017", "#6B4423"],
+      "type": "Shoes",
+      "description": "Comfortable and durable for everyday use.",
+      "image": "../images/product-05/card/product_5.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 11,
+      "isFavorite": false,
+      "stock": 58,
+      "rating": 4.2,
+      "reviews": [
+        {
+          "reviewerName": "User 27",
+          "comment": "Great product! Very satisfied.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "59",
+      "addToCartBtn": "false",
+      "name": "Basketball Shoes",
+      "price": 136.0,
+      "sizes": ["XS", "S", "M", "L", "XL"],
+      "color": ["#008000", "#D4A017", "#6B4423"],
+      "type": "Boots",
+      "description": "Rugged and sturdy for outdoor adventures.",
+      "image": "../images/product-09/card/product_9.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 32,
+      "isFavorite": false,
+      "stock": 16,
+      "rating": 4.3,
+      "reviews": [
+        {
+          "reviewerName": "User 3",
+          "comment": "Great product! Very satisfied.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "60",
+      "addToCartBtn": "false",
+      "name": "Leather Loafers",
+      "price": 34.36,
+      "sizes": ["S", "M", "L", "XL"],
+      "color": ["#0000FF", "#808080", "#FFFFFF"],
+      "type": "Shoes",
+      "description": "Elegant and sophisticated for formal occasions.",
+      "image": "../images/product-10/card/product_10.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 15,
+      "isFavorite": false,
+      "stock": 65,
+      "rating": 4.2,
+      "reviews": [
+        {
+          "reviewerName": "User 30",
+          "comment": "Great product! Very satisfied.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "61",
+      "addToCartBtn": "false",
+      "name": "Leather Loafers",
+      "price": 112.36,
+      "sizes": ["XS", "S", "M", "L", "XL"],
+      "color": ["#008000", "#D4A017", "#6B4423"],
+      "type": "Sneakers",
+      "description": "Rugged and sturdy for outdoor adventures.",
+      "image": "../images/product-11/card/product_11.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 41,
+      "isFavorite": false,
+      "stock": 16,
+      "rating": 4.0,
+      "reviews": [
+        {
+          "reviewerName": "User 7",
+          "comment": "Great product! Very satisfied.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "62",
+      "addToCartBtn": "false",
+      "name": "Formal Shoes",
+      "price": 31.84,
+      "sizes": ["XS", "S", "M", "L", "XL"],
+      "color": ["#333333", "#F0F0F0", "#AA0000"],
+      "type": "Boots",
+      "description": "Lightweight and perfect for running.",
+      "image": "../images/product-12/card/product_12.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 23,
+      "isFavorite": false,
+      "stock": 32,
+      "rating": 3.6,
+      "reviews": [
+        {
+          "reviewerName": "User 23",
+          "comment": "Great product! Very satisfied.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "63",
+      "addToCartBtn": "false",
+      "name": "Sports Shoes",
+      "price": 104.28,
+      "sizes": ["S", "M", "L", "XL"],
+      "color": ["#0000FF", "#808080", "#FFFFFF"],
+      "type": "Loafers",
+      "description": "Comfortable and durable for everyday use.",
+      "image": "../images/product-13/card/product_13.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 39,
+      "isFavorite": false,
+      "stock": 80,
+      "rating": 4.4,
+      "reviews": [
+        {
+          "reviewerName": "User 12",
+          "comment": "Great product! Very satisfied.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "64",
+      "addToCartBtn": "false",
+      "name": "Basketball Shoes",
+      "price": 63.34,
+      "sizes": ["XS", "S", "M", "L", "XL"],
+      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
+      "type": "Loafers",
+      "description": "Elegant and sophisticated for formal occasions.",
+      "image": "../images/product-14/card/product_14.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 49,
+      "isFavorite": false,
+      "stock": 87,
+      "rating": 4.3,
+      "reviews": [
+        {
+          "reviewerName": "User 69",
+          "comment": "Great product! Very satisfied.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "65",
+      "addToCartBtn": "false",
+      "name": "Casual Sneakers",
+      "price": 92.03,
+      "sizes": ["M", "L", "XL"],
+      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
+      "type": "Sneakers",
+      "description": "Comfortable and durable for everyday use.",
+      "image": "../images/product-15/card/product_15.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 8,
+      "isFavorite": false,
+      "stock": 79,
+      "rating": 4.4,
+      "reviews": [
+        {
+          "reviewerName": "User 12",
+          "comment": "Great product! Very satisfied.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "66",
+      "addToCartBtn": "false",
+      "name": "Leather Loafers",
+      "price": 42.64,
+      "sizes": ["S", "M", "L", "XL"],
+      "color": ["#333333", "#F0F0F0", "#AA0000"],
+      "type": "Loafers",
+      "description": "Elegant and sophisticated for formal occasions.",
+      "image": "../images/product-16/card/product_16.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 43,
+      "isFavorite": false,
+      "stock": 87,
+      "rating": 4.5,
+      "reviews": [
+        {
+          "reviewerName": "User 70",
+          "comment": "Great product! Very satisfied.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "67",
+      "addToCartBtn": "false",
+      "name": "Formal Shoes",
+      "price": 91.91,
+      "sizes": ["S", "M", "L"],
+      "color": ["#008000", "#D4A017", "#6B4423"],
+      "type": "Sandals",
+      "description": "Comfortable and durable for everyday use.",
+      "image": "../images/product-17/card/product_1.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 30,
+      "isFavorite": false,
+      "stock": 80,
+      "rating": 4.6,
+      "reviews": [
+        {
+          "reviewerName": "User 68",
+          "comment": "Great product! Very satisfied.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "68",
+      "addToCartBtn": "false",
+      "name": "Running Sneakers",
+      "price": 139.88,
+      "sizes": ["XS", "S", "M", "L", "XL"],
+      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
+      "type": "Boots",
+      "description": "Elegant and sophisticated for formal occasions.",
+      "image": "../images/product-08/card/product_8.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 28,
+      "isFavorite": false,
+      "stock": 19,
+      "rating": 3.9,
+      "reviews": [
+        {
+          "reviewerName": "User 75",
+          "comment": "Great product! Very satisfied.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "69",
+      "addToCartBtn": "false",
+      "name": "Slip-On Sneakers",
+      "price": 20.67,
+      "sizes": ["M", "L", "XL"],
+      "color": ["#0000FF", "#808080", "#FFFFFF"],
+      "type": "Loafers",
+      "description": "Stylish and versatile for casual wear.",
+      "image": "../images/product-09/card/product_9.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 13,
+      "isFavorite": false,
+      "stock": 21,
+      "rating": 4.2,
+      "reviews": [
+        {
+          "reviewerName": "User 53",
+          "comment": "Great product! Very satisfied.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "70",
+      "addToCartBtn": "false",
+      "name": "Leather Loafers",
+      "price": 101.91,
+      "sizes": ["XS", "S", "M", "L", "XL"],
+      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
+      "type": "Shoes",
+      "description": "Lightweight and perfect for running.",
+      "image": "../images/product-10/card/product_10.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 6,
+      "isFavorite": false,
+      "stock": 53,
+      "rating": 3.9,
+      "reviews": [
+        {
+          "reviewerName": "User 17",
+          "comment": "Great product! Very satisfied.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "71",
+      "addToCartBtn": "false",
+      "name": "Sports Shoes",
+      "price": 55.54,
+      "sizes": ["S", "M", "L"],
+      "color": ["#333333", "#F0F0F0", "#AA0000"],
+      "type": "Boots",
+      "description": "Elegant and sophisticated for formal occasions.",
+      "image": "../images/product-11/card/product_11.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 29,
+      "isFavorite": false,
+      "stock": 84,
+      "rating": 4.7,
+      "reviews": [
+        {
+          "reviewerName": "User 51",
+          "comment": "Great product! Very satisfied.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "72",
+      "addToCartBtn": "false",
+      "name": "Sports Shoes",
+      "price": 140.89,
+      "sizes": ["XS", "S", "M", "L", "XL"],
+      "color": ["#333333", "#F0F0F0", "#AA0000"],
+      "type": "Sneakers",
+      "description": "Comfortable and durable for everyday use.",
+      "image": "../images/product-12/card/product_12.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 35,
+      "isFavorite": false,
+      "stock": 93,
+      "rating": 4.1,
+      "reviews": [
+        {
+          "reviewerName": "User 74",
+          "comment": "Great product! Very satisfied.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "73",
+      "addToCartBtn": "false",
+      "name": "Formal Shoes",
+      "price": 38.94,
+      "sizes": ["S", "M", "L", "XL"],
+      "color": ["#FF5733", "#232323", "#DDDDDD"],
+      "type": "Loafers",
+      "description": "Stylish and versatile for casual wear.",
+      "image": "../images/product-13/card/product_13.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 23,
+      "isFavorite": false,
+      "stock": 40,
+      "rating": 4.9,
+      "reviews": [
+        {
+          "reviewerName": "User 69",
+          "comment": "Great product! Very satisfied.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "74",
+      "addToCartBtn": "false",
+      "name": "Basketball Shoes",
+      "price": 63.63,
+      "sizes": ["S", "M", "L", "XL"],
+      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
+      "type": "Sandals",
+      "description": "Comfortable and durable for everyday use.",
+      "image": "../images/product-14/card/product_14.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 25,
+      "isFavorite": false,
+      "stock": 82,
+      "rating": 4.5,
+      "reviews": [
+        {
+          "reviewerName": "User 11",
+          "comment": "Great product! Very satisfied.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "75",
+      "addToCartBtn": "false",
+      "name": "Basketball Shoes",
+      "price": 121.27,
+      "sizes": ["M", "L", "XL"],
+      "color": ["#333333", "#F0F0F0", "#AA0000"],
+      "type": "Boots",
+      "description": "Elegant and sophisticated for formal occasions.",
+      "image": "../images/product-15/card/product_15.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 22,
+      "isFavorite": false,
+      "stock": 96,
+      "rating": 4.2,
+      "reviews": [
+        {
+          "reviewerName": "User 21",
+          "comment": "Great product! Very satisfied.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "76",
+      "addToCartBtn": "false",
+      "name": "Sandals",
+      "price": 90.02,
+      "sizes": ["XS", "S", "M", "L", "XL"],
+      "color": ["#008000", "#D4A017", "#6B4423"],
+      "type": "Sandals",
+      "description": "Rugged and sturdy for outdoor adventures.",
+      "image": "../images/product-16/card/product_16.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 9,
+      "isFavorite": false,
+      "stock": 41,
+      "rating": 4.6,
+      "reviews": [
+        {
+          "reviewerName": "User 50",
+          "comment": "Great product! Very satisfied.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "77",
+      "addToCartBtn": "false",
+      "name": "Formal Shoes",
+      "price": 54.47,
+      "sizes": ["M", "L", "XL"],
+      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
+      "type": "Shoes",
+      "description": "Comfortable and durable for everyday use.",
+      "image": "../images/product-17/card/product_1.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 40,
+      "isFavorite": false,
+      "stock": 80,
+      "rating": 4.7,
+      "reviews": [
+        {
+          "reviewerName": "User 87",
+          "comment": "Great product! Very satisfied.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "78",
+      "addToCartBtn": "false",
+      "name": "Hiking Boots",
+      "price": 55.65,
+      "sizes": ["M", "L", "XL"],
+      "color": ["#333333", "#F0F0F0", "#AA0000"],
+      "type": "Shoes",
+      "description": "Stylish and versatile for casual wear.",
+      "image": "../images/product-08/card/product_8.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 17,
+      "isFavorite": false,
+      "stock": 56,
+      "rating": 4.2,
+      "reviews": [
+        {
+          "reviewerName": "User 2",
+          "comment": "Great product! Very satisfied.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "79",
+      "addToCartBtn": "false",
+      "name": "Formal Shoes",
+      "price": 139.28,
+      "sizes": ["S", "M", "L", "XL"],
+      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
+      "type": "Loafers",
+      "description": "Stylish and versatile for casual wear.",
+      "image": "../images/product-09/card/product_9.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 17,
+      "isFavorite": false,
+      "stock": 21,
+      "rating": 4.2,
+      "reviews": [
+        {
+          "reviewerName": "User 14",
+          "comment": "Great product! Very satisfied.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "80",
+      "addToCartBtn": "false",
+      "name": "Sports Shoes",
+      "price": 86.82,
+      "sizes": ["S", "M", "L", "XL"],
+      "color": ["#008000", "#D4A017", "#6B4423"],
+      "type": "Boots",
+      "description": "Elegant and sophisticated for formal occasions.",
+      "image": "../images/product-10/card/product_10.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 45,
+      "isFavorite": false,
+      "stock": 17,
+      "rating": 4.7,
+      "reviews": [
+        {
+          "reviewerName": "User 57",
+          "comment": "Great product! Very satisfied.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "81",
+      "addToCartBtn": "false",
+      "name": "Running Sneakers",
+      "price": 40.92,
+      "sizes": ["S", "M", "L"],
+      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
+      "type": "Sneakers",
+      "description": "Stylish and versatile for casual wear.",
+      "image": "../images/product-11/card/product_11.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 42,
+      "isFavorite": false,
+      "stock": 21,
+      "rating": 4.6,
+      "reviews": [
+        {
+          "reviewerName": "User 97",
+          "comment": "Great product! Very satisfied.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "82",
+      "addToCartBtn": "false",
+      "name": "Running Sneakers",
+      "price": 77.55,
+      "sizes": ["M", "L", "XL"],
+      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
+      "type": "Shoes",
+      "description": "Stylish and versatile for casual wear.",
+      "image": "../images/product-12/card/product_12.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 11,
+      "isFavorite": false,
+      "stock": 32,
+      "rating": 3.9,
+      "reviews": [
+        {
+          "reviewerName": "User 43",
+          "comment": "Great product! Very satisfied.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "83",
+      "addToCartBtn": "false",
+      "name": "Flip Flops",
+      "price": 57.84,
+      "sizes": ["S", "M", "L"],
+      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
+      "type": "Boots",
+      "description": "Stylish and versatile for casual wear.",
+      "image": "../images/product-13/card/product_13.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 49,
+      "isFavorite": false,
+      "stock": 41,
+      "rating": 4.8,
+      "reviews": [
+        {
+          "reviewerName": "User 17",
+          "comment": "Great product! Very satisfied.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "84",
+      "addToCartBtn": "false",
+      "name": "Flip Flops",
+      "price": 80.34,
+      "sizes": ["S", "M", "L"],
+      "color": ["#FF5733", "#232323", "#DDDDDD"],
+      "type": "Sandals",
+      "description": "Comfortable and durable for everyday use.",
+      "image": "../images/product-14/card/product_14.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 26,
+      "isFavorite": false,
+      "stock": 33,
+      "rating": 4.7,
+      "reviews": [
+        {
+          "reviewerName": "User 15",
+          "comment": "Great product! Very satisfied.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "85",
+      "addToCartBtn": "false",
+      "name": "Hiking Boots",
+      "price": 62.39,
+      "sizes": ["M", "L", "XL"],
+      "color": ["#0000FF", "#808080", "#FFFFFF"],
+      "type": "Sandals",
+      "description": "Comfortable and durable for everyday use.",
+      "image": "../images/product-15/card/product_15.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 46,
+      "isFavorite": false,
+      "stock": 58,
+      "rating": 3.6,
+      "reviews": [
+        {
+          "reviewerName": "User 75",
+          "comment": "Great product! Very satisfied.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "86",
+      "addToCartBtn": "false",
+      "name": "Flip Flops",
+      "price": 38.17,
+      "sizes": ["M", "L", "XL"],
+      "color": ["#333333", "#F0F0F0", "#AA0000"],
+      "type": "Sneakers",
+      "description": "Stylish and versatile for casual wear.",
+      "image": "../images/product-16/card/product_16.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 42,
+      "isFavorite": false,
+      "stock": 71,
+      "rating": 3.8,
+      "reviews": [
+        {
+          "reviewerName": "User 87",
+          "comment": "Great product! Very satisfied.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "87",
+      "addToCartBtn": "false",
+      "name": "Flip Flops",
+      "price": 61.32,
+      "sizes": ["M", "L", "XL"],
+      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
+      "type": "Boots",
+      "description": "Comfortable and durable for everyday use.",
+      "image": "../images/product-17/card/product_1.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 12,
+      "isFavorite": false,
+      "stock": 13,
+      "rating": 3.8,
+      "reviews": [
+        {
+          "reviewerName": "User 74",
+          "comment": "Great product! Very satisfied.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "88",
+      "addToCartBtn": "false",
+      "name": "Casual Sneakers",
+      "price": 86.53,
+      "sizes": ["M", "L", "XL"],
+      "color": ["#0000FF", "#808080", "#FFFFFF"],
+      "type": "Sandals",
+      "description": "Stylish and versatile for casual wear.",
+      "image": "../images/product-08/card/product_8.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 27,
+      "isFavorite": false,
+      "stock": 77,
+      "rating": 3.6,
+      "reviews": [
+        {
+          "reviewerName": "User 18",
+          "comment": "Great product! Very satisfied.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "89",
+      "addToCartBtn": "false",
+      "name": "Hiking Boots",
+      "price": 41.07,
+      "sizes": ["XS", "S", "M", "L", "XL"],
+      "color": ["#FF5733", "#232323", "#DDDDDD"],
+      "type": "Shoes",
+      "description": "Rugged and sturdy for outdoor adventures.",
+      "image": "../images/product-09/card/product_9.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 35,
+      "isFavorite": false,
+      "stock": 48,
+      "rating": 4.1,
+      "reviews": [
+        {
+          "reviewerName": "User 89",
+          "comment": "Great product! Very satisfied.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "90",
+      "addToCartBtn": "false",
+      "name": "Sandals",
+      "price": 54.43,
+      "sizes": ["XS", "S", "M", "L", "XL"],
+      "color": ["#008000", "#D4A017", "#6B4423"],
+      "type": "Loafers",
+      "description": "Elegant and sophisticated for formal occasions.",
+      "image": "../images/product-10/card/product_10.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 18,
+      "isFavorite": false,
+      "stock": 29,
+      "rating": 4.9,
+      "reviews": [
+        {
+          "reviewerName": "User 88",
+          "comment": "Great product! Very satisfied.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "91",
+      "addToCartBtn": "false",
+      "name": "Formal Shoes",
+      "price": 42.71,
+      "sizes": ["S", "M", "L", "XL"],
+      "color": ["#008000", "#D4A017", "#6B4423"],
+      "type": "Sneakers",
+      "description": "Elegant and sophisticated for formal occasions.",
+      "image": "../images/product-11/card/product_11.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 19,
+      "isFavorite": false,
+      "stock": 88,
+      "rating": 4.0,
+      "reviews": [
+        {
+          "reviewerName": "User 11",
+          "comment": "Great product! Very satisfied.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "92",
+      "addToCartBtn": "false",
+      "name": "Running Sneakers",
+      "price": 78.21,
+      "sizes": ["S", "M", "L"],
+      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
+      "type": "Boots",
+      "description": "Stylish and versatile for casual wear.",
+      "image": "../images/product-02/card/product_2.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 43,
+      "isFavorite": false,
+      "stock": 59,
+      "rating": 4.0,
+      "reviews": [
+        {
+          "reviewerName": "User 58",
+          "comment": "Great product! Very satisfied.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "93",
+      "addToCartBtn": "false",
+      "name": "Running Sneakers",
+      "price": 92.33,
+      "sizes": ["S", "M", "L"],
+      "color": ["#008000", "#D4A017", "#6B4423"],
+      "type": "Loafers",
+      "description": "Comfortable and durable for everyday use.",
+      "image": "../images/product-03/card/product_3.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 23,
+      "isFavorite": false,
+      "stock": 17,
+      "rating": 5.0,
+      "reviews": [
+        {
+          "reviewerName": "User 27",
+          "comment": "Great product! Very satisfied.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "94",
+      "addToCartBtn": "false",
+      "name": "Sandals",
+      "price": 49.61,
+      "sizes": ["M", "L", "XL"],
+      "color": ["#0000FF", "#808080", "#FFFFFF"],
+      "type": "Boots",
+      "description": "Stylish and versatile for casual wear.",
+      "image": "../images/product-04/card/product_4.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 14,
+      "isFavorite": false,
+      "stock": 94,
+      "rating": 4.6,
+      "reviews": [
+        {
+          "reviewerName": "User 3",
+          "comment": "Great product! Very satisfied.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "95",
+      "addToCartBtn": "false",
+      "name": "Hiking Boots",
+      "price": 101.98,
+      "sizes": ["S", "M", "L", "XL"],
+      "color": ["#FF5733", "#232323", "#DDDDDD"],
+      "type": "Loafers",
+      "description": "Stylish and versatile for casual wear.",
+      "image": "../images/product-05/card/product_5.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 28,
+      "isFavorite": false,
+      "stock": 50,
+      "rating": 4.5,
+      "reviews": [
+        {
+          "reviewerName": "User 92",
+          "comment": "Great product! Very satisfied.",
+          "rating": 5
+        }
+      ]
+    },
+    {
+      "id": "96",
+      "addToCartBtn": "false",
+      "name": "Flip Flops",
+      "price": 22.83,
+      "sizes": ["M", "L", "XL"],
+      "color": ["#0000FF", "#808080", "#FFFFFF"],
+      "type": "Sneakers",
+      "description": "Comfortable and durable for everyday use.",
+      "image": "../images/product-06/card/product_6.webp",
+      "thumbnailImages": [
+        "../images/product-01/details/product_0.webp",
+        "../images/product-01/details/product_0-1.webp",
+        "../images/product-01/details/product_0-2.webp",
+        "../images/product-01/details/product_0-3.webp"
+      ],
+      "favoritesCount": 19,
+      "isFavorite": false,
+      "stock": 79,
+      "rating": 4.3,
+      "reviews": [
+        {
+          "reviewerName": "User 35",
+          "comment": "Great product! Very satisfied.",
+          "rating": 4
+        }
+      ]
+    },
+    {
+      "id": "97",
+      "addToCartBtn": "false",
+      "name": "Basketball Shoes",
+      "price": 122.35,
+      "sizes": ["XS", "S", "M", "L", "XL"],
+      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
+      "type": "Boots",
+      "description": "Comfortable and durable for everyday use.",
       "image": "../images/product-07/card/product_7.webp",
       "thumbnailImages": [
         "../images/product-01/details/product_0.webp",
@@ -181,24 +2706,25 @@
       ],
       "favoritesCount": 10,
       "isFavorite": false,
-      "stock": 25,
+      "stock": 34,
       "rating": 4.5,
       "reviews": [
         {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
+          "reviewerName": "User 66",
+          "comment": "Great product! Very satisfied.",
+          "rating": 4
         }
       ]
     },
     {
-      "id": "8",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
+      "id": "98",
+      "addToCartBtn": "false",
+      "name": "Running Sneakers",
+      "price": 66.1,
+      "sizes": ["M", "L", "XL"],
+      "color": ["#0000FF", "#808080", "#FFFFFF"],
+      "type": "Boots",
+      "description": "Comfortable and durable for everyday use.",
       "image": "../images/product-08/card/product_8.webp",
       "thumbnailImages": [
         "../images/product-01/details/product_0.webp",
@@ -206,26 +2732,27 @@
         "../images/product-01/details/product_0-2.webp",
         "../images/product-01/details/product_0-3.webp"
       ],
-      "favoritesCount": 10,
+      "favoritesCount": 44,
       "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
+      "stock": 46,
+      "rating": 5.0,
       "reviews": [
         {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
+          "reviewerName": "User 32",
+          "comment": "Great product! Very satisfied.",
+          "rating": 4
         }
       ]
     },
     {
-      "id": "9",
+      "id": "99",
+      "addToCartBtn": "false",
       "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
+      "price": 119.0,
+      "sizes": ["XS", "S", "M", "L", "XL"],
+      "color": ["#333333", "#F0F0F0", "#AA0000"],
+      "type": "Sneakers",
+      "description": "Rugged and sturdy for outdoor adventures.",
       "image": "../images/product-09/card/product_9.webp",
       "thumbnailImages": [
         "../images/product-01/details/product_0.webp",
@@ -233,26 +2760,27 @@
         "../images/product-01/details/product_0-2.webp",
         "../images/product-01/details/product_0-3.webp"
       ],
-      "favoritesCount": 10,
+      "favoritesCount": 18,
       "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
+      "stock": 88,
+      "rating": 4.1,
       "reviews": [
         {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
+          "reviewerName": "User 32",
+          "comment": "Great product! Very satisfied.",
+          "rating": 4
         }
       ]
     },
     {
-      "id": "10",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
+      "id": "100",
+      "addToCartBtn": "false",
+      "name": "Formal Shoes",
+      "price": 94.92,
+      "sizes": ["S", "M", "L"],
+      "color": ["#FF5733", "#232323", "#DDDDDD"],
+      "type": "Boots",
+      "description": "Rugged and sturdy for outdoor adventures.",
       "image": "../images/product-10/card/product_10.webp",
       "thumbnailImages": [
         "../images/product-01/details/product_0.webp",
@@ -260,2453 +2788,14 @@
         "../images/product-01/details/product_0-2.webp",
         "../images/product-01/details/product_0-3.webp"
       ],
-      "favoritesCount": 10,
+      "favoritesCount": 28,
       "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
+      "stock": 83,
+      "rating": 3.8,
       "reviews": [
         {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "11",
-      "addToCartBtn": "false",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-11/card/product_11.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "12",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-12/card/product_12.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "13",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-13/card/product_13.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "14",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "15",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-15/card/product_15.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "16",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-16/card/product_16.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "17",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "18",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "19",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "20",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "21",
-      "addToCartBtn": "false",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "22",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "23",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "24",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "25",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "26",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "27",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "28",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "29",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "30",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "31",
-      "addToCartBtn": "false",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "32",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "33",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "34",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "35",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "36",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "37",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "38",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "39",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "40",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "41",
-      "addToCartBtn": "false",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "42",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "43",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "44",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "45",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "46",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "47",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "48",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "49",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "50",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "51",
-      "addToCartBtn": "false",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "52",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "53",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "54",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "55",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "56",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "57",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "58",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "59",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "60",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "61",
-      "addToCartBtn": "false",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "62",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "63",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "64",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "65",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "66",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "67",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "68",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "69",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "70",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "71",
-      "addToCartBtn": "false",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "72",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "73",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "74",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "75",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "76",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "77",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "78",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "79",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "80",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "81",
-      "addToCartBtn": "false",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "82",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "83",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "84",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "85",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "86",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "87",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "88",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "89",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "90",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "91",
-      "addToCartBtn": "false",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "92",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "93",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "94",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "95",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "96",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "97",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "98",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "99",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
-          "rating": 5
-        }
-      ]
-    },
-    {
-      "id": "100",
-      "name": "Sports Shoes",
-      "price": 59.99,
-      "color": ["#C93A3E", "#E4E4E4", "#000", "#f1f1f1"],
-      "sizes": ["S", "M", "L", "XL"],
-      "type": "Shoes",
-      "description": "Comfortable and durable sports shoes for everyday use.",
-      "image": "../images/product-14/card/product_14.webp",
-      "thumbnailImages": [
-        "../images/product-01/details/product_0.webp",
-        "../images/product-01/details/product_0-1.webp",
-        "../images/product-01/details/product_0-2.webp",
-        "../images/product-01/details/product_0-3.webp"
-      ],
-      "favoritesCount": 10,
-      "isFavorite": false,
-      "stock": 25,
-      "rating": 4.5,
-      "reviews": [
-        {
-          "reviewerName": "John Doe",
-          "comment": "Great shoes! Very comfortable.",
+          "reviewerName": "User 55",
+          "comment": "Great product! Very satisfied.",
           "rating": 5
         }
       ]

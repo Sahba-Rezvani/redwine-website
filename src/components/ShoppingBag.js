@@ -8,8 +8,9 @@ import { Link } from "react-router-dom";
 export function ShoppingBag({
   toggleDrawer,
   cartProducts,
-  quantity,
-  setQuantity,
+  updateQuantity,
+  count,
+  setCount,
 }) {
   const [totalPrice, setTotalPrice] = useState(0);
 
@@ -36,11 +37,12 @@ export function ShoppingBag({
         {cartProducts ? (
           <div className="bag_products">
             {cartProducts.map((product, i) => (
-              <CartProducts
+              <CartProduct
                 product={product}
-                counter={quantity}
-                setCounter={setQuantity}
-                key={i}
+                key={product.id}
+                updateQuantity={updateQuantity}
+                count={count}
+                setCount={setCount}
               />
             ))}
           </div>
@@ -69,13 +71,20 @@ export function ShoppingBag({
   );
 }
 
-export function CartProducts({ product, counter, setCounter }) {
-  function handleDecCounter() {
-    setCounter((c) => (c > 0 ? c - 1 : 0));
-  }
-  function handleIncCounter() {
-    setCounter((c) => c + 1);
-  }
+export function CartProduct({ product, count, setCount, updateQuantity }) {
+  const increaseQuantity = () => {
+    setCount((c) => c + 1);
+    updateQuantity(product.id, count);
+  };
+  const decreaseQuantity = () => {
+    setCount((c) => (c > 1 ? c - 1 : 1));
+    updateQuantity(product.id, count);
+  };
+  const handleChange = (e) => {
+    const value = parseInt(e.target.value, 10) || 1;
+    setCount(value);
+    updateQuantity(product.id, value);
+  };
   return (
     <div className="bag_product">
       <div className="bag_product-img">
@@ -83,19 +92,15 @@ export function CartProducts({ product, counter, setCounter }) {
       </div>
       <div className="bag_product-info">
         <h4>{product.name}</h4>
-        <p>Color: #XXXXXX</p>
-        <p>Size: XX</p>
+        <p>Color: {product.color}</p>
+        <p>Size: {product.size}</p>
         <div>
           <div className="bag_counter">
-            <button onClick={handleDecCounter} type="button">
+            <button onClick={decreaseQuantity} type="button">
               -
             </button>
-            <input
-              type="text"
-              value={counter}
-              onChange={(e) => setCounter(Number(e.target.value))}
-            />
-            <button onClick={handleIncCounter} type="button">
+            <input type="text" value={count} onChange={handleChange} />
+            <button onClick={increaseQuantity} type="button">
               +
             </button>
           </div>
