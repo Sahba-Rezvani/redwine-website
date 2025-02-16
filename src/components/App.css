@@ -47,6 +47,7 @@ button {
 table {
   width: 100%;
   border-collapse: collapse;
+  table-layout: fixed;
 }
 
 .primary-btn {
@@ -67,12 +68,20 @@ table {
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
 }
 
+.tertiary-btn {
+  padding: 10px;
+  background-color: black;
+  color: #f0f0f1;
+  text-transform: uppercase;
+  border-radius: 2px;
+}
+
 .secondary-btn {
   width: 100%;
   color: #fff;
   background-color: rgba(34, 34, 34, 0.95);
   height: 52px;
-  /* margin: 20px 0; */
+  margin: 20px 0;
   font-size: 15px;
   transition: all 0.2s;
 }
@@ -413,14 +422,6 @@ footer {
   color: #222;
 }
 
-.footer-btn {
-  padding: 10px;
-  background-color: black;
-  color: #f0f0f1;
-  text-transform: uppercase;
-  border-radius: 2px;
-}
-
 .footer-top,
 .footer-bottom {
   width: 92%;
@@ -558,6 +559,7 @@ footer form {
   top: 35px;
   left: 50px;
   text-transform: uppercase;
+  text-align: left;
 }
 
 .banner-textline p {
@@ -1468,13 +1470,25 @@ footer form {
   border: none;
 }
 
-.factor_table tr:last-child td {
+.factor_table tr:nth-last-child(2) td {
   border: none;
+}
+
+.factor_table tr:last-child td {
+  border-top: 1px solid #e4e4e4;
+}
+
+.factor_table tr:last-child th {
+  border-top: 1px solid #e4e4e4;
 }
 
 .factor_table tr {
   font-size: 0.85em;
   text-align: left;
+}
+
+.table-two-th {
+  width: 70%;
 }
 
 .cart_total-check form label::before {
@@ -1517,6 +1531,21 @@ footer form {
   border-bottom: 1px solid #e4e4e4;
   font-weight: 500;
 }
+
+.coupon-form {
+  display: flex;
+}
+
+.discount-coupon {
+  background-color: #f0f0f1;
+  border: none;
+  /* flex-grow: 1; */
+  font-size: 1em;
+  padding: 10px;
+  border-radius: 2px;
+  outline: none;
+}
+
 .wizard_product {
   display: flex;
   align-items: center;
@@ -1616,6 +1645,10 @@ footer form {
   border-bottom: 1px solid #e4e4e4;
   text-align: left;
   font-size: 0.85em;
+}
+
+.order_table thead th:first-child {
+  width: 70%;
 }
 
 .order_table tbody {

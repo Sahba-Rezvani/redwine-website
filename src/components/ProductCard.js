@@ -30,7 +30,7 @@ export function ProductCard({ product }) {
         </div>
         <div className="pc-info-box">
           <div className="pc-info-header">
-            <p className="pc-category">{product.type}</p>
+            <p className="pc-category">{product.category}</p>
             <FontAwesomeIcon
               icon={RegularHeart}
               style={{ color: "#767676", marginRight: "7px" }}

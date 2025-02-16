@@ -19,7 +19,7 @@ export function Footer() {
             "
             />
             <button
-              className="footer-btn
+              className="tertiary-btn
             "
             >
               register

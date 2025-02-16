@@ -134,10 +134,16 @@ export default function ShoppingWizard({ products, quantity, setQuantity }) {
                       </td>
                     </tr>
                     <tr>
-                      <form>
-                        <input type="decimal" placeholder="Coupon Code" />
-                        <button>submit</button>
-                      </form>
+                      <td style={{ width: "100%" }}>
+                        <form className="coupon-form">
+                          <input
+                            type="text"
+                            className="discount-coupon"
+                            placeholder="Coupon Code"
+                          />
+                          <button className="tertiary-btn">submit</button>
+                        </form>
+                      </td>
                     </tr>
                     <tr>
                       <th>total</th>
@@ -264,19 +270,19 @@ export default function ShoppingWizard({ products, quantity, setQuantity }) {
                 <table className="factor_table">
                   <tbody>
                     <tr>
-                      <th>subtotal</th>
+                      <th className="table-two-th">subtotal</th>
                       <td>$XX</td>
                     </tr>{" "}
                     <tr>
-                      <th>shipping</th>
+                      <th lassName="table-two-th">shipping</th>
                       <td>$XX</td>
                     </tr>{" "}
                     <tr>
-                      <th>boxing</th>
+                      <th lassName="table-two-th">boxing</th>
                       <td>$XX</td>
                     </tr>{" "}
                     <tr>
-                      <th>total</th>
+                      <th lassName="table-two-th">total</th>
                       <td>$XX</td>
                     </tr>
                   </tbody>

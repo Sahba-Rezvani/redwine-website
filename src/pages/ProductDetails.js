@@ -59,7 +59,7 @@ export default function ProductDetails({
             </div>
             <div className="pc-details-info-box">
               <h4 className="pc-details--name row">{selectedProduct.name}</h4>
-              <p className="pc-details--price row">$29</p>
+              <p className="pc-details--price row">${selectedProduct.price}</p>
               <p className="pc-details-info row">
                 Phasellus sed volutpat orci. Fusce eget lore mauris vehicula
                 elementum gravida nec dui. Aenean aliquam varius ipsum, non

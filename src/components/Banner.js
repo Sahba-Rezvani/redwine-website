@@ -33,7 +33,7 @@ export default function MainBanner() {
               commodo
             </p>
             <Link to="/shop">
-              <button className="btn primary-btn">shop now</button>
+              <button className="primary-btn">shop now</button>
             </Link>
           </div>
         </div>
@@ -51,7 +51,7 @@ export default function MainBanner() {
               commodo
             </p>
             <Link to="/shop">
-              <button className="btn primary-btn">shop now</button>
+              <button className="primary-btn">shop now</button>
             </Link>
           </div>
         </div>
