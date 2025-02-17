@@ -31,6 +31,9 @@ export default function ProductDetails({
   function handleImageSelect(imgUrl) {
     setSelectedImage(imgUrl);
   }
+  const discountPrice =
+    selectedProduct?.price -
+    (selectedProduct?.price * selectedProduct?.isDiscount) / 100;
 
   return (
     <>
@@ -55,11 +58,38 @@ export default function ProductDetails({
                   src={selectedProduct.thumbnailImages[selectedImage]}
                   alt="pc-01"
                 />
+                {selectedProduct.isDiscount !== 0 ? (
+                  <div className="discount-label">
+                    -{selectedProduct.isDiscount}%
+                  </div>
+                ) : (
+                  ""
+                )}
               </div>
             </div>
             <div className="pc-details-info-box">
               <h4 className="pc-details--name row">{selectedProduct.name}</h4>
-              <p className="pc-details--price row">${selectedProduct.price}</p>
+
+              <p className="pc-details--price row">
+                ${selectedProduct.price}
+                {selectedProduct.isDiscount ? (
+                  <div className="pc-discount-line"></div>
+                ) : (
+                  ""
+                )}
+              </p>
+              {selectedProduct.isDiscount !== 0 ? (
+                <>
+                  <span
+                    className="pc-discount-price"
+                    style={{ fontSize: "1.375em", marginLeft: "20px" }}
+                  >
+                    ${+discountPrice.toFixed(2)}
+                  </span>
+                </>
+              ) : (
+                ""
+              )}
               <p className="pc-details-info row">
                 Phasellus sed volutpat orci. Fusce eget lore mauris vehicula
                 elementum gravida nec dui. Aenean aliquam varius ipsum, non

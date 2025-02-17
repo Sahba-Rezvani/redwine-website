@@ -989,6 +989,7 @@ footer form {
 }
 .pc-details-main-img {
   margin: 0 10px;
+  position: relative;
 }
 .pc-details-thumbnail {
   flex: 0 0 14%;
@@ -1013,11 +1014,13 @@ footer form {
   font-weight: 500;
 }
 .pc-details--price {
-  font-size: 22px;
+  font-size: 1.375em;
   font-weight: 500;
+  position: relative;
+  display: inline-block;
 }
 .pc-details-info {
-  font-size: 14px;
+  font-size: 0.875em;
 }
 
 .swatch_list {

@@ -14,6 +14,7 @@ export default function Shop({ itemsPerPage, products }) {
   const [sortedBy, setSortedBy] = useState("Default Sorting");
   const [filteredBy, setFilteredBy] = useState("All");
 
+  //filtering products based on categories
   if (filteredBy === "All") categoryFilteredProducts = products;
   if (filteredBy === "Socks")
     categoryFilteredProducts = products.filter((p) => p.category === "socks");
@@ -29,15 +30,14 @@ export default function Shop({ itemsPerPage, products }) {
   if (filteredBy === "Hoodies")
     categoryFilteredProducts = products.filter((p) => p.category === "hoodie");
 
-  console.log(categoryFilteredProducts);
-
   const endOffset = itemOffset + itemsPerPage;
 
+  //filter price range
   priceSortedProducts = products
     .slice()
     .filter((p) => p.price >= priceRange[0] && p.price <= priceRange[1]);
-  // console.log(priceSortedProducts);
 
+  //sorting products
   if (sortedBy === "Default Sorting") sortedProducts = categoryFilteredProducts;
   if (sortedBy === "Price, Low to High")
     sortedProducts = categoryFilteredProducts
@@ -51,8 +51,10 @@ export default function Shop({ itemsPerPage, products }) {
     sortedProducts = categoryFilteredProducts
       .slice()
       .sort((a, b) => b.favoritesCount - a.favoritesCount);
-
-  console.log(sortedProducts);
+  if (sortedBy === "Most Discount")
+    sortedProducts = categoryFilteredProducts
+      .slice()
+      .sort((a, b) => b.isDiscount - a.isDiscount);
 
   const currentProducts = sortedProducts.slice(itemOffset, endOffset);
   const pageCount = Math.ceil(sortedProducts.length / itemsPerPage);
@@ -63,7 +65,7 @@ export default function Shop({ itemsPerPage, products }) {
     "Price, Low to High",
     "Price, High to Low",
     "Most Liked",
-    "Newest",
+    "Most Discount",
   ];
 
   const categoryOptions = [

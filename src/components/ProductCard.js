@@ -13,6 +13,9 @@ export function ProductCard({ product }) {
     setIsHovered(false);
   }
 
+  const discountPrice =
+    product.price - (product.price * product.isDiscount) / 100;
+
   return (
     <div
       onMouseEnter={() => handleMouseEnter(product.id)}
@@ -52,7 +55,7 @@ export function ProductCard({ product }) {
           {product.isDiscount !== 0 ? (
             <>
               <span className="pc-discount-price">
-                ${product.price - (product.price * product.isDiscount) / 100}
+                ${+discountPrice.toFixed(2)}
               </span>
             </>
           ) : (
