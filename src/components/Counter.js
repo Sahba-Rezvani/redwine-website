@@ -10,18 +10,15 @@ export function Counter({
   const increaseQuantity = () => {
     setCount((c) => c + 1);
     forTest(selectedProduct, count, selectedColor, selectedSize);
-    // updateQuantity(productId, count);
   };
   const decreaseQuantity = () => {
     setCount((c) => (c > 2 ? c - 1 : 1));
     forTest(selectedProduct, count, selectedColor, selectedSize);
-    // updateQuantity(productId, count);
   };
   const handleChange = (e) => {
     const value = parseInt(e.target.value, 10) || count;
     setCount(Number(value));
     forTest(selectedProduct, count, selectedColor, selectedSize);
-    // updateQuantity(productId, value);
   };
   return (
     <div className="counter-container">

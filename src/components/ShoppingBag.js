@@ -1,15 +1,30 @@
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import * as React from "react";
-import { useState } from "react";
+import { useState , useEffect } from "react";
 import Box from "@mui/material/Box";
 import { Link } from "react-router-dom";
 
 export function ShoppingBag({ toggleDrawer, cartProducts, updateQuantity }) {
   const [totalPrice, setTotalPrice] = useState(0);
 
+
+  useEffect(() => {
+    console.log("ShoppingBag cartProducts updated:", cartProducts);
+  }, [cartProducts]);  
+
   // const addedProducts = null;
   // const addedProducts = products.slice(5, 11);
+
+  useEffect(() => {
+    const total = cartProducts.reduce((acc, product) => {
+      return acc + product.price * product.quantity;
+    }, 0);
+    
+    setTotalPrice(total.toFixed(2));  
+  }, [cartProducts]);  
+  
+  
 
   const bagProductsNum = cartProducts ? cartProducts.length : 0;
 
@@ -33,8 +48,8 @@ export function ShoppingBag({ toggleDrawer, cartProducts, updateQuantity }) {
             {cartProducts.map((product, i) => (
               <CartProduct
                 product={product}
-                key={product.id}
-                // updateQuantity={updateQuantity}
+                key={`${product.id}-${product.color}-${product.size}`}
+                updateQuantity={updateQuantity}
               />
             ))}
           </div>
@@ -63,20 +78,28 @@ export function ShoppingBag({ toggleDrawer, cartProducts, updateQuantity }) {
   );
 }
 
-export function CartProduct({ product, updateQuantity }) {
+export function CartProduct({ product, updateQuantity  }) {
+
+  
+
   const increaseQuantity = () => {
-    const newCount = product.quantity + 1;
-    // updateQuantity(product.id, newCount);
+    updateQuantity(product.id, product.color, product.size, product.quantity + 1);
+
+    console.log(product , '❤️❤️');
+    
+    
+    
   };
 
   const decreaseQuantity = () => {
-    const newCount = product.quantity > 1 ? product.quantity - 1 : 1;
-    // updateQuantity(product.id, newCount);
+    if (product.quantity > 1) {
+      updateQuantity(product.id, product.color, product.size, product.quantity - 1);
+    }
   };
 
   const handleChange = (e) => {
     const value = parseInt(e.target.value, 10) || 1;
-    updateQuantity(product.id, value);
+    updateQuantity(product.id, product.color, product.size, value);
   };
 
   return (

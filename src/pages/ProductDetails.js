@@ -29,6 +29,7 @@ export default function ProductDetails({
     setSelectedProduct(product);
   }, [selectedProduct, id, products]);
 
+
   function handleImageSelect(imgUrl) {
     setSelectedImage(imgUrl);
   }
@@ -131,7 +132,7 @@ export default function ProductDetails({
                     forTest={forTest}
                     selectedColor={selectedColor}
                     selectedSize={selectedSize}
-                    // updateQuantity={updateQuantity}
+                    updateQuantity={updateQuantity}
                     cartProducts={cartProducts}
                   />
                   <button

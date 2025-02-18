@@ -60,6 +60,12 @@ export default function App() {
     }
   }, []);
 
+  useEffect(() => {
+    console.log("Updated cartProducts:", cartProducts);
+  }, [cartProducts]); // هر وقت cartProducts تغییر کرد، این اجرا میشه
+  
+
+
   if (loading) return <div>Loading...</div>;
   if (error) return <div>Error: {error}</div>;
 
@@ -99,6 +105,18 @@ export default function App() {
   const isAuthenticated = () => {
     return !!localStorage.getItem("loggedInUser");
   };
+
+  const updateQuantity = (id, color, size, newQuantity) => {
+    setCartProducts((prevCart) =>
+      prevCart.map((item) =>
+        item.id === id && item.color === color && item.size === size
+          ? { ...item, quantity: newQuantity }
+          : item
+      )
+    );
+  };
+  
+  
 
   // const handleAddToCart = (product, count, selectedColor, selectedSize) => {
   //   //اتفاقات داخل این فانکشن باید با فشردن دکمه کم  و زیاد در Countr رقم بخورد
@@ -207,7 +225,7 @@ export default function App() {
         onClose={toggleShoppingBagDrawer()}
       >
         <ShoppingBag
-          // updateQuantity={updateQuantity}
+          updateQuantity={updateQuantity}
           cartProducts={cartProducts}
           toggleDrawer={toggleShoppingBagDrawer}
         />
@@ -244,7 +262,7 @@ export default function App() {
               products={products}
               count={count}
               setCount={setCount}
-              // updateQuantity={updateQuantity}
+              updateQuantity={updateQuantity}
               cartProducts={cartProducts}
               selectedColor={selectedColor}
               setSelectedColor={setSelectedColor}
@@ -262,6 +280,7 @@ export default function App() {
               products={products}
               count={count}
               setCount={setCount}
+              cartProducts={cartProducts} 
             />
           }
         />

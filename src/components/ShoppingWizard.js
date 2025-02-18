@@ -10,12 +10,17 @@ import FloatingInput from "./InputFloatingLabel";
 import "primereact/resources/themes/lara-light-cyan/theme.css";
 import { styled } from "@mui/material";
 
-export default function ShoppingWizard({ products, quantity, setQuantity }) {
+export default function ShoppingWizard({ products, quantity, setQuantity, cartProducts }) {
   const stepperRef = useRef(null);
   const [shipping, setShipping] = useState(null);
   const [boxing, setBoxing] = useState(null);
   const addedProducts = products.slice(5, 9);
   // const addedProducts=null;
+
+  const totalPrice = cartProducts.reduce(
+    (acc, product) => acc + product.price * product.quantity,
+    0
+  );
 
   return (
     <div className="section-width shop_wizard">
@@ -35,8 +40,8 @@ export default function ShoppingWizard({ products, quantity, setQuantity }) {
                   </tr>
                 </thead>
                 <tbody>
-                  {addedProducts.map((product) => (
-                    <tr>
+                  {cartProducts.map((product) => (
+                    <tr key={`${product.id}-${product.color}-${product.size}`}>
                       <td>
                         <div className="wizard_product">
                           <div className="wizard_product-img">
@@ -44,8 +49,8 @@ export default function ShoppingWizard({ products, quantity, setQuantity }) {
                           </div>
                           <div className="wizard_product-info">
                             <h4>{product.name}</h4>
-                            <p>Color: #XXXXXX</p>
-                            <p>Size: XX</p>
+                            <p>Color: {product.color ? product.color : "N/A"}</p>
+                            <p>Size: {product.size ? product.size : "N/A"}</p>
                           </div>
                         </div>
                       </td>
@@ -53,19 +58,21 @@ export default function ShoppingWizard({ products, quantity, setQuantity }) {
                         <p className="wizard_product-price">${product.price}</p>
                       </td>
                       <td>
-                        <Counter counter={quantity} setCounter={setQuantity} />
+                        <p>{product.quantity}</p>
                       </td>
-                      <td className="wizard_product-subtotal">$XX</td>
+                      <td className="wizard_product-subtotal">
+                        ${product.price * product.quantity}
+                      </td>
                       <td>
-                        {" "}
                         <FontAwesomeIcon
                           className="wizard_product-remove"
                           icon={faXmark}
-                        />{" "}
+                        />
                       </td>
                     </tr>
                   ))}
                 </tbody>
+
               </table>
             </div>
             <div className="wizard_cart-totals">
@@ -75,7 +82,7 @@ export default function ShoppingWizard({ products, quantity, setQuantity }) {
                   <tbody>
                     <tr>
                       <th>subtotal</th>
-                      <td>$265</td>
+                      <td>${totalPrice.toFixed(2)}</td>
                     </tr>
                     <tr>
                       <th>shipping</th>
@@ -147,7 +154,7 @@ export default function ShoppingWizard({ products, quantity, setQuantity }) {
                     </tr>
                     <tr>
                       <th>total</th>
-                      <td>$288</td>
+                      <td>${totalPrice.toFixed(2)}</td>
                     </tr>
                   </tbody>
                 </table>
