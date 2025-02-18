@@ -4,10 +4,8 @@ import Home from "../pages/Home";
 import About from "../pages/About";
 import Shop from "../pages/Shop";
 import ProductDetails from "../pages/ProductDetails";
-// import { Contact } from "./Contact/Contact";
-
+import Contact from "../pages/Contact";
 import { useEffect, useState } from "react";
-
 // import required modules
 import { Header } from "./Header";
 import { Footer } from "./Footer";
@@ -285,6 +283,7 @@ export default function App() {
           }
         />
         <Route path="/login" element={<SignUpPage />} />
+        <Route path="/contact" element={<Contact />} />
 
         {/* <Route path="*" element={<NotFound />} /> */}
       </Routes>
