@@ -18,6 +18,7 @@ export default function ProductDetails({
   setSelectedSize,
   setCount,
   count,
+  forTest,
 }) {
   const { id } = useParams(); // Access the ID from the route
   const [selectedProduct, setSelectedProduct] = useState(null);
@@ -31,6 +32,11 @@ export default function ProductDetails({
   function handleImageSelect(imgUrl) {
     setSelectedImage(imgUrl);
   }
+
+  useEffect(() => {
+    setCount(0);
+  }, [id, setCount]);
+
   const discountPrice =
     selectedProduct?.price -
     (selectedProduct?.price * selectedProduct?.isDiscount) / 100;
@@ -121,14 +127,24 @@ export default function ProductDetails({
                   <Counter
                     setCount={setCount}
                     count={count}
-                    productId={selectedProduct.id}
-                    updateQuantity={updateQuantity}
+                    selectedProduct={selectedProduct}
+                    forTest={forTest}
+                    selectedColor={selectedColor}
+                    selectedSize={selectedSize}
+                    // updateQuantity={updateQuantity}
                     cartProducts={cartProducts}
                   />
                   <button
                     type="button"
                     className="secondary-btn"
-                    onClick={() => handleAddToCart(selectedProduct)}
+                    onClick={() =>
+                      handleAddToCart(
+                        selectedProduct,
+                        count,
+                        selectedColor,
+                        selectedSize
+                      )
+                    }
                   >
                     add to cart
                   </button>
@@ -173,7 +189,6 @@ export default function ProductDetails({
     </>
   );
 }
-
 export function SizeRadioGroup({ sizeRange, setSelectedSize, selectedSize }) {
   return (
     <ul className="swatch_list">

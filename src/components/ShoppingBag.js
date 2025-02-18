@@ -5,13 +5,7 @@ import { useState } from "react";
 import Box from "@mui/material/Box";
 import { Link } from "react-router-dom";
 
-export function ShoppingBag({
-  toggleDrawer,
-  cartProducts,
-  updateQuantity,
-  count,
-  setCount,
-}) {
+export function ShoppingBag({ toggleDrawer, cartProducts, updateQuantity }) {
   const [totalPrice, setTotalPrice] = useState(0);
 
   // const addedProducts = null;
@@ -34,15 +28,13 @@ export function ShoppingBag({
         />
       </div>
       <div className="bag_content">
-        {cartProducts ? (
+        {cartProducts.length > 0 ? (
           <div className="bag_products">
             {cartProducts.map((product, i) => (
               <CartProduct
                 product={product}
                 key={product.id}
-                updateQuantity={updateQuantity}
-                count={count}
-                setCount={setCount}
+                // updateQuantity={updateQuantity}
               />
             ))}
           </div>
@@ -71,20 +63,22 @@ export function ShoppingBag({
   );
 }
 
-export function CartProduct({ product, count, setCount, updateQuantity }) {
+export function CartProduct({ product, updateQuantity }) {
   const increaseQuantity = () => {
-    setCount((c) => c + 1);
-    updateQuantity(product.id, count);
+    const newCount = product.quantity + 1;
+    // updateQuantity(product.id, newCount);
   };
+
   const decreaseQuantity = () => {
-    setCount((c) => (c > 1 ? c - 1 : 1));
-    updateQuantity(product.id, count);
+    const newCount = product.quantity > 1 ? product.quantity - 1 : 1;
+    // updateQuantity(product.id, newCount);
   };
+
   const handleChange = (e) => {
     const value = parseInt(e.target.value, 10) || 1;
-    setCount(value);
     updateQuantity(product.id, value);
   };
+
   return (
     <div className="bag_product">
       <div className="bag_product-img">
@@ -99,7 +93,12 @@ export function CartProduct({ product, count, setCount, updateQuantity }) {
             <button onClick={decreaseQuantity} type="button">
               -
             </button>
-            <input type="text" value={count} onChange={handleChange} />
+            <input
+              type="text"
+              value={product.quantity}
+              onChange={handleChange}
+            />
+
             <button onClick={increaseQuantity} type="button">
               +
             </button>
@@ -107,7 +106,7 @@ export function CartProduct({ product, count, setCount, updateQuantity }) {
           <p className="bag_product-price">${product.price}</p>
         </div>
       </div>
-      <FontAwesomeIcon className="bag_product-remove" icon={faXmark} />{" "}
+      <FontAwesomeIcon className="bag_product-remove" icon={faXmark} />
     </div>
   );
 }

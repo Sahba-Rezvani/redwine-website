@@ -1,16 +1,27 @@
-export function Counter({ updateQuantity, productId, count, setCount }) {
+export function Counter({
+  updateQuantity,
+  selectedProduct,
+  count,
+  setCount,
+  forTest,
+  selectedColor,
+  selectedSize,
+}) {
   const increaseQuantity = () => {
     setCount((c) => c + 1);
-    updateQuantity(productId, count);
+    forTest(selectedProduct, count, selectedColor, selectedSize);
+    // updateQuantity(productId, count);
   };
   const decreaseQuantity = () => {
-    setCount((c) => (c > 1 ? c - 1 : 1));
-    updateQuantity(productId, count);
+    setCount((c) => (c > 2 ? c - 1 : 1));
+    forTest(selectedProduct, count, selectedColor, selectedSize);
+    // updateQuantity(productId, count);
   };
   const handleChange = (e) => {
-    const value = parseInt(e.target.value, 10) || 1;
-    setCount(value);
-    updateQuantity(productId, value);
+    const value = parseInt(e.target.value, 10) || count;
+    setCount(Number(value));
+    forTest(selectedProduct, count, selectedColor, selectedSize);
+    // updateQuantity(productId, value);
   };
   return (
     <div className="counter-container">

@@ -159,7 +159,9 @@ export default function Shop({ itemsPerPage, products }) {
         <div className="shop-filter"></div>
         <div className="products">
           {currentProducts &&
-            currentProducts.map((product) => <ProductCard product={product} />)}
+            currentProducts.map((product) => (
+              <ProductCard key={product.id} product={product} />
+            ))}
         </div>
         <ReactPaginate
           className="pag-nums"

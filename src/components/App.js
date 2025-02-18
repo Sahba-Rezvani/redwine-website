@@ -31,6 +31,7 @@ export default function App() {
   const [cartProducts, setCartProducts] = useState([]);
   const [selectedColor, setSelectedColor] = useState("");
   const [selectedSize, setSelectedSize] = useState("");
+
   useEffect(() => {
     const fetchProducts = async () => {
       try {
@@ -99,30 +100,87 @@ export default function App() {
     return !!localStorage.getItem("loggedInUser");
   };
 
-  function handleAddToCart(product) {
-    const newCartItem = {
-      ...product,
-      color: selectedColor,
-      size: selectedSize,
-      count: count,
-    };
-    setCartProducts([...cartProducts, newCartItem]);
-    console.log(cartProducts);
+  // const handleAddToCart = (product, count, selectedColor, selectedSize) => {
+  //   //اتفاقات داخل این فانکشن باید با فشردن دکمه کم  و زیاد در Countr رقم بخورد
+  //   const existingProduct = cartProducts.find(
+  //     (item) =>
+  //       item.id === product.id &&
+  //       item.color === selectedColor &&
+  //       item.size === selectedSize
+  //   );
+
+  //   if (existingProduct) {
+  //     const updatedCart = cartProducts.map((item) =>
+  //       item.id === product.id &&
+  //       item.color === selectedColor &&
+  //       item.size === selectedSize
+  //         ? { ...item, quantity: count }
+  //         : item
+  //     );
+  //     setCartProducts(updatedCart);
+  //   } else {
+  //     setCartProducts([
+  //       ...cartProducts,
+  //       {
+  //         ...product,
+  //         quantity: count,
+  //         color: selectedColor,
+  //         size: selectedSize,
+  //       },
+  //     ]);
+  //   }
+  // };
+
+  function forTest(product, count, selectedColor, selectedSize) {
+    console.log("cartProducts:", cartProducts);
+    console.log("selectedProductID:", product);
+    // console.log("cartProductID:", cartPro);
+
+    const existingProduct = cartProducts?.find(
+      (item) =>
+        item.id === product.id &&
+        item.color === selectedColor &&
+        item.size === selectedSize
+    );
+    console.log("cartProducts:", cartProducts);
+
+    if (existingProduct) {
+      const updatedCart = cartProducts.map((item) =>
+        item.id === product.id &&
+        item.color === selectedColor &&
+        item.size === selectedSize
+          ? { ...item, quantity: count }
+          : item
+      );
+      setCartProducts(updatedCart);
+    }
   }
 
-  const updateQuantity = (id, count) => {
-    if (cartProducts.length !== 0) {
-      setCartProducts((prevCart) =>
-        prevCart.map((cartProducts) =>
-          cartProducts.id === id
-            ? { ...cartProducts, quantity: count }
-            : cartProducts
-        )
-      );
-    } else {
-      console.log("not in the cart yet!");
-    }
-  };
+  function handleAddToCart(product) {
+    setCartProducts([
+      ...cartProducts,
+      {
+        ...product,
+        quantity: count,
+        color: selectedColor,
+        size: selectedSize,
+      },
+    ]);
+  }
+
+  // const updateQuantity = (id, count) => {
+  //   if (cartProducts.length !== 0) {
+  //     const updateQuantity = (id, newQuantity) => {
+  //       setCartProducts((prevCart) =>
+  //         prevCart.map((item) =>
+  //           item.id === id ? { ...item, quantity: newQuantity } : item
+  //         )
+  //       );
+  //     };
+  //   } else {
+  //     console.log("not in the cart yet!");
+  //   }
+  // };
 
   return (
     <div className="container">
@@ -149,7 +207,7 @@ export default function App() {
         onClose={toggleShoppingBagDrawer()}
       >
         <ShoppingBag
-          updateQuantity={updateQuantity}
+          // updateQuantity={updateQuantity}
           cartProducts={cartProducts}
           toggleDrawer={toggleShoppingBagDrawer}
         />
@@ -161,7 +219,7 @@ export default function App() {
         isRegistered={isRegistered}
       />
       <Routes>
-        <Route
+        {/* <Route
           path="/"
           element={
             isAuthenticated() ? (
@@ -170,7 +228,9 @@ export default function App() {
               <Navigate to="/login" />
             )
           }
-        />
+        /> */}
+
+        <Route path="/" element={<Home products={products} />} />
 
         <Route path="/about" element={<About />} />
         <Route
@@ -184,13 +244,14 @@ export default function App() {
               products={products}
               count={count}
               setCount={setCount}
-              updateQuantity={updateQuantity}
+              // updateQuantity={updateQuantity}
               cartProducts={cartProducts}
               selectedColor={selectedColor}
               setSelectedColor={setSelectedColor}
               selectedSize={selectedSize}
               setSelectedSize={setSelectedSize}
               handleAddToCart={handleAddToCart}
+              forTest={forTest}
             />
           }
         />
