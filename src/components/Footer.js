@@ -1,4 +1,8 @@
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faTelegram } from "@fortawesome/free-brands-svg-icons";
+import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 
 export function Footer() {
   return (
@@ -43,13 +47,28 @@ export function Footer() {
           </ul>
           <ul className="footer-social-links">
             <li>
-              <a href="#">Insta</a>
+              <a href="">
+                <FontAwesomeIcon
+                  icon={faInstagram}
+                  className="footer-social-link"
+                />
+              </a>
             </li>
             <li>
-              <a href="#">Tel</a>
+              <a href="#">
+                <FontAwesomeIcon
+                  icon={faTelegram}
+                  className="footer-social-link"
+                />
+              </a>
             </li>
             <li>
-              <a href="#">Whatsapp</a>
+              <a href="#">
+                <FontAwesomeIcon
+                  icon={faWhatsapp}
+                  className="footer-social-link"
+                />
+              </a>
             </li>
           </ul>
         </div>

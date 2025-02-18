@@ -508,9 +508,17 @@ footer form {
   margin: 3px 0;
 }
 
-.footer-menu li,
-.footer-social-links li {
+.footer-menu li {
   font-weight: 400;
+}
+
+.footer-social-links li a:hover {
+  color: #c12b27;
+  transition: all 0.3s;
+}
+
+.footer-social-link {
+  font-size: 1.3em;
 }
 
 /* Grid Image Collection */
