@@ -94,6 +94,8 @@ export default function Login({ toggleDrawer }) {
     );
   };
 
+  console.log(login);
+
   return (
     <Box sx={{ width: 400 }} role="presentation">
       <div className="login-header">

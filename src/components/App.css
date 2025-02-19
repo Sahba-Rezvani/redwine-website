@@ -815,9 +815,6 @@ footer form {
   /* font-size: 1em; */
 }
 /* Shop */
-.shop-container {
-  margin: 32px 0;
-}
 
 .shop-filter-container {
   display: flex;
@@ -1311,7 +1308,7 @@ footer form {
 .about_title {
   width: 70%;
   margin: 40px auto;
-  font-size: 1.5rem;
+  font-size: 1.5em;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -1878,4 +1875,14 @@ textarea {
 .size-guide_table table tbody td {
   padding-bottom: 20px;
   font-weight: 400;
+}
+
+/* Wish List */
+
+.wishlist_title h1 {
+  width: 70%;
+  margin: 40px auto;
+  font-size: 2em;
+  font-weight: 700;
+  text-transform: uppercase;
 }

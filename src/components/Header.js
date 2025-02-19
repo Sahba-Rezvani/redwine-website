@@ -14,10 +14,7 @@ export function Header({
   toggleRegisterDrawer,
   isRegistered,
 }) {
-
   const navigate = useNavigate();
-
-
 
   const handleLogout = () => {
     localStorage.removeItem("loggedInUser");
@@ -25,15 +22,12 @@ export function Header({
     navigate("/login");
   };
 
-
   return (
     <header>
       <div className="logo">logoooo</div>
       <Menu />
 
-      <button onClick={handleLogout}>
-        log out
-      </button>
+      <button onClick={handleLogout}>log out</button>
       <div className="header-tools">
         <FontAwesomeIcon icon={faMagnifyingGlass} className="search-box" />
         <FontAwesomeIcon
@@ -41,8 +35,6 @@ export function Header({
           className="shopping-cart"
           onClick={toggleShoppingBagDrawer()}
         />
-
-
 
         {isRegistered ? (
           <FontAwesomeIcon

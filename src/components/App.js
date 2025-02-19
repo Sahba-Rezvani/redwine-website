@@ -5,6 +5,7 @@ import About from "../pages/About";
 import Shop from "../pages/Shop";
 import ProductDetails from "../pages/ProductDetails";
 import Contact from "../pages/Contact";
+import WishList from "../pages/WishList";
 import { useEffect, useState } from "react";
 // import required modules
 import { Header } from "./Header";
@@ -21,10 +22,13 @@ export default function App() {
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
+
   const [loginDrawer, setLoginDrawer] = useState(false);
   const [registerDrawer, setRegisterDrawer] = useState(false);
   const [isRegistered, setIsRegistered] = useState(false);
   const [shoppingBagDrawer, setShoppingBagDrawer] = useState(false);
+  const [signupDrawer, setSignUpDrawer] = useState(false);
+
   const [count, setCount] = useState(1);
   const [cartProducts, setCartProducts] = useState([]);
   const [selectedColor, setSelectedColor] = useState("");
@@ -99,6 +103,17 @@ export default function App() {
     setShoppingBagDrawer(!shoppingBagDrawer);
   };
 
+  const toggleSignupDrawer = () => (event) => {
+    if (
+      event.type === "keydown" &&
+      (event.key === "Tab" || event.key === "Shift")
+    ) {
+      return;
+    }
+
+    setSignUpDrawer(!setSignUpDrawer);
+  };
+
   const isAuthenticated = () => {
     return !!localStorage.getItem("loggedInUser");
   };
@@ -131,37 +146,6 @@ export default function App() {
       )
     );
   };
-
-  // const handleAddToCart = (product, count, selectedColor, selectedSize) => {
-  //   //اتفاقات داخل این فانکشن باید با فشردن دکمه کم  و زیاد در Countr رقم بخورد
-  //   const existingProduct = cartProducts.find(
-  //     (item) =>
-  //       item.id === product.id &&
-  //       item.color === selectedColor &&
-  //       item.size === selectedSize
-  //   );
-
-  //   if (existingProduct) {
-  //     const updatedCart = cartProducts.map((item) =>
-  //       item.id === product.id &&
-  //       item.color === selectedColor &&
-  //       item.size === selectedSize
-  //         ? { ...item, quantity: count }
-  //         : item
-  //     );
-  //     setCartProducts(updatedCart);
-  //   } else {
-  //     setCartProducts([
-  //       ...cartProducts,
-  //       {
-  //         ...product,
-  //         quantity: count,
-  //         color: selectedColor,
-  //         size: selectedSize,
-  //       },
-  //     ]);
-  //   }
-  // };
 
   function forTest(product, count, selectedColor, selectedSize) {
     console.log("cartProducts:", cartProducts);
@@ -254,6 +238,7 @@ export default function App() {
         toggleLoginDrawer={toggleLoginDrawer}
         toggleShoppingBagDrawer={toggleShoppingBagDrawer}
         toggleRegisterDrawer={toggleRegisterDrawer}
+        toggleSignupDrawer={toggleSignupDrawer}
         isRegistered={isRegistered}
       />
       <Routes>
@@ -271,9 +256,13 @@ export default function App() {
         <Route path="/" element={<Home products={products} />} />
 
         <Route path="/about" element={<About />} />
-        <Route
+        {/* <Route
           path="/shop"
           element={<Shop products={products} itemsPerPage={10} />}
+        /> */}
+        <Route
+          path="/shop"
+          element={<WishList products={products} itemsPerPage={12} />}
         />
         <Route
           path="/product-details/:id"
