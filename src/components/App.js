@@ -60,11 +60,19 @@ export default function App() {
   }, []); // Empty dependency array means it runs once on mount.
 
   useEffect(() => {
-    const loggedInUser = localStorage.getItem("loggedInUser");
+    const loggedInUser = JSON.parse(localStorage.getItem("loggedInUser"));
+
     if (loggedInUser) {
-      console.log("Current Logged-in User:", JSON.parse(loggedInUser));
+      console.log("Current Logged-in User:", loggedInUser);
+
+      const userEmail = loggedInUser.email;
+      const userCartKey = `cart_${userEmail}`;
+
+      const userCart = JSON.parse(localStorage.getItem(userCartKey)) || [];
+      setCartProducts(userCart); // لود کردن سبد خرید مخصوص کاربر
     } else {
       console.log("No user is logged in.");
+      setCartProducts([]); // اگر کسی لاگین نکرده، سبد خرید خالی باشه
     }
   }, []);
 
@@ -169,8 +177,8 @@ export default function App() {
     if (existingProduct) {
       const updatedCart = cartProducts.map((item) =>
         item.id === product.id &&
-        item.color === selectedColor &&
-        item.size === selectedSize
+          item.color === selectedColor &&
+          item.size === selectedSize
           ? { ...item, quantity: count }
           : item
       );
@@ -179,16 +187,46 @@ export default function App() {
   }
 
   function handleAddToCart(product) {
-    setCartProducts([
-      ...cartProducts,
-      {
+    const loggedInUser = JSON.parse(localStorage.getItem("loggedInUser"));
+
+    if (!loggedInUser) {
+      alert("Please log in first!");
+      return;
+    }
+
+    const userEmail = loggedInUser.email; // گرفتن ایمیل کاربر
+    const userCartKey = `cart_${userEmail}`; // کلید مخصوص هر کاربر
+
+    let userCart = JSON.parse(localStorage.getItem(userCartKey)) || []; // گرفتن سبد خرید کاربر
+
+    const existingProduct = userCart.find(
+      (item) =>
+        item.id === product.id &&
+        item.color === selectedColor &&
+        item.size === selectedSize
+    );
+
+    if (existingProduct) {
+      userCart = userCart.map((item) =>
+        item.id === product.id &&
+          item.color === selectedColor &&
+          item.size === selectedSize
+          ? { ...item, quantity: count }
+          : item
+      );
+    } else {
+      userCart.push({
         ...product,
         quantity: count,
         color: selectedColor,
         size: selectedSize,
-      },
-    ]);
+      });
+    }
+
+    localStorage.setItem(userCartKey, JSON.stringify(userCart)); // ذخیره در localStorage
+    setCartProducts(userCart); // آپدیت سبد خرید در state
   }
+
 
   // const updateQuantity = (id, count) => {
   //   if (cartProducts.length !== 0) {
@@ -244,7 +282,10 @@ export default function App() {
         toggleShoppingBagDrawer={toggleShoppingBagDrawer}
         toggleRegisterDrawer={toggleRegisterDrawer}
         isRegistered={isRegistered}
+        setCartProducts={setCartProducts}
+        cartProducts={cartProducts}
       />
+
       <Routes>
         {/* <Route
           path="/"
@@ -294,7 +335,7 @@ export default function App() {
             />
           }
         />
-        <Route path="/login" element={<SignUpPage />} />
+        <Route path="/login" element={<SignUpPage  setCartProducts={setCartProducts}/>} />
         <Route path="/contact" element={<Contact />} />
 
         {/* <Route path="*" element={<NotFound />} /> */}
