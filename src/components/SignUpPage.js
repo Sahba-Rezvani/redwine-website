@@ -7,7 +7,7 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 import { useNavigate } from "react-router-dom";
 
-export default function SignUpPage({setCartProducts}) {
+export default function SignUpPage({setCartProducts , setIsLogin}) {
   const [registerUsername, setRegisterUsername] = useState("");
   const [registerEmail, setRegisterEmail] = useState("");
   const [registerPassword, setRegisterPassword] = useState("");
@@ -76,14 +76,16 @@ export default function SignUpPage({setCartProducts}) {
   
     localStorage.setItem("loggedInUser", JSON.stringify(userData));
   
-    // 🛒 فوراً سبد خرید را مقداردهی کن
     const userCartKey = `cart_${loginEmail}`;
     const userCart = JSON.parse(localStorage.getItem(userCartKey)) || [];
-    setCartProducts(userCart); // 👈 مقداردهی سبد خرید بعد از لاگین
+    setCartProducts(userCart);
   
     alert("Login successful!");
-    setIsLoggedIn(true);
+    
+    setIsLoggedIn(true); // 🔹 این مقدار برای تغییر مسیر به صفحه اصلی است
+    setIsLogin(true); // 🔹 این مقدار از `App.js` باید به `SignUpPage` پاس داده بشه
   };
+  
   
   return (
     <div className={styles.container}>

@@ -30,6 +30,7 @@ export default function App() {
   const [selectedColor, setSelectedColor] = useState("");
   const [selectedSize, setSelectedSize] = useState("");
   const [openSizeGuide, setOpenSizeGuide] = useState(false);
+  const [isLogin , setIsLogin] = useState(false) ;
 
   function handleOpenSizeGuide(e) {
     e.preventDefault();
@@ -70,9 +71,12 @@ export default function App() {
 
       const userCart = JSON.parse(localStorage.getItem(userCartKey)) || [];
       setCartProducts(userCart); // لود کردن سبد خرید مخصوص کاربر
+
+      setIsLogin(true) ;
     } else {
       console.log("No user is logged in.");
-      setCartProducts([]); // اگر کسی لاگین نکرده، سبد خرید خالی باشه
+      setIsLogin(false)
+      setCartProducts([]); 
     }
   }, []);
 
@@ -284,20 +288,11 @@ export default function App() {
         isRegistered={isRegistered}
         setCartProducts={setCartProducts}
         cartProducts={cartProducts}
+        isLogin={isLogin}
+        setIsLogin={setIsLogin}
       />
 
       <Routes>
-        {/* <Route
-          path="/"
-          element={
-            isAuthenticated() ? (
-              <Home products={products} />
-            ) : (
-              <Navigate to="/login" />
-            )
-          }
-        /> */}
-
         <Route path="/" element={<Home products={products} />} />
 
         <Route path="/about" element={<About />} />
@@ -335,7 +330,7 @@ export default function App() {
             />
           }
         />
-        <Route path="/login" element={<SignUpPage  setCartProducts={setCartProducts}/>} />
+        <Route path="/login" element={<SignUpPage  setCartProducts={setCartProducts} setIsLogin={setIsLogin} />} />
         <Route path="/contact" element={<Contact />} />
 
         {/* <Route path="*" element={<NotFound />} /> */}
