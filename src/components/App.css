@@ -1052,16 +1052,18 @@ footer form {
   cursor: pointer;
 }
 
-.swatch_item-input {
+.swatch_item-input,
+.swatch_item--input {
   display: none; /* Hide the default radio button */
 }
 
 .swatch_item-label:hover {
   border-color: #222;
 }
-/* .swatch_item-input:checked + label {
+
+.swatch_item-label.active-size {
   border-color: #222;
-} */
+}
 
 /* .swatch_tooltip {
 } */
@@ -1095,12 +1097,6 @@ footer form {
   cursor: pointer;
 }
 
-/* .swatch_item--label input:checked + ::after {
-  border-color: #222; 
-} */
-.swatch_item--label:active {
-  border-color: #222;
-}
 .swatch_item--label::after {
   content: "";
   position: absolute;
@@ -1108,6 +1104,11 @@ footer form {
   width: 16px;
   height: 16px;
   background-color: var(--radio-bg-color);
+  border: 1px solid #e4e4e4;
+}
+
+.swatch_item--label.active-color {
+  border-color: #222;
 }
 
 .size-label,

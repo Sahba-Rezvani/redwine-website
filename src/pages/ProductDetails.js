@@ -23,12 +23,12 @@ export default function ProductDetails({
   const { id } = useParams(); // Access the ID from the route
   const [selectedProduct, setSelectedProduct] = useState(null);
   const [selectedImage, setSelectedImage] = useState(0);
+  const [isColorSelected, setIsColorSelected] = useState(false);
   useEffect(() => {
     const product = products.find((product) => product.id === id);
     console.log(product);
     setSelectedProduct(product);
   }, [selectedProduct, id, products]);
-
 
   function handleImageSelect(imgUrl) {
     setSelectedImage(imgUrl);
@@ -198,7 +198,9 @@ export function SizeRadioGroup({ sizeRange, setSelectedSize, selectedSize }) {
           <label
             htmlFor={`swatch-${i + 1}`}
             aria-label="Small"
-            className="swatch_item-label"
+            className={`swatch_item-label ${
+              selectedSize === size ? "active-size" : ""
+            }`}
           >
             {size}
           </label>
@@ -227,7 +229,9 @@ export function ColorRadioGroup({
     <div className="swatch_list">
       {colorPallet.map((color, i) => (
         <label
-          className="swatch_item--label"
+          className={`swatch_item--label ${
+            selectedColor === color ? "active-color" : ""
+          }`}
           htmlFor={`color-${i + 1}`}
           style={{ "--radio-bg-color": color }}
           key={i}
@@ -236,7 +240,7 @@ export function ColorRadioGroup({
             type="radio"
             name="color"
             id={`color-${i + 1}`}
-            className="swatch_item-input"
+            className="swatch_item--input"
             value={color}
             onChange={(e) => setSelectedColor(e.target.value)}
             checked={selectedColor === color}
