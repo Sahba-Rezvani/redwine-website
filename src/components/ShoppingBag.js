@@ -1,36 +1,34 @@
 import { faXmark } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import * as React from "react";
-import { useState , useEffect } from "react";
+import { useState, useEffect } from "react";
 import Box from "@mui/material/Box";
 import { Link } from "react-router-dom";
 
-export function ShoppingBag({ toggleDrawer, cartProducts, updateQuantity }) {
+export function ShoppingBag({
+  toggleDrawer,
+  cartProducts,
+  updateQuantity,
+  handleRemoveProduct,
+}) {
   const [totalPrice, setTotalPrice] = useState(0);
-
 
   useEffect(() => {
     console.log("ShoppingBag cartProducts updated:", cartProducts);
-  }, [cartProducts]);  
-
-  // const addedProducts = null;
-  // const addedProducts = products.slice(5, 11);
+  }, [cartProducts]);
 
   useEffect(() => {
     const total = cartProducts.reduce((acc, product) => {
       return acc + product.price * product.quantity;
     }, 0);
-    
-    setTotalPrice(total.toFixed(2));  
-  }, [cartProducts]);  
-  
-  
+
+    setTotalPrice(total.toFixed(2));
+  }, [cartProducts]);
 
   const bagProductsNum = cartProducts ? cartProducts.length : 0;
-
-  // function handleTotalPrice() {}
-
-  console.log("SHOPPING");
+  // const discountPrice =
+  //   product?.price -
+  //   (selectedProduct?.price * selectedProduct?.isDiscount) / 100;
 
   return (
     <Box sx={{ width: 400 }} role="presentation">
@@ -50,6 +48,7 @@ export function ShoppingBag({ toggleDrawer, cartProducts, updateQuantity }) {
                 product={product}
                 key={`${product.id}-${product.color}-${product.size}`}
                 updateQuantity={updateQuantity}
+                handleRemoveProduct={handleRemoveProduct}
               />
             ))}
           </div>
@@ -78,22 +77,26 @@ export function ShoppingBag({ toggleDrawer, cartProducts, updateQuantity }) {
   );
 }
 
-export function CartProduct({ product, updateQuantity  }) {
-
-  
-
+export function CartProduct({ product, updateQuantity, handleRemoveProduct }) {
   const increaseQuantity = () => {
-    updateQuantity(product.id, product.color, product.size, product.quantity + 1);
+    updateQuantity(
+      product.id,
+      product.color,
+      product.size,
+      product.quantity + 1
+    );
 
-    console.log(product , '❤️❤️');
-    
-    
-    
+    console.log(product, "❤️❤️");
   };
 
   const decreaseQuantity = () => {
     if (product.quantity > 1) {
-      updateQuantity(product.id, product.color, product.size, product.quantity - 1);
+      updateQuantity(
+        product.id,
+        product.color,
+        product.size,
+        product.quantity - 1
+      );
     }
   };
 
@@ -126,10 +129,16 @@ export function CartProduct({ product, updateQuantity  }) {
               +
             </button>
           </div>
-          <p className="bag_product-price">${product.price}</p>
+          <p className="bag_product-price">{product.price}</p>
         </div>
       </div>
-      <FontAwesomeIcon className="bag_product-remove" icon={faXmark} />
+      <FontAwesomeIcon
+        className="bag_product-remove"
+        icon={faXmark}
+        onClick={() =>
+          handleRemoveProduct(product.id, product.color, product.size)
+        }
+      />
     </div>
   );
 }

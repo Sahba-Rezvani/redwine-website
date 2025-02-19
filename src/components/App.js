@@ -31,15 +31,6 @@ export default function App() {
   const [selectedSize, setSelectedSize] = useState("");
   const [openSizeGuide, setOpenSizeGuide] = useState(false);
 
-  function handleOpenSizeGuide(e) {
-    e.preventDefault();
-    setOpenSizeGuide(true);
-  }
-
-  function handleCloseSizeGuide(e) {
-    e.preventDefault();
-    setOpenSizeGuide(false);
-  }
   useEffect(() => {
     const fetchProducts = async () => {
       try {
@@ -111,6 +102,25 @@ export default function App() {
   const isAuthenticated = () => {
     return !!localStorage.getItem("loggedInUser");
   };
+
+  function handleOpenSizeGuide(e) {
+    e.preventDefault();
+    setOpenSizeGuide(true);
+  }
+
+  function handleCloseSizeGuide(e) {
+    e.preventDefault();
+    setOpenSizeGuide(false);
+  }
+
+  function handleRemoveProduct(id, color, size) {
+    setCartProducts((cartProducts) =>
+      cartProducts.filter(
+        (item) =>
+          !(item.id === id && item.color === color && item.size === size)
+      )
+    );
+  }
 
   const updateQuantity = (id, color, size, newQuantity) => {
     setCartProducts((prevCart) =>
@@ -232,6 +242,7 @@ export default function App() {
           updateQuantity={updateQuantity}
           cartProducts={cartProducts}
           toggleDrawer={toggleShoppingBagDrawer}
+          handleRemoveProduct={handleRemoveProduct}
         />
       </Drawer>
       <SizeGuide
