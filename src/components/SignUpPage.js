@@ -7,7 +7,7 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 import { useNavigate } from "react-router-dom";
 
-export default function SignUpPage() {
+export default function SignUpPage({setCartProducts , setIsLogin}) {
   const [registerUsername, setRegisterUsername] = useState("");
   const [registerEmail, setRegisterEmail] = useState("");
   const [registerPassword, setRegisterPassword] = useState("");
@@ -15,14 +15,12 @@ export default function SignUpPage() {
   const [loginEmail, setLoginEmail] = useState("");
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [loginPassword, setLoginPassword] = useState("");
-
   const [selectedTab, setSelectedTab] = useState(0);
-
   const navigate = useNavigate();
 
   useEffect(() => {
     if (isLoggedIn) {
-      navigate("/"); // ✅ بعد از تغییر مقدار، ریدایرکت کن
+      navigate("/"); 
     }
   }, [isLoggedIn]);
 
@@ -36,13 +34,11 @@ export default function SignUpPage() {
       return;
     }
 
-    // چک کردن اینکه آیا ایمیل قبلاً ثبت شده یا نه
     if (localStorage.getItem(`user_${registerEmail}`)) {
       alert("This email is already registered!");
       return;
     }
 
-    // ذخیره اطلاعات کاربر در لوکال استوریج
     const userData = {
       username: registerUsername,
       email: registerEmail,
@@ -53,7 +49,6 @@ export default function SignUpPage() {
 
     alert("Registered successfully!");
 
-    // پاک کردن فیلدهای فرم پس از ثبت‌نام
     setRegisterUsername("");
     setRegisterEmail("");
     setRegisterPassword("");
@@ -66,26 +61,32 @@ export default function SignUpPage() {
       alert("Please enter both email and password.");
       return;
     }
-
+  
     const storedUser = localStorage.getItem(`user_${loginEmail}`);
     if (!storedUser) {
       alert("User not found! Please register first.");
       return;
     }
-
+  
     const userData = JSON.parse(storedUser);
     if (userData.password !== loginPassword) {
       alert("Incorrect password!");
       return;
     }
-
+  
     localStorage.setItem("loggedInUser", JSON.stringify(userData));
+  
+    const userCartKey = `cart_${loginEmail}`;
+    const userCart = JSON.parse(localStorage.getItem(userCartKey)) || [];
+    setCartProducts(userCart);
+  
     alert("Login successful!");
-
-    // ✅ ذخیره وضعیت لاگین
-    setIsLoggedIn(true);
+    
+    setIsLoggedIn(true); // 🔹 این مقدار برای تغییر مسیر به صفحه اصلی است
+    setIsLogin(true); // 🔹 این مقدار از `App.js` باید به `SignUpPage` پاس داده بشه
   };
-
+  
+  
   return (
     <div className={styles.container}>
       <div className={styles.content}>

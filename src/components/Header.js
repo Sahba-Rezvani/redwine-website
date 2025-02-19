@@ -1,6 +1,11 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUser } from "@fortawesome/free-regular-svg-icons";
-import { faArrowRightToBracket } from "@fortawesome/free-solid-svg-icons";
+import {
+  faArrowRightToBracket,
+  faSignInAlt,
+  faUserLock,
+  faUserPlus,
+} from "@fortawesome/free-solid-svg-icons";
 import {
   faMagnifyingGlass,
   faCartShopping,
@@ -13,12 +18,25 @@ export function Header({
   toggleLoginDrawer,
   toggleRegisterDrawer,
   isRegistered,
+  setCartProducts,
+  cartProducts,
+  isLogin,
+  setIsLogin,
 }) {
   const navigate = useNavigate();
 
   const handleLogout = () => {
-    localStorage.removeItem("loggedInUser");
-    alert("Logged out successfully!");
+    // localStorage.removeItem("loggedInUser");
+    // setCartProducts([]);
+    // setIsLogin(false); 
+    // alert("Logged out successfully!");
+    // navigate("/login");
+
+    toggleLoginDrawer(); 
+  };
+  
+
+  const handleLogin = () => {
     navigate("/login");
   };
 
@@ -27,14 +45,31 @@ export function Header({
       <div className="logo">logoooo</div>
       <Menu />
 
-      <button onClick={handleLogout}>log out</button>
+      
+
       <div className="header-tools">
-        <FontAwesomeIcon icon={faMagnifyingGlass} className="search-box" />
+      {isLogin ? (
         <FontAwesomeIcon
-          icon={faCartShopping}
-          className="shopping-cart"
-          onClick={toggleShoppingBagDrawer()}
+          icon={faUser}
+          className="login-icon"
+          onClick={handleLogout}
         />
+      ) : (
+        <FontAwesomeIcon
+          icon={faUserPlus}
+          className="login-icon"
+          onClick={handleLogin}
+          title="login"
+        />
+      )}
+        <FontAwesomeIcon icon={faMagnifyingGlass} className="search-box" />
+        <div className="cart-container" onClick={toggleShoppingBagDrawer()}>
+          <FontAwesomeIcon icon={faCartShopping} className="shopping-cart" />
+
+          {cartProducts.length > 0 && (
+            <span className="cart-badge">{cartProducts.length}</span>
+          )}
+        </div>
 
         {isRegistered ? (
           <FontAwesomeIcon

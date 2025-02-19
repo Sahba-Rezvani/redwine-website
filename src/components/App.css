@@ -1877,12 +1877,23 @@ textarea {
   font-weight: 400;
 }
 
-/* Wish List */
+.cart-container {
+  position: relative;
+  display: inline-block;
+}
 
-.wishlist_title h1 {
-  width: 70%;
-  margin: 40px auto;
-  font-size: 2em;
-  font-weight: 700;
-  text-transform: uppercase;
+.cart-badge {
+  position: absolute;
+  top: -5px;
+  right: -10px;
+  background-color: red;
+  color: white;
+  font-size: 12px;
+  font-weight: bold;
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
