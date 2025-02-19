@@ -17,6 +17,7 @@ export function Header({
   toggleShoppingBagDrawer,
   toggleLoginDrawer,
   toggleRegisterDrawer,
+  toggleProfileDrawer,
   isRegistered,
   setCartProducts,
   cartProducts,
@@ -28,13 +29,12 @@ export function Header({
   const handleLogout = () => {
     // localStorage.removeItem("loggedInUser");
     // setCartProducts([]);
-    // setIsLogin(false); 
+    // setIsLogin(false);
     // alert("Logged out successfully!");
     // navigate("/login");
 
-    toggleLoginDrawer(); 
+    toggleLoginDrawer();
   };
-  
 
   const handleLogin = () => {
     navigate("/login");
@@ -45,23 +45,21 @@ export function Header({
       <div className="logo">logoooo</div>
       <Menu />
 
-      
-
       <div className="header-tools">
-      {isLogin ? (
-        <FontAwesomeIcon
-          icon={faUser}
-          className="login-icon"
-          onClick={handleLogout}
-        />
-      ) : (
-        <FontAwesomeIcon
-          icon={faUserPlus}
-          className="login-icon"
-          onClick={handleLogin}
-          title="login"
-        />
-      )}
+        {isLogin ? (
+          <FontAwesomeIcon
+            icon={faUser}
+            className="login-icon"
+            onClick={toggleProfileDrawer()}
+          />
+        ) : (
+          <FontAwesomeIcon
+            icon={faUserPlus}
+            className="login-icon"
+            onClick={handleLogin}
+            title="login"
+          />
+        )}
         <FontAwesomeIcon icon={faMagnifyingGlass} className="search-box" />
         <div className="cart-container" onClick={toggleShoppingBagDrawer()}>
           <FontAwesomeIcon icon={faCartShopping} className="shopping-cart" />

@@ -27,14 +27,14 @@ export default function App() {
   const [registerDrawer, setRegisterDrawer] = useState(false);
   const [isRegistered, setIsRegistered] = useState(false);
   const [shoppingBagDrawer, setShoppingBagDrawer] = useState(false);
-  const [signupDrawer, setSignUpDrawer] = useState(false);
+  const [profileDrawer, setProfileDrawer] = useState(false);
 
   const [count, setCount] = useState(1);
   const [cartProducts, setCartProducts] = useState([]);
   const [selectedColor, setSelectedColor] = useState("");
   const [selectedSize, setSelectedSize] = useState("");
   const [openSizeGuide, setOpenSizeGuide] = useState(false);
-  const [isLogin , setIsLogin] = useState(false) ;
+  const [isLogin, setIsLogin] = useState(false);
 
   useEffect(() => {
     const fetchProducts = async () => {
@@ -67,11 +67,11 @@ export default function App() {
       const userCart = JSON.parse(localStorage.getItem(userCartKey)) || [];
       setCartProducts(userCart); // لود کردن سبد خرید مخصوص کاربر
 
-      setIsLogin(true) ;
+      setIsLogin(true);
     } else {
       console.log("No user is logged in.");
-      setIsLogin(false)
-      setCartProducts([]); 
+      setIsLogin(false);
+      setCartProducts([]);
     }
   }, []);
 
@@ -115,7 +115,7 @@ export default function App() {
     setShoppingBagDrawer(!shoppingBagDrawer);
   };
 
-  const toggleSignupDrawer = () => (event) => {
+  const toggleProfileDrawer = () => (event) => {
     if (
       event.type === "keydown" &&
       (event.key === "Tab" || event.key === "Shift")
@@ -123,7 +123,8 @@ export default function App() {
       return;
     }
 
-    setSignUpDrawer(!setSignUpDrawer);
+    setProfileDrawer(!profileDrawer);
+    console.log("Profile Drawer");
   };
 
   const isAuthenticated = () => {
@@ -175,8 +176,8 @@ export default function App() {
     if (existingProduct) {
       const updatedCart = cartProducts.map((item) =>
         item.id === product.id &&
-          item.color === selectedColor &&
-          item.size === selectedSize
+        item.color === selectedColor &&
+        item.size === selectedSize
           ? { ...item, quantity: count }
           : item
       );
@@ -207,8 +208,8 @@ export default function App() {
     if (existingProduct) {
       userCart = userCart.map((item) =>
         item.id === product.id &&
-          item.color === selectedColor &&
-          item.size === selectedSize
+        item.color === selectedColor &&
+        item.size === selectedSize
           ? { ...item, quantity: count }
           : item
       );
@@ -224,7 +225,6 @@ export default function App() {
     localStorage.setItem(userCartKey, JSON.stringify(userCart)); // ذخیره در localStorage
     setCartProducts(userCart); // آپدیت سبد خرید در state
   }
-
 
   // const updateQuantity = (id, count) => {
   //   if (cartProducts.length !== 0) {
@@ -271,6 +271,23 @@ export default function App() {
           handleRemoveProduct={handleRemoveProduct}
         />
       </Drawer>
+      <Drawer
+        anchor="right"
+        open={profileDrawer}
+        onClose={toggleProfileDrawer()}
+      >
+        <div
+          style={{ width: "300px", height: "auto", backgroundColor: "#fff" }}
+        >
+          این موارد باید در این قسمت باشن:
+          <ul>
+            <li> LoggedInUserName</li>
+            <li>my wish list</li>
+            <li> my cart </li>
+            <li> log out </li>
+          </ul>
+        </div>
+      </Drawer>
       <SizeGuide
         handleCloseSizeGuide={handleCloseSizeGuide}
         openSizeGuide={openSizeGuide}
@@ -280,7 +297,7 @@ export default function App() {
         toggleLoginDrawer={toggleLoginDrawer}
         toggleShoppingBagDrawer={toggleShoppingBagDrawer}
         toggleRegisterDrawer={toggleRegisterDrawer}
-        toggleSignupDrawer={toggleSignupDrawer}
+        toggleProfileDrawer={toggleProfileDrawer}
         isRegistered={isRegistered}
         setCartProducts={setCartProducts}
         cartProducts={cartProducts}
@@ -330,7 +347,15 @@ export default function App() {
             />
           }
         />
-        <Route path="/login" element={<SignUpPage  setCartProducts={setCartProducts} setIsLogin={setIsLogin} />} />
+        <Route
+          path="/login"
+          element={
+            <SignUpPage
+              setCartProducts={setCartProducts}
+              setIsLogin={setIsLogin}
+            />
+          }
+        />
         <Route path="/contact" element={<Contact />} />
 
         {/* <Route path="*" element={<NotFound />} /> */}
