@@ -5,7 +5,6 @@ import { faShareNodes } from "@fortawesome/free-solid-svg-icons/faShareNodes";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Tabs } from "@base-ui-components/react/tabs";
 import { Counter } from "../components/Counter";
-import { CardActions } from "@mui/material";
 
 export default function ProductDetails({
   products,
@@ -19,11 +18,12 @@ export default function ProductDetails({
   setCount,
   count,
   forTest,
+  handleOpenSizeGuide,
 }) {
   const { id } = useParams(); // Access the ID from the route
   const [selectedProduct, setSelectedProduct] = useState(null);
   const [selectedImage, setSelectedImage] = useState(0);
-  const [isColorSelected, setIsColorSelected] = useState(false);
+
   useEffect(() => {
     const product = products.find((product) => product.id === id);
     console.log(product);
@@ -114,7 +114,9 @@ export default function ProductDetails({
                       selectedSize={selectedSize}
                     />
                   </div>
-                  <button className="primary-btn">size guid</button>
+                  <button className="primary-btn" onClick={handleOpenSizeGuide}>
+                    size guid
+                  </button>
                 </div>
                 <div className="row pc-details-swatch">
                   <label className="color-label">color</label>
@@ -218,6 +220,10 @@ export function SizeRadioGroup({ sizeRange, setSelectedSize, selectedSize }) {
       ))}
     </ul>
   );
+}
+
+export function TransitionsModal({ open, handleClose }) {
+  return <div></div>;
 }
 
 export function ColorRadioGroup({

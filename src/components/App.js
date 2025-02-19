@@ -14,8 +14,8 @@ import Register from "./Register";
 import Drawer from "@mui/material/Drawer";
 import { ShoppingBag } from "./ShoppingBag";
 import ShoppingWizard from "./ShoppingWizard";
-import FloatingInput from "./InputFloatingLabel";
 import SignUpPage from "./SignUpPage";
+import SizeGuide from "./SizeGuide";
 
 export default function App() {
   const [products, setProducts] = useState([]);
@@ -29,7 +29,17 @@ export default function App() {
   const [cartProducts, setCartProducts] = useState([]);
   const [selectedColor, setSelectedColor] = useState("");
   const [selectedSize, setSelectedSize] = useState("");
+  const [openSizeGuide, setOpenSizeGuide] = useState(false);
 
+  function handleOpenSizeGuide(e) {
+    e.preventDefault();
+    setOpenSizeGuide(true);
+  }
+
+  function handleCloseSizeGuide(e) {
+    e.preventDefault();
+    setOpenSizeGuide(false);
+  }
   useEffect(() => {
     const fetchProducts = async () => {
       try {
@@ -61,8 +71,6 @@ export default function App() {
   useEffect(() => {
     console.log("Updated cartProducts:", cartProducts);
   }, [cartProducts]); // هر وقت cartProducts تغییر کرد، این اجرا میشه
-  
-
 
   if (loading) return <div>Loading...</div>;
   if (error) return <div>Error: {error}</div>;
@@ -113,8 +121,6 @@ export default function App() {
       )
     );
   };
-  
-  
 
   // const handleAddToCart = (product, count, selectedColor, selectedSize) => {
   //   //اتفاقات داخل این فانکشن باید با فشردن دکمه کم  و زیاد در Countr رقم بخورد
@@ -228,6 +234,11 @@ export default function App() {
           toggleDrawer={toggleShoppingBagDrawer}
         />
       </Drawer>
+      <SizeGuide
+        handleCloseSizeGuide={handleCloseSizeGuide}
+        openSizeGuide={openSizeGuide}
+      />
+
       <Header
         toggleLoginDrawer={toggleLoginDrawer}
         toggleShoppingBagDrawer={toggleShoppingBagDrawer}
@@ -268,6 +279,7 @@ export default function App() {
               setSelectedSize={setSelectedSize}
               handleAddToCart={handleAddToCart}
               forTest={forTest}
+              handleOpenSizeGuide={handleOpenSizeGuide}
             />
           }
         />
@@ -278,7 +290,7 @@ export default function App() {
               products={products}
               count={count}
               setCount={setCount}
-              cartProducts={cartProducts} 
+              cartProducts={cartProducts}
             />
           }
         />
