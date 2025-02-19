@@ -309,14 +309,14 @@ export default function App() {
         <Route path="/" element={<Home products={products} />} />
 
         <Route path="/about" element={<About />} />
-        {/* <Route
-          path="/shop"
-          element={<Shop products={products} itemsPerPage={10} />}
-        /> */}
         <Route
           path="/shop"
-          element={<WishList products={products} itemsPerPage={12} />}
+          element={<Shop products={products} itemsPerPage={10} />}
         />
+        {/* <Route    //🧡 Wish List🧡
+          path="/wish-list"
+          element={<WishList products={products} itemsPerPage={12} />}
+        /> */}
         <Route
           path="/product-details/:id"
           element={
