@@ -17,6 +17,7 @@ import { ShoppingBag } from "./ShoppingBag";
 import ShoppingWizard from "./ShoppingWizard";
 import SignUpPage from "./SignUpPage";
 import SizeGuide from "./SizeGuide";
+import Profile from "./Profile";
 
 export default function App() {
   const [products, setProducts] = useState([]);
@@ -276,17 +277,11 @@ export default function App() {
         open={profileDrawer}
         onClose={toggleProfileDrawer()}
       >
-        <div
-          style={{ width: "300px", height: "auto", backgroundColor: "#fff" }}
-        >
-          این موارد باید در این قسمت باشن:
-          <ul>
-            <li> LoggedInUserName</li>
-            <li>my wish list</li>
-            <li> my cart </li>
-            <li> log out </li>
-          </ul>
-        </div>
+        <Profile
+          toggleDrawer={toggleProfileDrawer}
+          setCartProducts={setCartProducts}
+          setIsLogin={setIsLogin}
+        />
       </Drawer>
       <SizeGuide
         handleCloseSizeGuide={handleCloseSizeGuide}
@@ -344,6 +339,7 @@ export default function App() {
               count={count}
               setCount={setCount}
               cartProducts={cartProducts}
+              handleRemoveProduct={handleRemoveProduct}
             />
           }
         />

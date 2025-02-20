@@ -10,7 +10,11 @@ import FloatingInput from "./InputFloatingLabel";
 import "primereact/resources/themes/lara-light-cyan/theme.css";
 import { styled } from "@mui/material";
 
-export default function ShoppingWizard({ products, quantity, setQuantity, cartProducts }) {
+export default function ShoppingWizard({
+  products,
+  cartProducts,
+  handleRemoveProduct,
+}) {
   const stepperRef = useRef(null);
   const [shipping, setShipping] = useState(null);
   const [boxing, setBoxing] = useState(null);
@@ -32,7 +36,7 @@ export default function ShoppingWizard({ products, quantity, setQuantity, cartPr
               <table className="wizard_cart-table">
                 <thead>
                   <tr>
-                    <th>product</th>
+                    <th style={{ width: "320px" }}>product</th>
                     <th>price</th>
                     <th>quantity</th>
                     <th>subtotal</th>
@@ -49,7 +53,9 @@ export default function ShoppingWizard({ products, quantity, setQuantity, cartPr
                           </div>
                           <div className="wizard_product-info">
                             <h4>{product.name}</h4>
-                            <p>Color: {product.color ? product.color : "N/A"}</p>
+                            <p>
+                              Color: {product.color ? product.color : "N/A"}
+                            </p>
                             <p>Size: {product.size ? product.size : "N/A"}</p>
                           </div>
                         </div>
@@ -67,12 +73,18 @@ export default function ShoppingWizard({ products, quantity, setQuantity, cartPr
                         <FontAwesomeIcon
                           className="wizard_product-remove"
                           icon={faXmark}
+                          onClick={() =>
+                            handleRemoveProduct(
+                              product.id,
+                              product.color,
+                              product.size
+                            )
+                          }
                         />
                       </td>
                     </tr>
                   ))}
                 </tbody>
-
               </table>
             </div>
             <div className="wizard_cart-totals">
@@ -90,7 +102,10 @@ export default function ShoppingWizard({ products, quantity, setQuantity, cartPr
                         {" "}
                         <div className="cart_total-check">
                           <form>
-                            <label htmlFor="post">
+                            <label
+                              htmlFor="post"
+                              className="cart_shipping--label"
+                            >
                               <input
                                 type="radio"
                                 name="shipping"
@@ -99,7 +114,10 @@ export default function ShoppingWizard({ products, quantity, setQuantity, cartPr
                               />
                               Post ($2)
                             </label>
-                            <label htmlFor="vip-post">
+                            <label
+                              htmlFor="vip-post"
+                              className="cart_shipping--label"
+                            >
                               <input
                                 type="radio"
                                 name="shipping"
@@ -118,7 +136,10 @@ export default function ShoppingWizard({ products, quantity, setQuantity, cartPr
                         {" "}
                         <div className="cart_total-check">
                           <form>
-                            <label htmlFor="post">
+                            <label
+                              htmlFor="post"
+                              className="cart_boxing--label"
+                            >
                               <input
                                 type="radio"
                                 name="boxing"
@@ -127,7 +148,10 @@ export default function ShoppingWizard({ products, quantity, setQuantity, cartPr
                               />
                               Normal boxing (free)
                             </label>
-                            <label htmlFor="vip-post">
+                            <label
+                              htmlFor="vip-post"
+                              className="cart_boxing--label"
+                            >
                               <input
                                 type="radio"
                                 name="boxing"

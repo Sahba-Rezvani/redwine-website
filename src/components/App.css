@@ -651,7 +651,8 @@ footer form {
   cursor: pointer;
 }
 .login-content,
-.bag_content {
+.bag_content,
+.profile_content {
   width: 80%;
   margin: 30px auto;
 }
@@ -1546,9 +1547,13 @@ footer form {
   margin-right: 10px;
 }
 
-.cart_total-check form label:active {
-  background: #c12b27;
+.active-shipping :before {
+  background-color: #222;
 }
+
+/* .cart_total-check form label:active {
+  background: #c12b27;
+} */
 
 .cart_total-check form input {
   display: none;
@@ -1886,14 +1891,47 @@ textarea {
   position: absolute;
   top: -5px;
   right: -10px;
-  background-color: red;
+  background-color: #c12b27;
   color: white;
   font-size: 12px;
-  font-weight: bold;
+  font-weight: 500;
   border-radius: 50%;
   width: 18px;
   height: 18px;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+/* Profile  */
+
+.profile_content {
+}
+
+.profile-info {
+  display: flex;
+  align-items: center;
+  border: 1px solid #e4e4e4;
+  padding: 10px 16px;
+  direction: rtl;
+  gap: 16px;
+}
+.profile_name {
+}
+.profile_img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profile_items {
+  margin: 16px 0;
+  text-align: center;
+}
+.profile_item {
+  text-transform: uppercase;
+  padding: 10px 0;
+  font-weight: 500;
+  cursor: pointer;
 }
