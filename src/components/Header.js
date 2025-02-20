@@ -69,7 +69,7 @@ export function Header({
           )}
         </div>
 
-        {isRegistered ? (
+        {/* {isRegistered ? (   //برای OTP کد زیر ✅
           <FontAwesomeIcon
             icon={faUser}
             className="profile"
@@ -80,7 +80,7 @@ export function Header({
             icon={faArrowRightToBracket}
             onClick={toggleRegisterDrawer()}
           />
-        )}
+        )} */}
       </div>
     </header>
   );

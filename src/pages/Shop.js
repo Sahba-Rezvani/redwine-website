@@ -10,7 +10,7 @@ export default function Shop({ itemsPerPage, products }) {
   let priceSortedProducts;
   let categoryFilteredProducts;
   const [itemOffset, setItemOffset] = useState(0);
-  const [priceRange, setPriceRange] = useState([50, 100]);
+  const [priceRange, setPriceRange] = useState([10, 190]);
   const [sortedBy, setSortedBy] = useState("Default Sorting");
   const [filteredBy, setFilteredBy] = useState("All");
 
@@ -33,31 +33,33 @@ export default function Shop({ itemsPerPage, products }) {
   const endOffset = itemOffset + itemsPerPage;
 
   //filter price range
-  priceSortedProducts = products
-    .slice()
-    .filter((p) => p.price >= priceRange[0] && p.price <= priceRange[1]);
+  priceSortedProducts = categoryFilteredProducts.filter(
+    (p) => p.price >= priceRange[0] && p.price <= priceRange[1]
+  );
 
   //sorting products
-  if (sortedBy === "Default Sorting") sortedProducts = categoryFilteredProducts;
+  if (sortedBy === "Default Sorting") sortedProducts = priceSortedProducts;
   if (sortedBy === "Price, Low to High")
-    sortedProducts = categoryFilteredProducts
+    sortedProducts = priceSortedProducts
       .slice()
       .sort((a, b) => a.price - b.price);
   if (sortedBy === "Price, High to Low")
-    sortedProducts = categoryFilteredProducts
+    sortedProducts = priceSortedProducts
       .slice()
       .sort((a, b) => b.price - a.price);
   if (sortedBy === "Most Liked")
-    sortedProducts = categoryFilteredProducts
+    sortedProducts = priceSortedProducts
       .slice()
       .sort((a, b) => b.favoritesCount - a.favoritesCount);
   if (sortedBy === "Most Discount")
-    sortedProducts = categoryFilteredProducts
+    sortedProducts = priceSortedProducts
       .slice()
       .sort((a, b) => b.isDiscount - a.isDiscount);
 
   const currentProducts = sortedProducts.slice(itemOffset, endOffset);
   const pageCount = Math.ceil(sortedProducts.length / itemsPerPage);
+  console.log(sortedProducts);
+  console.log(currentProducts);
 
   const sortOptions = [
     "Default Sorting",
@@ -91,13 +93,10 @@ export default function Shop({ itemsPerPage, products }) {
     console.log(e.value);
   }
 
-  const handlePriceRange = (e) => {
-    setPriceRange(e.priceRange);
+  const handlePriceRange = (e, newValue) => {
+    e.preventDefault();
+    setPriceRange(newValue);
   };
-
-  // function valuetext(priceRange) {
-  //   return `$${priceRange}`;
-  // }
 
   function handleSort(e) {
     setSortedBy(e.value);
@@ -130,9 +129,8 @@ export default function Shop({ itemsPerPage, products }) {
                   value={priceRange}
                   onChange={handlePriceRange}
                   // valueLabelDisplay="on"
-                  // getAriaValueText={valuetext}
-                  min={10}
-                  max={1000}
+                  min={1}
+                  max={200}
                   step={5}
                   color="#222"
                 />
