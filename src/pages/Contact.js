@@ -4,15 +4,9 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import FloatingInput from "../components/InputFloatingLabel";
-import { Dropdown } from "primereact/dropdown";
-import { useState } from "react";
 
 export default function Contact() {
-  const [subject, setSubject] = useState("Suggestion");
 
-  function handleSubject(e) {
-    setSubject(e.subject);
-  }
   return (
     <div className="contact_container">
       <div className="contact_banner">

@@ -5,46 +5,73 @@ import { useState, useEffect } from "react";
 import Box from "@mui/material/Box";
 import { Link } from "react-router-dom";
 
-export default function Profile({ toggleDrawer, setCartProducts, setIsLogin }) {
-  const handleLogout = (event) => {
-    localStorage.removeItem("loggedInUser");
-    setCartProducts([]);
-    setIsLogin(false);
-    alert("Logged out successfully!");
-    toggleDrawer()(event);
-    // navigate("/login");
-  };
-  const loggedInUser = localStorage.getItem("loggedInUser");
-  const userData = JSON.parse(loggedInUser);
+export function ShoppingBag({
+  toggleDrawer,
+  cartProducts,
+  updateQuantity,
+  handleRemoveProduct,
+}) {
+  const [totalPrice, setTotalPrice] = useState(0);
+
+  useEffect(() => {
+    console.log("ShoppingBag cartProducts updated:", cartProducts);
+  }, [cartProducts]);
+
+  useEffect(() => {
+    const total = cartProducts.reduce((acc, product) => {
+      return acc + product.price * product.quantity;
+    }, 0);
+
+    setTotalPrice(total.toFixed(2));
+  }, [cartProducts]);
+
+  const bagProductsNum = cartProducts ? cartProducts.length : 0;
+  // const discountPrice =
+  //   product?.price -
+  //   (selectedProduct?.price * selectedProduct?.isDiscount) / 100;
 
   return (
     <Box sx={{ width: 400 }} role="presentation">
       <div className="bag_header">
-        <p>Profile</p>
+        <p>Shopping Bag ({bagProductsNum})</p>
         <FontAwesomeIcon
           className="bag_close"
           icon={faXmark}
           onClick={toggleDrawer()}
         />
       </div>
-      <div className="profile_content">
-        <div className="profile-info">
-          <div className="profile_img">
-            <img src="../images/blank_profile.png" alt="profile-image" />
+      <div className="bag_content">
+        {cartProducts.length > 0 ? (
+          <div className="bag_products">
+            {cartProducts.map((product, i) => (
+              <CartProduct
+                product={product}
+                key={`${product.id}-${product.color}-${product.size}`}
+                updateQuantity={updateQuantity}
+                handleRemoveProduct={handleRemoveProduct}
+              />
+            ))}
           </div>
-          <h3 className="profile_name">{userData?.username}</h3>
+        ) : (
+          <p className="bag_empty">Your cart is empty. Start shopping!</p>
+        )}
+        <div className="bag_total">
+          <label>subtotal:</label>
+          <span>${totalPrice}</span>
         </div>
-        <ul className="profile_items">
-          <li className="profile_item">
-            <Link to="/shopping-wizard">My Cart</Link>
-          </li>
-          <li className="profile_item">
-            <Link to="/wish-list">MY wish list</Link>
-          </li>{" "}
-          <li className="profile_item" onClick={handleLogout}>
-            Log out
-          </li>
-        </ul>
+        {cartProducts ? (
+          <Link to="/shopping-wizard">
+            <button className="secondary-btn" onClick={toggleDrawer()}>
+              view cart{" "}
+            </button>
+          </Link>
+        ) : (
+          <Link to="/shop">
+            <button className="secondary-btn" onClick={toggleDrawer()}>
+              explore shop
+            </button>
+          </Link>
+        )}
       </div>
     </Box>
   );
