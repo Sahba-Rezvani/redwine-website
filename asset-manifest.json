@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/reewine-website/static/css/main.7e4654b0.css",
-    "main.js": "/reewine-website/static/js/main.14cb0e0d.js",
+    "main.js": "/reewine-website/static/js/main.fb2b6d5c.js",
     "static/media/InterVariable-Italic.woff2": "/reewine-website/static/media/InterVariable-Italic.e295f70fe3e2df296c7b.woff2",
     "static/media/InterVariable.woff2": "/reewine-website/static/media/InterVariable.a0e477f2f1f9d2376fde.woff2",
     "static/media/deal_timer_bg.jpg": "/reewine-website/static/media/deal_timer_bg.a6b6f1b6276b9ed72796.jpg",
@@ -11,10 +11,10 @@
     "static/media/collection_grid_2.jpg": "/reewine-website/static/media/collection_grid_2.b6abde1e4c7699e45b0c.jpg",
     "index.html": "/reewine-website/index.html",
     "main.7e4654b0.css.map": "/reewine-website/static/css/main.7e4654b0.css.map",
-    "main.14cb0e0d.js.map": "/reewine-website/static/js/main.14cb0e0d.js.map"
+    "main.fb2b6d5c.js.map": "/reewine-website/static/js/main.fb2b6d5c.js.map"
   },
   "entrypoints": [
     "static/css/main.7e4654b0.css",
-    "static/js/main.14cb0e0d.js"
+    "static/js/main.fb2b6d5c.js"
   ]
 }
